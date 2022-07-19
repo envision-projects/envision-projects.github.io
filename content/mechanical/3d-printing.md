@@ -1,7 +1,7 @@
 ---
 title: "3d Printing"
 date: 2022-07-19T01:06:51-07:00
-draft: true
+draft: false
 ---
 
 ## Why 3d printing?

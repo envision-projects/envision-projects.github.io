@@ -1,5 +1,5 @@
-baseURL = "https://example.com/"
-title = "Compose Docs"
+baseURL = "https://envision-projects.github.io"
+title = "Envision Certification"
 enableRobotsTXT = true
 theme = "compose"
 enableGitInfo = true
