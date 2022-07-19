@@ -10,7 +10,7 @@ sections:
   path: config.toml
   label: Settings
 - type: heading
-  label: PAGES
+  label: OTHER PAGES
 - type: directory
   path: content
   label: Pages
