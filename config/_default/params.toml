@@ -18,7 +18,7 @@ codeMaxLines = 7
 codeLineNumbers = false
 
 # By default the template will look for icons under the icons directory. In some situations you might wanna change that. edit the line below
-# iconsPath = 'icons/'
+#iconsPath = 'icons/'
 
 customCSS = ["css/style"]
 
