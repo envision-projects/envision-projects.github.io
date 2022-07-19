@@ -1,0 +1,25 @@
+#  menu items
+[[main]]
+  name = "Mechanical"
+  weight = 1
+  url = "mechanical/"
+
+[[main]]
+  name = "Electrical"
+  weight = 2
+  url = "electrical/"
+
+[[main]]
+  name = "Embedded"
+  weight = 3
+  url = "embedded/"
+
+[[main]]
+  name = "Home"
+  weight = 4
+  url = "https://jacobsschool.ucsd.edu/envision/"
+
+# [[main]]
+#   name = "Blog"
+#   weight = 4
+#   url = "blog/"
