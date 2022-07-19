@@ -1,5 +1,5 @@
 +++
-title = "Compose"
+title = "HOPFAM Home"
 [data]
 baseChartOn = 3
 
