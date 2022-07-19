@@ -5,4 +5,4 @@ weight: 1
 
 Nothing here yet.
 
-button
+button some text
