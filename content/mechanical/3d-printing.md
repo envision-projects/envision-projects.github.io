@@ -18,6 +18,7 @@ You can make things with 3d printers!
 - stuff
 - projects
 - important information
+- test addition for showcase
 
 {{< tip "warning">}}
 3d printers are hot, try not to burn yourself
