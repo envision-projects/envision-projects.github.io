@@ -1,10 +1,8 @@
-baseURL = "/"
-title = "Envision Certification"
+baseURL = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableGitInfo = true
 enableRobotsTXT = true
 theme = "compose"
-enableGitInfo = true
-
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
+title = "Envision Certification"
 [outputs]
-  home = ["HTML", "RSS","JSON"]
+home = ["HTML", "RSS", "JSON"]
