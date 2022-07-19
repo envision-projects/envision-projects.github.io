@@ -718,7 +718,7 @@ function loadActions() {
   headingNodes.forEach(function(node){
     link = createEl('a');
     icon = createEl('img');
-    icon.src = '/icons/link.svg';
+    icon.src = '%5C/icons/link.svg';
     link.className = 'link icon';
     link.appendChild(icon);
     id = node.getAttribute('id');
@@ -737,7 +737,7 @@ function loadActions() {
     if(!elem(`.${yanked}`, parent)) {
       const icon = parent.getElementsByTagName('img')[0];
       const originalSrc = icon.src;
-      icon.src = '/icons/check.svg';
+      icon.src = '%5C/icons/check.svg';
       parent.appendChild(copyText);
       setTimeout(function() {
         parent.removeChild(copyText)
