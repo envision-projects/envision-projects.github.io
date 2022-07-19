@@ -1,4 +1,4 @@
-baseURL = "https://envision-projects.github.io"
+baseURL = "/"
 title = "Envision Certification"
 enableRobotsTXT = true
 theme = "compose"
