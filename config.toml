@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 enableRobotsTXT = true
