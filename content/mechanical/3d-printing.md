@@ -1,7 +1,7 @@
 ---
 title: 3d Printing
-date: '2022-07-19T01:06:51.000-07:00'
-
+date: 2022-07-20T00:15:38.963Z
+description: 3d printing instruction page
 ---
 ## Why 3d printing?
 
@@ -18,6 +18,7 @@ You can make things with 3d printers!
 * projects
 * important information
 * test addition for showcase
+* another test addition from netlifyCMS
 
 {{< tip "warning">}}
 3d printers are hot, try not to burn yourself
