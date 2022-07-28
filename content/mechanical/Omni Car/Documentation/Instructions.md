@@ -9,11 +9,11 @@ description: A cute tank drive car suitable for drifting
 ---
 
 # About Omni Car Project
-![[2022-07-24-23-11-20-image.png]]
+![[images/2022-07-24-23-11-20-image.png]]
 
 By: MingWei Yeoh
 
-![[2022-07-23-12-29-43-robotcar.gif]]
+![[images/2022-07-23-12-29-43-robotcar.gif]]
 It's a tank driven car with omni wheels for some sick drifting without the fear of shredding the floor! Combined with a responsive FLYSKY Drone Transmitter, this makes for a fun project!
 
 ## Challenges
@@ -194,19 +194,12 @@ The circle is telling you the **pitch diameter** for your gears. Take note of bo
 1.  Go back to the gearbox tab and edit the layout sketch
 2.  Add in the construction circles and dimension them so that they represent the pitch diameters of your gears ![[2022-07-27-10-43-47-image.png]]
 3.  Add in a circle that represents the wheel (1.5" in diameter) ![[2022-07-27-10-45-48-image.png]]
-4.  Add in another dimenion that ensures the robot with have 1/4" of ground clearance from the lowest hanging object![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-10-47-45-image.png?msec=1659038690577)
-    
-5.  Notice how the entire sketch turned black? That's a good layout sketch since everything is defined :)
-    
-6.  Exit the sketch and create a new sketch ontop of the layout sketch
-    
-7.  Construct through holes for the motor gearbox and a tap hole for the wheel gear assembly. ![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-11-14-33-image.png?msec=1659038690576)
-    
-8.  Add a clearance hole for the motor pinion gear's coupling method![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-11-31-20-image.png?msec=1659038690578)
-    
-9.  Now construct the gearbox plate around the three holes and avoiding the clearance hole!![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-11-32-11-image.png?msec=1659038690579)
-    
+4.  Add in another dimenion that ensures the robot with have 1/4" of ground clearance from the lowest hanging object!![[2022-07-27-10-46-59-image.png]]
+5.  Exit the sketch and create a new sketch ontop of the layout sketch  
+6.  Construct through holes for the motor gearbox and a tap hole for the wheel gear assembly. ![[2022-07-27-11-14-33-image 1.png]]
+7.  Add a clearance hole for the motor pinion gear's coupling method![[2022-07-27-11-31-20-image 1.png]]
+8.  Now construct the gearbox plate around the three holes and avoiding the clearance hole!![[2022-07-27-11-32-11-image.png]]
 
 ## Assembly
 
-Now put all the components in an assembly!
+Now put all the components in an assembly!![[2022-07-27-11-34-57-image.png]]
