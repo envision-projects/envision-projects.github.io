@@ -8,14 +8,16 @@ description: 3d printing instruction page
 3d printing is one of the most important techniques in the lorem ipsum dolor sit
 
 {{< tip >}}
+
 you can make things with 3d printers
+
 {{< /tip >}}
-
-
 
 {{< tip >}}
 
+
 stuff and things
+
 
 {{< /tip >}}
 
@@ -29,7 +31,9 @@ stuff and things
 * another test addition from netlifyCMS
 
 {{< tip "warning" >}}
+
 3d printers are hot, try not to burn yourself
+
 {{< /tip >}}
 
 test
@@ -38,4 +42,4 @@ test
 
 Some potential resources you might find on the internet:
 
-{{< youtube "RgECxaxUIb0">}}
+{{< youtube "RgECxaxUIb0" >}}
