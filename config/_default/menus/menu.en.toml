@@ -15,6 +15,11 @@
   url = "embedded/"
 
 [[main]]
+  name = "Tutorials"
+  weight = 3
+  url = "tutorials/"
+
+[[main]]
   name = "Home"
   weight = 4
   url = "https://jacobsschool.ucsd.edu/envision/"
