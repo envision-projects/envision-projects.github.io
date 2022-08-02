@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ffd3d1daa7291b0e",
@@ -78,7 +79,7 @@
               "type": "backlink",
               "state": {
                 "file": "Instructions.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -121,13 +122,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "62fd482963334060",
+  "active": "12ae12f8ba2c9fd1",
   "lastOpenFiles": []
 }

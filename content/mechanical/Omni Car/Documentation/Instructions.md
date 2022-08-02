@@ -9,11 +9,11 @@ description: A cute tank drive car suitable for drifting
 ---
 
 # About Omni Car Project
-![[images/2022-07-24-23-11-20-image.png]]
+![[2022-07-24-23-11-20-image.png]]
 
 By: MingWei Yeoh
 
-![[images/2022-07-23-12-29-43-robotcar.gif]]
+![[2022-07-23-12-29-43-robotcar.gif]]
 It's a tank driven car with omni wheels for some sick drifting without the fear of shredding the floor! Combined with a responsive FLYSKY Drone Transmitter, this makes for a fun project!
 
 ## Challenges
@@ -23,6 +23,8 @@ It's a tank driven car with omni wheels for some sick drifting without the fear 
 ![Onshape Vector Logo  Free Download  SVG  PNG format   SeekVectorLogoCom](https://seekvectorlogo.com/wp-content/uploads/2022/02/onshape-vector-logo-2022.png)
 
 The main gripe with the included motors in the kit is that they are a little slow. Thus we will be making a **custom 1:2 speed gearbox** with OnShape in order to speed up the drive wheels!
+![[images/2022-07-23-12-35-02-Gearbox.gif]]
+
 
 [Answer Key Onshape Files](https://cad.onshape.com/documents/2a7f4b08169f040265235880/w/c5c7e57ba2de3b115485b33c/e/ef8e0e6003989cb6d29842b7?renderMode=0&uiState=62ddffa3c7666d2b45aa2f62)
 [Student copy of Onshape Files](https://cad.onshape.com/documents/30ea8b3deb0b2951b3a9324d/w/0cbcffa2c3bcbcb2279b8d0f/e/87097186b0e86bcb26d61ab0?renderMode=0&uiState=62de03ed7d3ab54cc104de80)
@@ -32,11 +34,14 @@ The main gripe with the included motors in the kit is that they are a little slo
 
 Electronics aren't that complicated. We use 3 wires to wire the drone receiver to the Arduino Mega and wire up all the motors to the Adafruit Motor shield. Some basic soldering of the header pins onto the Motor Shield is required.
 
-## Code
+### Code
+If not already, you should have a way to upload code to an Arduino (Arduino IDE, or Platform IO). 
 
-Code is extremely basic and can be found in the omniwheelcar.ino file. The most important things are to install the I-Bus communcation library for the controller in order to get the joystick data.
+Install [Arduino IDE](https://docs.arduino.cc/software/ide-v2)
 
-## Materials
+Otherwise, the code is extremely basic and can be found in the omniwheelcar.ino file. 
+
+# Materials
 - 1.5" [Omni Wheels]([38mm (1.5 inches) Double Plastic Omni Wheel with 8 PU Rollers – The Smallest Omni Wheel – 14184 – Oz Robotics](https://ozrobotics.com/shop/38mm-1-5-inches-double-plastic-omni-wheel-with-8-pu-rollers-the-smallest-omni-wheel-14184/?gclid=Cj0KCQjwuO6WBhDLARIsAIdeyDKZsAJRbve_n7XOvtvnNeYBl4DtJMTloGh_OklkEDbuxJY_HlO5m5IaAm7hEALw_wcB))
 - [DAGU Robot](http://www.dagurobot.com/DG012-BV)
 - [Adafruit motor Driver Shield]([Motor Stepper Servo Shield 1438 Adafruit Industries | Jameco](https://www.jameco.com/z/1438-Adafruit-Industries-Adafruit-Motor-Stepper-Servo-Shield-for-Arduino-Kit-v2-3_2193651.html?CID=GOOG&gclid=Cj0KCQjwuO6WBhDLARIsAIdeyDIM6RLzXcTHU6YzXxPacGYE7HdH5P8kUolKOkncQIB1xLzhVvg549waAixxEALw_wcB))
@@ -198,8 +203,50 @@ The circle is telling you the **pitch diameter** for your gears. Take note of bo
 5.  Exit the sketch and create a new sketch ontop of the layout sketch  
 6.  Construct through holes for the motor gearbox and a tap hole for the wheel gear assembly. ![[2022-07-27-11-14-33-image 1.png]]
 7.  Add a clearance hole for the motor pinion gear's coupling method![[2022-07-27-11-31-20-image 1.png]]
-8.  Now construct the gearbox plate around the three holes and avoiding the clearance hole!![[2022-07-27-11-32-11-image.png]]
+8.  Now construct the gearbox plate around the three holes whilst avoiding the clearance hole!![[2022-07-27-11-32-11-image.png]]
 
-## Assembly
+## CAD Assembly
 
-Now put all the components in an assembly!![[2022-07-27-11-34-57-image.png]]
+Now put all the components in an assembly and ensure that there are no weird interferences![[2022-07-27-11-34-57-image.png]]
+
+# Putting the robot together 
+Now print all the parts and put the robot together!!
+
+# Electrical wiring 
+## I bus
+For this project we will be using a certain protocol called I-Bus in order to remotely control our omni car. It is essentially just UART communication. The great thing about it is that it only requires one signal wire to our Arduino and we are able to get data from 10 different channels on our controller! It is extremely easy to use and gives us very fast data with minimal lag. 
+
+The I Bus pin on the receiver is circled below. (It took me some time to figure out the right one the first time I was doing this lol)
+![[images/Pasted image 20220730112302.png]]
+
+## Wiring 
+Wiring the robot in accordance to this fritzing diagram. I reccomend using double sticky tape to mount the electronics. 
+
+(Triple A batteries should actually be double A batteries as they have more capacity)
+![[2022-07-24-19-22-37-image.png]]
+
+
+>[!NOTE]
+>Since these are DC motors, you may need to flip the red and black connections if they are spinning the wrong way. 
+
+## Pairing the receiver and transmitter
+If the light on the receiver is not a solid, non-blinking red color, with both the receiver and transmitter turned on, then you will need to pair it. 
+### Steps for pairing 
+1) Turn receiver and transmitter off
+2) Short out the BIND and VCC pin ![[images/Pasted image 20220730115120.png]]
+3) Turn on the receiver (The red light should be blinking really fast)
+4) While holding the "BIND KEY" on the transmitter, turn on the transmitter
+5) Transmitter should display something like "RX Binding Ok" and the red light on the receiver shouldn't blink
+6) Unshort the BIND and VCC pin 
+
+# Uploading the Code 
+## Install the I-Bus communication library 
+1) Tools -> Manage libraries 
+2) Search for ibus
+3) Install the IBusBM library
+![[images/Pasted image 20220730114831.png]]
+
+## Uploading the actual code
+Open the omnicar.ino file and upload that code to the arduino.
+
+
