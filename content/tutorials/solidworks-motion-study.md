@@ -1,7 +1,7 @@
 ---
 title: SolidWorks Motion Study
 date: 2022-08-02T18:31:23.086Z
-description: By Blake Iwaisako
+description: By Blake
 ---
 <!--StartFragment-->
 
