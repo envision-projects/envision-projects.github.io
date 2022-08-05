@@ -1,19 +1,22 @@
 ---
-
 title: Omni Car Project
-
 date: 2022-07-20T00:15:38.963Z
-
 description: A cute tank drive car suitable for drifting
-
 ---
 
 # About Omni Car Project
-![[2022-07-24-23-11-20-image.png]]
+
+
+
+![image](/images/omnicar/2022-07-24-23-11-20-image.png)
+
 
 By: MingWei Yeoh
 
-![[2022-07-23-12-29-43-robotcar.gif]]
+
+
+![image](/images/omnicar/2022-07-23-12-29-43-robotcar.gif)
+
 It's a tank driven car with omni wheels for some sick drifting without the fear of shredding the floor! Combined with a responsive FLYSKY Drone Transmitter, this makes for a fun project!
 
 ## Challenges
@@ -23,14 +26,20 @@ It's a tank driven car with omni wheels for some sick drifting without the fear 
 ![Onshape Vector Logo  Free Download  SVG  PNG format   SeekVectorLogoCom](https://seekvectorlogo.com/wp-content/uploads/2022/02/onshape-vector-logo-2022.png)
 
 The main gripe with the included motors in the kit is that they are a little slow. Thus we will be making a **custom 1:2 speed gearbox** with OnShape in order to speed up the drive wheels!
-![[images/2022-07-23-12-35-02-Gearbox.gif]]
+
+
+![image](/images/omnicar/images/2022-07-23-12-35-02-Gearbox.gif)
+
 
 
 [Answer Key Onshape Files](https://cad.onshape.com/documents/2a7f4b08169f040265235880/w/c5c7e57ba2de3b115485b33c/e/ef8e0e6003989cb6d29842b7?renderMode=0&uiState=62ddffa3c7666d2b45aa2f62)
 [Student copy of Onshape Files](https://cad.onshape.com/documents/30ea8b3deb0b2951b3a9324d/w/0cbcffa2c3bcbcb2279b8d0f/e/87097186b0e86bcb26d61ab0?renderMode=0&uiState=62de03ed7d3ab54cc104de80)
 
 ### Electronics
-![[2022-07-24-19-22-37-image.png]]
+
+
+![image](/images/omnicar/2022-07-24-19-22-37-image.png)
+
 
 Electronics aren't that complicated. We use 3 wires to wire the drone receiver to the Arduino Mega and wire up all the motors to the Adafruit Motor shield. Some basic soldering of the header pins onto the Motor Shield is required.
 
@@ -55,26 +64,41 @@ Otherwise, the code is extremely basic and can be found in the omniwheelcar.ino 
 # Getting Familiarized with MAE Terms
 
 ## Bushing
-![[2022-07-24-19-43-36-bushing.gif]]
+
+
+![image](/images/omnicar/2022-07-24-19-43-36-bushing.gif)
+
 
 For spinning objects, it is good practice to use a bushing (Which is basically a cheap bearing) instead of simply spinning an object on a bolt. They are typically made of a low friction material like bronze.
 
-![[2022-07-24-19-45-35-image.png]]
+
+
+![image](/images/omnicar/2022-07-24-19-45-35-image.png)
+
 
 
 ## Through Hole
-![[2022-07-24-19-50-43-throughhole.gif]]
+
+
+![image](/images/omnicar/2022-07-24-19-50-43-throughhole.gif)
+
 Hole that is meant for a bolt to pass through without interference. I usually use a value = (OD of bolt)" + 1/32"
 
 ## Tap Hole
-![[2022-07-24-19-50-04-taphole.gif]]
+
+
+![image](/images/omnicar/2022-07-24-19-50-04-taphole.gif)
+
 
 Hole that is meant for a bolt to thread through it and essentially act like a nut (but without a nut, they're really convenient). It is important to understand that you can only use this with **3D Printing** as the plastic will form it's own threads naturally. The pullout force is quite strong but it does not take much torque to strip the threads so you must be carefull of overtightening.
 
 I use a value of (OD of a bolt)" - 1/64"
 
 ## Tolerance
-![[2022-07-24-22-54-55-image.png]]
+
+
+![image](/images/omnicar/2022-07-24-22-54-55-image.png)
+
 
 Anything that we 3D Printing to fit around something "snuggly" must have a little bit of tolerance on it. If we make a hole exactly the size of the motor shaft, it will probably not fit and be **WAAAY** too tight, therefore we add a little bit **extra** called Tolerance.
 
@@ -87,7 +111,10 @@ There is quite an easy way to achieve this.
 
 ### Gear Types
 There are different types of gears that we can 3D Print!
-![[2022-07-24-21-02-34-image.png]]
+
+
+![image](/images/omnicar/2022-07-24-21-02-34-image.png)
+
 
 **Spur Gear** (Left)
 
@@ -114,7 +141,10 @@ You probably have never seen these gears in the real world because they are real
 The Pitch Diameter tells the mating distance for the gear and is crucial when you're making a gearbox. Like how else would you know the distance to where you should put the other end of the shaft??
 
 ## Layout sketch
-![[2022-07-24-21-00-45-image.png]]
+
+
+![image](/images/omnicar/2022-07-24-21-00-45-image.png)
+
 This will be the most important when making the Gearbox plate. This will allow us to let **CAD **find out the positions **FOR US** for all of our axles. In my layout sketch example:
 
 - The Pitch Diameters (**PD**) of both of the gears have a tangent relation to each other.
@@ -143,7 +173,10 @@ We will need to create 3 parts specifically in this order:
 
 1.  Creat new Part Studio
 2.  Click on Advanced Gear in the top-right corner (The plugin you should've installed)
-3.  On the window that pops up, change from "Module" to "Diametrical Pitch"![[2022-07-24-22-41-19-image.png]]
+3.  On the window that pops up, change from "Module" to "Diametrical Pitch"
+
+![image](/images/omnicar/2022-07-24-22-41-19-image.png)
+
 4.  Set the Number of gear teeth to 24
 5.  Set the Diametrical pitch to 25
     -   Pitch Diameter = Number of Teeth / Diametrical Pitch
@@ -155,16 +188,25 @@ We will need to create 3 parts specifically in this order:
 
 Now it's up to you to attach this gear to the motor shaft!
 
-> [!TIPS]
-> Make sure to reference the reference motor in the part studio. It is under one of the tabs at the bottom of the screen. Reference the dimensions for the motor shaft and be sure to add **tolerance**!
-> 
-> In order to "secure" the gear pinion to the motor you should use a grub screw! Simply make a tap hole that goes straight into the shaft![[2022-07-24-23-08-29-image.png]]
+{{< tip >}}
+Make sure to reference the reference motor in the part studio. It is under one of the tabs at the bottom of the screen. Reference the dimensions for the motor shaft and be sure to add **tolerance**!
+{{< /tip >}}
+
+{{< tip >}}
+In order to "secure" the gear pinion to the motor you should use a grub screw! Simply make a tap hole that goes straight into the shaft
+{{< /tip >}}
+
+![image](/images/omnicar/2022-07-24-23-08-29-image.png)
+
 
 ## Creating the Wheel Gear
 
 First we need to understand how this is all going to go together.
 
-![[2022-07-27-10-25-45-image.png]]![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-10-25-45-image.png?msec=1659038690577)
+
+
+![image](/images/omnicar/2022-07-27-10-25-45-image.png)
+
 
 The part that we're going to make must have room for the **bushing **on the end of it and also fit inside of our **omni wheel**.
 
@@ -176,7 +218,10 @@ The idea is that the wheel spins on a long bolt. A lock nut on the end of our wh
 -   The same type of gear as the first one (herringbone, spur, or helical whatever you choose)
 -   0.25" thick
 -   30 degree Pressure Angle
-3.  Add a coupling method to the Omni Wheel. With enough spacing so that the gear teeth are not in contact with the wheel![[Pasted image 20220728153145.png|500]]
+3.  Add a coupling method to the Omni Wheel. With enough spacing so that the gear teeth are not in contact with the wheel
+
+![image](/images/omnicar/Pasted%20image%2020220728153145.png)
+
 4.  Through hole for the bushing to fit into
 
 ## Creating the Gearbox Plate
@@ -187,27 +232,56 @@ This plate attaches the wheel axle to the chassis assembly. We will use the moun
 
 1.  Switch to the DAGU DGO2S Motor Gearbox tab. We will make our part directly on the gearbox since we will be referencing items on the gearbox.
 2.  Create a new sketch on the face of the motor
-3.  Project the gearbox holes onto the current sketch. Turn the holes into construction lines![[2022-07-27-10-38-33-image.png]]
+3.  Project the gearbox holes onto the current sketch. Turn the holes into construction lines
+
+![image](/images/omnicar/2022-07-27-10-38-33-image.png)
+
 4.  Rename your sketch to be titled "Layout Sketch"
 5.  Close out the sketch.
 
 ### Referencing pitch diameters
 
-Have you noticed the faint sketch line on the gearbox gears? If you don't notice it you may have the gear feature hidden.![](file://C:\Users\mingw\Documents\GitHub\envision-projects.github.io\content\mechanical\Omni Car\assets\2022-07-27-10-41-33-image.png?msec=1659038690580)
-![[2022-07-27-10-41-33-image.png]]
+Have you noticed the faint sketch line on the gearbox gears? If you don't notice it you may have the gear feature hidden.
+
+![image](/images/omnicar/2022-07-27-10-41-33-image.png)
+
+
+![image](/images/omnicar/2022-07-27-10-41-33-image.png)
+
 The circle is telling you the **pitch diameter** for your gears. Take note of both of the pitch diameters for your motor pinion and the wheel gear
 1.  Go back to the gearbox tab and edit the layout sketch
-2.  Add in the construction circles and dimension them so that they represent the pitch diameters of your gears ![[2022-07-27-10-43-47-image.png]]
-3.  Add in a circle that represents the wheel (1.5" in diameter) ![[2022-07-27-10-45-48-image.png]]
-4.  Add in another dimenion that ensures the robot with have 1/4" of ground clearance from the lowest hanging object!![[2022-07-27-10-46-59-image.png]]
+2.  Add in the construction circles and dimension them so that they represent the pitch diameters of your gears 
+
+![image](/images/omnicar/2022-07-27-10-43-47-image.png)
+
+3.  Add in a circle that represents the wheel (1.5" in diameter) 
+
+![image](/images/omnicar/2022-07-27-10-45-48-image.png)
+
+4.  Add in another dimenion that ensures the robot with have 1/4" of ground clearance from the lowest hanging object!
+
+![image](/images/omnicar/2022-07-27-10-46-59-image.png)
+
 5.  Exit the sketch and create a new sketch ontop of the layout sketch  
-6.  Construct through holes for the motor gearbox and a tap hole for the wheel gear assembly. ![[2022-07-27-11-14-33-image 1.png]]
-7.  Add a clearance hole for the motor pinion gear's coupling method![[2022-07-27-11-31-20-image 1.png]]
-8.  Now construct the gearbox plate around the three holes whilst avoiding the clearance hole!![[2022-07-27-11-32-11-image.png]]
+6.  Construct through holes for the motor gearbox and a tap hole for the wheel gear assembly. 
+
+![image](/images/omnicar/2022-07-27-11-14-33-image%201.png)
+
+7.  Add a clearance hole for the motor pinion gear's coupling method
+
+![image](/images/omnicar/2022-07-27-11-31-20-image%201.png)
+
+8.  Now construct the gearbox plate around the three holes whilst avoiding the clearance hole!
+
+![image](/images/omnicar/2022-07-27-11-32-11-image.png)
+
 
 ## CAD Assembly
 
-Now put all the components in an assembly and ensure that there are no weird interferences![[2022-07-27-11-34-57-image.png]]
+Now put all the components in an assembly and ensure that there are no weird interferences
+
+![image](/images/omnicar/2022-07-27-11-34-57-image.png)
+
 
 # Putting the robot together 
 Now print all the parts and put the robot together!!
@@ -217,23 +291,33 @@ Now print all the parts and put the robot together!!
 For this project we will be using a certain protocol called I-Bus in order to remotely control our omni car. It is essentially just UART communication. The great thing about it is that it only requires one signal wire to our Arduino and we are able to get data from 10 different channels on our controller! It is extremely easy to use and gives us very fast data with minimal lag. 
 
 The I Bus pin on the receiver is circled below. (It took me some time to figure out the right one the first time I was doing this lol)
-![[images/Pasted image 20220730112302.png]]
+
+
+![image](/images/Pasted%20image%2020220730112302.png)
+
 
 ## Wiring 
 Wiring the robot in accordance to this fritzing diagram. I reccomend using double sticky tape to mount the electronics. 
 
 (Triple A batteries should actually be double A batteries as they have more capacity)
-![[2022-07-24-19-22-37-image.png]]
 
 
->[!NOTE]
+![image](/images/omnicar/2022-07-24-19-22-37-image.png)
+
+
+
+{{< tip "warning">}}
 >Since these are DC motors, you may need to flip the red and black connections if they are spinning the wrong way. 
+{{< /tip>}}
 
 ## Pairing the receiver and transmitter
 If the light on the receiver is not a solid, non-blinking red color, with both the receiver and transmitter turned on, then you will need to pair it. 
 ### Steps for pairing 
 1) Turn receiver and transmitter off
-2) Short out the BIND and VCC pin ![[images/Pasted image 20220730115120.png]]
+2) Short out the BIND and VCC pin 
+
+![image](/images/omnicar/Pasted%20image%2020220730115120.png)
+
 3) Turn on the receiver (The red light should be blinking really fast)
 4) While holding the "BIND KEY" on the transmitter, turn on the transmitter
 5) Transmitter should display something like "RX Binding Ok" and the red light on the receiver shouldn't blink
@@ -244,7 +328,10 @@ If the light on the receiver is not a solid, non-blinking red color, with both t
 1) Tools -> Manage libraries 
 2) Search for ibus
 3) Install the IBusBM library
-![[images/Pasted image 20220730114831.png]]
+
+
+![image](/images/omnicar/Pasted%20image%2020220730114831.png)
+
 
 ## Uploading the actual code
 Open the omnicar.ino file and upload that code to the arduino.
