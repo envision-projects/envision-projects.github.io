@@ -28,8 +28,7 @@ It's a tank driven car with omni wheels for some sick drifting without the fear 
 The main gripe with the included motors in the kit is that they are a little slow. Thus we will be making a **custom 1:2 speed gearbox** with OnShape in order to speed up the drive wheels!
 
 
-![image](/images/omnicar/images/2022-07-23-12-35-02-Gearbox.gif)
-
+![image](/images/omnicar/2022-07-23-12-35-02-Gearbox.gif)
 
 
 [Answer Key Onshape Files](https://cad.onshape.com/documents/2a7f4b08169f040265235880/w/c5c7e57ba2de3b115485b33c/e/ef8e0e6003989cb6d29842b7?renderMode=0&uiState=62ddffa3c7666d2b45aa2f62)
