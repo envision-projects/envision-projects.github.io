@@ -9,8 +9,6 @@ description: Schematic Design Concepts
 
 Physical circuits on a board are first built on paper in the form of a schematic diagram. Circuit design typically begins with a schematic, where components are chosen, nets are created, and the flow of signals determined. The PCB is then created by using the schematic as its primary reference. Building the PCB from the schematic and working with the two in tandem not only simplifies PCB layout, but also allows for better error checking, component selection, and overall workflow.
 
-
-
 1.2 Electrical Components
 
 A component is any part or piece that is attached to a circuit board. This includes:
@@ -32,10 +30,10 @@ A component is any part or piece that is attached to a circuit board. This inclu
 
 ( <https://www.dfliq.net/blog/the-basics-of-electrical-components/> )
 
-
-
 1.3 Schematic Symbols
 
 
+
+![](/images/circuit_schematic_symbols1.jpg "Schematic Symbols")
 
 <!--EndFragment-->
