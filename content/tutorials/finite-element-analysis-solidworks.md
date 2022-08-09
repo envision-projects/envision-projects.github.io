@@ -7,17 +7,15 @@ description: By Blake
 
 Finite Element Analysis: SolidWorks
 
-
-
 <!--EndFragment-->
 
- **1.1 Quick Introduction:**
+##  **1.1 Quick Introduction:**
 
 Finite Element Analysis (FEA) is a powerful tool used by engineers to predict how parts and assemblies react to forces: heat, fluid flow, vibration, etc. Computer software such as SolidWorks, FEMAP, ANSYS, and Matlab use numerical analysis to create a general 3D mesh on the surface of the product and calculate stresses based on user-defined materials and forces. 
 
 Note: Solidworks is not the most precise FEA software to use for engineering purposes, however, it is still accurate and is simple to use. Solidworks comes with a Simulation Advisor which is a helpful tool that walks you through the process. 
 
-**1.2 Definitions and The Process:**
+## **1.2 Definitions and The Process:**
 
 Definitions:
 
@@ -30,16 +28,17 @@ Von Mises Stress: Used to predict yielding from external stresses. Typically rep
 The process for FEA goes as follows;
 
 1. Define the reason for the study. You could possibly be concerned with:
-2. 1. Excessive compression/expansion/deformation
-   2. Temperatures
-   3. Loading cycles
-3. Define the material being used
-4. Create fixed geometries at certain locations
-5. Apply loads at certain locations
-6. Generate a mesh to your liking
-7. Run study
 
-**2.1 Creating a Static Study in SolidWorks**
+   * Excessive compression/expansion/deformation
+   * Temperatures
+   * Loading cycles
+2. Define the material being used
+3. Create fixed geometries at certain locations
+4. Apply loads at certain locations
+5. Generate a mesh to your liking
+6. Run study
+
+## **2.1 Creating a Static Study in SolidWorks**
 
 The rest of this tutorial will be explained using the part shown below:
 
