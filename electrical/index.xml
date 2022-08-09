@@ -5,5 +5,5 @@ PCB layout is a necessary part of electronics development. While breadboards and
 In richtext, BOLD
 plain</description></item><item><title>PCB Slip Ring Project</title><link>/electrical/baby-slip-ring/documentation/instructions/</link><pubDate>Wed, 20 Jul 2022 00:15:38 +0000</pubDate><guid>/electrical/baby-slip-ring/documentation/instructions/</guid><description>About the Project We will be creating a pcb slip ring that lights up 2 LED lights with a USB C Connector!
 Slip rings are devices that allow electrical contacts through rotating bodies. ![[slipring.gif|350]]
-![[cadslipring.gif]] Usually you would buy things like this, so the question remains, why reinvent the slip ring if it already exists?
-My excuse was that they're expensive. Over 200$ if you need one with a through hole in the center :(</description></item></channel></rss>
+![[cadslipring.gif]] Usually you would simply buy a slip ring, so the question remains, why reinvent the slip ring if it already exists?
+My excuse was that they're expensive. Most especially ones with a through hole in the center :( !</description></item></channel></rss>
