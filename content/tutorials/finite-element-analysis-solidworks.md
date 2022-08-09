@@ -48,17 +48,17 @@ Start by going to the “Simulation” tab at the top of the screen and clicking
 
 ![](https://lh4.googleusercontent.com/0GN2qjuOj4lCGATTZM61Ewnuwd_quA5pj2x67gmUV4YvbYklVjuzKo6aZli58wmbJfwCwvBL-S-kI1ga1EEMeBfHY-lI9hRDrb481sutOgCYUCwQ74bitMpUKrDpPw-nURULDJyY7CNzqfj-vWr0cEk)
 
-In the Study menu ensure that you check the Static box under General Simulation and click the green checkmark. 
+In the Study, menu ensure that you check the Static box under General Simulation and click the green checkmark. 
 
 ![](https://lh3.googleusercontent.com/b9Y2Xu9aA7dk9gWkKjMaiX_nutemr8ddq2X2068OClq-dFGdNLzBb9VMb4To8l5EimVI9CKQzu_90_ummgCapXs5lmwrRLRfmjEFIPxACc0Us1QswW7X_CJCfQZS0ggiwnnfFv-LQS76tSU31Lgt-fI)
 
-**2.2 Applying Materials**
+## **2.2 Applying Materials**
 
 After you have made a new Study, click on Apply Material at the top of the screen. 
 
 ![](https://lh4.googleusercontent.com/zSi6U9aRwSlvVJFQMw7iM2uQNonMtzAJraayegJddAAil3_uXPkcx3TjP89H3pXCu_ZskB89CQ1U6WJTHhwvYCDWXY6wMauu53W9wYE_h8GQ6txMt6e_1CYO2TDGAFPFEgM9dIzqRwk6z_oPrc18j9k)
 
-For this tutorial we will be using 1023 Carbon Steel. Be aware that most materials you will ever need to analyze will be in this material library, however, you can add your own material be clicking the “Add…” button. When you’re done click “Apply”, this may slightly change the appearance of the material. 
+For this tutorial. we will be using 1023 Carbon Steel. Be aware that most materials you will ever need to analyze will be in this material library, however, you can add your own material be clicking the “Add…” button. When you’re done click “Apply”, this may slightly change the appearance of the material. 
 
 ![](https://lh3.googleusercontent.com/C0ATIT9UEox8L_k3RD7ApQWVRff7Fl5Oe-T8z2fkVV9NRFSN89unKHkO1UTVeflGaOQbDUe9irVtKdii08MUgpSBDEFi7rY2MjnzMvgwIPDyjk6HcefPwiuWmUVRjQEVtTZ2_scP7G2px9RvFjSC5pU)
 
@@ -66,7 +66,7 @@ You can confirm this by checking the features menu on the right side of the scre
 
 ![](https://lh5.googleusercontent.com/DpwCWn2FNG0MVBT-8huKp3IAOX6bYQsgWSUSeb6eqlOqBZqH1NbtIJfZZOP9ffNUQmIyUM8R_UqioZwTcBywrK4LN03F71DAdgW8XUIyFdMK_Ia3x_3G0ThRONKF-Y1BCfCTxKvWmqrtjVIYRHvTNVg)
 
-**2.3 Creating Fixed Geometries**
+## **2.3 Creating Fixed Geometries**
 
 Fixed Geometries can be points, edges, or faces on a part that will not move in a specified direction. In order to run a FEA you need to have at lease one point of fixed geometry. To do this click on the “Fixtures Advisor” in the top bar and then select “Fixed Geometry”. 
 
@@ -76,7 +76,7 @@ In this instance, we will create a fixed geometry at the faces shown below, note
 
 ![](https://lh3.googleusercontent.com/r6TE91nUQPdtL5P35ZgTIIkOWwpFDEN2fuZK77DTocSUuEBs2zD5GBG3ies8DWoZoN12r6ziCV1WFY-tVhpvN_ltsHxWWtFmuRWsN1aow3elWim7cxYmE9iblQgCvEcJJXP1E2xOzW2hdd3XJEo92qQ)
 
-**2.4 Applying External Forces**
+## **2.4 Applying External Forces**
 
 External Forces can also be applied to points, edges, and faces on a part. Do this by going to the top bar and selecting “External Loads Advisor” and then clicking on “Force”.
 
@@ -86,7 +86,7 @@ In this instance, we will apply loads at the two faces shown below (Solidworks a
 
 ![](https://lh3.googleusercontent.com/pLrFkERSKYXU9hVDvcSDz0LbkH1qkjxFvHQ6MeZF4AnXWIJcixFcAzkTDnTe-gEl9lJ6dmVMA1hZ1RkKBIelIQGn5OJ5KI-n-0AjWeH2h_0_6sEtTTA1UN_B8-431UlLQQoJ6UCb7mKfCQLJc6CreBc)
 
-To change the direction of the force being applied, click the “Selected Direction” bubble and then select an axis or edge to bind it to. In this case it will be in the vertical direction (Y-axis) so I clicked on a nearby edge that was also in the vertical direction. 
+To change the direction of the force being applied, click the “Selected Direction” bubble and then select an axis or edge to bind it to. In this case, it will be in the vertical direction (Y-axis) so I clicked on a nearby edge that was also in the vertical direction. 
 
 ![](https://lh6.googleusercontent.com/7S2QQY4lqrjnWeBPHLPNDR7ObN7WKYrWcDmS8CLHxe9SMT1q-dv-p1DON5vfah7LB34HVYyhTVH_BelWBXDlJLtGqWR09bTJbeEYXPHVoQrJp_ysELAkGQNVY3tDTxzfP7-SIT3GkbhpZCRzvwYRT8M)
 
@@ -94,7 +94,7 @@ Solidworks also defaults to 1N of force but in this study the part will be under
 
 ![](https://lh3.googleusercontent.com/zmB4Ya9mXiv30A24qThA_pt1hmnshSyi4U6KxUYsBDdKwhWpwe4E_XnbDu-geLFngaCSXl0i4-wBJ21FESYGrtZuJFzX6qUKeB0qeH_C4fsaQVRKu_qZ72cByeKGRZzqWc7p4G2iFjIVJF3SIRvteaM)
 
-**2.5 Generating a Mesh**
+## **2.5 Generating a Mesh**
 
 Solidworks automatically creates a mesh before a Static study is run. However you may want to view and change the resolution of this mesh in order to generate more accurate results with your study. Do this by going to “Run This Study” and clicking on “Create Mesh”.
 
@@ -112,7 +112,7 @@ Clicking the green check mark will tell Solidworks to create the modified mesh b
 
 ![](https://lh5.googleusercontent.com/AfkBjc2yr08lVYJXeoOuCwPGEsxuM4e1MS39VL2tdKBYO51CyeklfdXUYUSAhZYNIeGNKIbJ3USI8guW9ho6SGKKa2PpOScJyQzcRUbdcNkE86nSjPz0wtVC6chi8IN-pcqsJSLf5idIgR5pY7iXsy4)
 
-**2.6 Running the Study and Post Analysis**
+## **2.6 Running the Study and Post Analysis**
 
 The final step in the process is to run the study by clicking “Run This Study” in the top bar. Allow Solidworks some time to generate the results. 
 
