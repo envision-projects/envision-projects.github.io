@@ -1,9 +1,29 @@
 ---
 title: Electrical Certification
 weight: 1
+date: 2022-08-09T23:41:31.936Z
 description: The information for the Embedded Systems Certification
-
 ---
-Nothing here yet.
+<!--StartFragment-->
 
-Adding some stuff to testklkglsfjfljdksjfkls
+ELECTRICAL DESIGN
+
+Electrical - Soldering, PCB Design, Schematic Understanding, Eagle and Altium Designer CAD Software, PCB Mill, Reflow Oven, Component Sourcing, Circuit Board Troubleshooting and Repair
+
+Electrical Design will focus on creating functional circuits and PCBs. Students will gain proficiency in schematic reading and design, PCB layout, soldering, SMD soldering, parts sourcing, and PCB diagnostics. 
+
+1st Tier Proficiencies:
+
+* Through-hole Soldering / SMD Soldering
+* Schematic and PCB Design / Layout
+* PCB Testing and Troubleshooting
+
+2nd Tier Proficiencies:
+
+* Programming / Microcontrollers
+* Power Conditioning
+* Using Oscilloscopes and Power Supplies
+
+
+
+<!--EndFragment-->
