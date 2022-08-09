@@ -1,5 +1,5 @@
 ---
-title: SolidWorks Motion Study
+title: "Motion Study: SolidWorks"
 date: 2022-08-02T18:31:23.086Z
 description: By Blake
 ---
