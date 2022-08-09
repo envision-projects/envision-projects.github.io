@@ -20,7 +20,7 @@ Electrical Design will focus on creating functional circuits and PCBs. Students 
 
 2nd Tier Proficiencies:
 
-* Programming / Microcontrollers
+* Reflow work - fixing PCBs
 * Power Conditioning
 * Using Oscilloscopes and Power Supplies
 
