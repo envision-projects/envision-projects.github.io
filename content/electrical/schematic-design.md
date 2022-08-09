@@ -37,3 +37,13 @@ A component is any part or piece that is attached to a circuit board. This inclu
 ![](/images/circuit_schematic_symbols1.jpg "Schematic Symbols")
 
 <!--EndFragment-->
+
+<!--StartFragment-->
+
+**1.4 Basic Schematic Concepts**
+
+When you create a schematic, you are developing all of the nets, or connections, that will eventually exist on your circuit board. Every single pin on every single component will be connected to another pin, a ground plane, or a copper island ( a visible piece of copper on the top of the board that is not associated with a net ), and the schematic determines where all of those connections are. 
+
+
+
+<!--EndFragment-->
