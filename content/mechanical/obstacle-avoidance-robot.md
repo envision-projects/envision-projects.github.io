@@ -62,11 +62,15 @@ This is everything you will need to include in this project at the top of the Sk
 
 ## Driving the Motors
 
-For this project, you have to learn to drive servo motors and/or dc motors. Luckily the Adafruit Motor shield makes it very simple to code because of the installed Arduino library. The below diagram shows the locations where you will connect your dc motors.
+For this project, you have to learn to drive servo motors and/or dc motors. Luckily the Adafruit Motor shield makes it very simple to code because of the installed Arduino library. The below diagram shows the locations where you will connect your dc motors. 
 
-**Note**: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos.
+The direction of the motors will depend on the orientation of the wires connected to the motor shield.
+
+**Note**: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos in the top left.
 
 ![](/images/afms.png)
+
+The code below shows how to initialize each motor you're using including the ultrasonic sweep servo. You can place this code block before the void setup. 
 
 ```
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();  //Initializes Motor Shield
@@ -75,8 +79,47 @@ Adafruit_DCMotor *RFrontMotor = AFMS.getMotor(4);  //Each number corresponds to 
 Adafruit_DCMotor *RBackMotor = AFMS.getMotor(3);   //refer to diagram above
 Adafruit_DCMotor *LBackMotor = AFMS.getMotor(2);
 Adafruit_DCMotor *LFrontMotor = AFMS.getMotor(1);
+
+Servo sweepServo;
 ```
 
-Helpful brief [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino) describing how ultrasonic sensors work with arduino.
+In the setup block, you will want to set the default speed of the motors and attach the servo to a pin (9 or 10).  The 'run' function described below is also how you will drive the dc motors (RELEASE, FORWARD, and BACKWARD). Servo 1 corresponds to pin value 9 and Servo 2 corresponds to pin value 10. 
+
+```
+void setup()
+{
+  AFMS.begin();
+  RFMotor->setSpeed(motorSpeed);        //Set motor speed value (70 to 90 should work)
+  LFMotor->setSpeed(motorSpeed); 
+  RBMotor->setSpeed(motorSpeed);
+  LBMotor->setSpeed(motorSpeed);
+
+  RFMotor->run(RELEASE);                //Release all motors before void loop
+  LFMotor->run(RELEASE);
+  RBMotor->run(RELEASE);
+  LBMotor->run(RELEASE);
+
+  sweepServo.attach(10);
+}
+
+```
+
+
+
+## Ultrasonic Sensor
+
+Ultrasonic sensors emit sound waves at a very high frequency that humans cannot hear. These sound waves bounce off of objects and return to the sensor where a distance can be calculated based on the time it took the sound wave to return to the sensor. 
+
+For a bit more information about ultrasonice sensors and how to implement them with Arduino check out this [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino).
+
+## Sweep Function
+
+The ultimate goal of the ultrasonic sensor sweep function is to first detect an object in front of the robot and then determine the best direction for the robot to proceed forward in. Thus when an object is detected within the safe space of the robot:
+
+![](/images/roverradius.jpg)
+
+
+
+
 
 <!--EndFragment-->
