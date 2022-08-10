@@ -110,7 +110,7 @@ void setup()
 
 Ultrasonic sensors emit sound waves at a very high frequency that humans cannot hear. These sound waves bounce off of objects and return to the sensor where a distance can be calculated based on the time it took the sound wave to return to the sensor. 
 
-For a bit more information about ultrasonice sensors and how to implement them with Arduino check out this [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino).
+For a bit more information about ultrasonic sensors and how to implement them with Arduino check out this [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino).
 
 ## Sweep Function
 
