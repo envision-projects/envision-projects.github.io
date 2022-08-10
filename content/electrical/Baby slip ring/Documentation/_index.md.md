@@ -129,6 +129,7 @@ Because at the time I am writing this, this USB C is in stock and super cheap. T
 8) Now open the file in the symbol editor and verify that it is correct
 9) Press E whilst still in the symbol editor to open the properties menu 
 10) Change the footprint path to be updated and correct by clicking on the little 3 vertical bars menu under "Footprint"![[Pasted image 20220804231359.png]]
+11) Under the Datasheet entry, copy/paste in the link to the product page. 
 
 
 # Using KiCAD
@@ -234,5 +235,46 @@ Now go back to your newly copied smybol and press "E" to edit the properties. Li
 ![](Pasted%20image%2020220809162634.png)
 
 # Ordering
+This is the final step. Make sure that you have made these PCBs correctly and ran the DRC check or else when these pcb's come and they're incorrect it willl be a sad day.
+
+## Exporting machining files for JLCPCB
+1) With the PCB open, press Plot (Printer icon in top left)![](Pasted%20image%2020220809162910.png)
+2) Under output directory create a new folder in the project folder named "exports" (this will make exporting easier). Then select that folder you just created as your output directory.
+3) Generate drill files (bottom right). Then hit the Generate drill file again on the window that just pops up
+4) Close and hit "Plot"
+5) Now compress to zip file on the exports folder 
+6) Now do the same but for the other PCB
+
+## Ordering from JLC's Website
+1) Go to [JLCPCB](https://jlcpcb.com/)
+2) Upload the **Ring side zip** file to JLCPCB
+3) Select the PCB color that you want (Black is usually the best color) 
+4) Because this has small SMD components that you aren't going to be able to solder by hand, we are going to need to order the stencil. 
+5) Scroll down to the bottom of the order page and enable the stencil option![](Pasted%20image%2020220809164701.png)
+6) Repeat the same step except for the **Contact side zip** file. Know that you do not need to order the stencil as well with the Contact side board.
+
+## Ordering from Mouser
+Now we need to order our electrical components from Mouser. As a good rule of thumb, I always order **double the quantity** of any passive component I may need. Reasoning being that if you fuck up or drop them, they are so small that they are probably gone forever. 
+
+Remember that you can simply click on the link that you assigned to each component under the "Datasheet" column. 
+
+**Order list:** 
+- 2x USB Cs
+- 6x 5.1kΩ Resistors
+- 2x 470Ω Resistors
+- 4x [SMD Spring Contacts](https://www.mouser.com/ProductDetail/Harwin/S7061-42R?qs=1s%252BlIcjv25vHEKMBFMytKA%3D%3D)
+
+## Ordering from Amazon
+Make sure that you have all the mechanical components that is required to assemble the PCB, since the actual PCB takes about 1-2 weeks to arrive.
+
+
 # 3D Printing
+Print out the required files for the assembly of the actual slip ring. (Power Input and Output side parts)
+
+[Onshape](https://cad.onshape.com/documents/7e4d5f0707a25351e8d13112/w/9d0378d822ee5adaee731d07/e/08f298a3772dbd6067a75a64?renderMode=0&uiState=62f2f84e395ff224f64a4894)
+
+
 # Assembly 
+
+
+
