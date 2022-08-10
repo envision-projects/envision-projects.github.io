@@ -56,29 +56,29 @@ This is everything you will need to include in this project at the top of the Sk
 
 
 
-\#include <Adafruit_MotorShield.h>
 
-\#include "utility/Adafruit_MS_PWMServoDriver.h"
 
-\#include <Servo.h>
+```
+#include <Adafruit_MotorShield.h>
+#include "utility/Adafruit_MS_PWMServoDriver.h"
+#include <Servo.h>
+```
 
 ## Driving the Motors
 
-For this project you have to learn to drive servo motors and/or dc motors. Luckily the Adafruit Motor shield makes it very simple to code because of the installed arduino library. The below diagram shows the locations of where you will connect your dc motors.
+For this project, you have to learn to drive servo motors and/or dc motors. Luckily the Adafruit Motor shield makes it very simple to code because of the installed Arduino library. The below diagram shows the locations where you will connect your dc motors.
 
-Note: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos.
+**Note**: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos.
 
-![](https://lh6.googleusercontent.com/8HylD03WSCt404VnirUEsGrXIkWwfkVLUGEZ7_O64SoVuOkDe3eAdd-LtsU5_G9QxEReFuJQk_l_gK5dg8c67XLp6PTsaDuctiZN1xVmxe9k_6SOBkGWTazNOVZDwCvx3KQTZi6AJ1qYCj5VKIppGWk)
+```
+Adafruit_MotorShield AFMS = Adafruit_MotorShield();  //Initializes Motor Shield
 
-Adafruit_MotorShield AFMS = Adafruit_MotorShield(); 
-
-Adafruit_DCMotor *RFrontMotor = AFMS.getMotor(4);
-
-Adafruit_DCMotor *RBackMotor = AFMS.getMotor(3);
-
+Adafruit_DCMotor *RFrontMotor = AFMS.getMotor(4);  //Each number corresponds to Motor Shield
+Adafruit_DCMotor *RBackMotor = AFMS.getMotor(3);   //refer to diagram above
 Adafruit_DCMotor *LBackMotor = AFMS.getMotor(2);
-
 Adafruit_DCMotor *LFrontMotor = AFMS.getMotor(1);
+
+```
 
 Helpful brief [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino) describing how ultrasonic sensors work with arduino.
 
