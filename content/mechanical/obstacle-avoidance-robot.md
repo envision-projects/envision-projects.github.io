@@ -25,7 +25,7 @@ Build a rover vehicle that drives straight until it encounters an object that it
 
 Typical Final Assembly of Robot (just to get an idea of where you’re headed):
 
-  
+![](/images/finalproduct.jpg)
 
 Designing the chassis in SolidWorks:
 
@@ -54,10 +54,6 @@ Refer to the official [website](https://learn.adafruit.com/adafruit-motor-shield
 
 This is everything you will need to include in this project at the top of the Sketch:
 
-
-
-
-
 ```
 #include <Adafruit_MotorShield.h>
 #include "utility/Adafruit_MS_PWMServoDriver.h"
@@ -70,6 +66,8 @@ For this project, you have to learn to drive servo motors and/or dc motors. Luck
 
 **Note**: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos.
 
+![](/images/afms.jpg)
+
 ```
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();  //Initializes Motor Shield
 
@@ -77,7 +75,6 @@ Adafruit_DCMotor *RFrontMotor = AFMS.getMotor(4);  //Each number corresponds to 
 Adafruit_DCMotor *RBackMotor = AFMS.getMotor(3);   //refer to diagram above
 Adafruit_DCMotor *LBackMotor = AFMS.getMotor(2);
 Adafruit_DCMotor *LFrontMotor = AFMS.getMotor(1);
-
 ```
 
 Helpful brief [article](https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino) describing how ultrasonic sensors work with arduino.
