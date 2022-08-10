@@ -66,7 +66,7 @@ For this project, you have to learn to drive servo motors and/or dc motors. Luck
 
 **Note**: if you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos.
 
-![](/images/afms.jpg)
+![](/images/afms.png)
 
 ```
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();  //Initializes Motor Shield
