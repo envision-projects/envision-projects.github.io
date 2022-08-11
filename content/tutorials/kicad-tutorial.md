@@ -1,6 +1,12 @@
 ---
 title: KiCad Tutorial
 date: 2022-08-11T22:32:05.840Z
-description: Yomama
+description: Links of Kicad Tutorials found online.
 ---
-What it do
+**Read**
+
+https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html
+
+**Watch**
+
+https://www.youtube.com/watch?v=5Be7XOMmPQE
