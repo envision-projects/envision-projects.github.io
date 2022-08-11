@@ -11,6 +11,17 @@ EnVision Maker Studio
 
 Build a rover vehicle that drives straight until it encounters an object that it must detect and drive away from (Like a small Roomba!). This project can be made using a microcontroller of your choice, in this example I will use an Arduino Uno combined with an Adafruit motor shield. This document will also be covering the basics of ultrasonic sensors as it is used for detecting objects within a specified distance. 
 
+## Components Used:
+
+* Ultrasonic Sensor (HC-SR04)
+* 4 x DC Gearbox Motors
+* Arduino Uno
+* Adafruit Motor Shield v2
+* SG90 Servo Motor
+* 9 Volt Battery
+
+
+
 ## Process:
 
 1. Design Chassis in Solidworks to be 3D printed
@@ -25,7 +36,7 @@ Typical Final Assembly of Robot (just to get an idea of where you’re headed):
 
 ![](/images/finalproduct.jpg)
 
-Designing the chassis in SolidWorks:
+## Designing the chassis in SolidWorks:
 
 Depending on the type of drive system you want (2-wheel or 4-wheel drive), create a new SolidWorks part that will house your motor, micro servo, Arduino Uno, Adafruit Motor Shield, and battery pack.
 
