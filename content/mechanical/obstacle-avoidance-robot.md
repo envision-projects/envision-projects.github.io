@@ -117,7 +117,7 @@ The ultimate goal of the ultrasonic sensor sweep function is to first detect an 
 
 ## Sweep Function Test
 
-Use this section to test out how to code the ultrasonic sensor and implement it with the arduino and microservo. The annotated code below shows which pins to connect to on the board (ensure the vcc pin is connected to 5V) as well as how each block works.
+Use this section to test out how to code the ultrasonic sensor and implement it with the Arduino and micro servo. The annotated code below shows which pins to connect to on the board (ensure the VCC pin is connected to 5V) as well as how each block works.
 
 ```
 // Blake Iwaisako
@@ -194,7 +194,7 @@ long microsecondsToCentimeters(long microseconds)   // Converter for microsecond
 }
 ```
 
-
+## Putting it All Together 
 
 
 
