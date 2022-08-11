@@ -41,9 +41,9 @@ The EnVision Hands-on Prototyping, Fabrication and Manufacturing Certificate pro
 
 The ***HOPFAM*** certification program is entirely project-based. Students may choose one of four focus areas:
 
-* ***Electrical Design -** PCB Design, Schematics, Altium/Eagle/KiCAD, Component Sourcing, Advanced Soldering*
-* ***Mechanical Design -*** 
-* ***Embedded Systems***
-* ***Craft***
+* ***Electrical Design* -** PCB Design, Schematics, Altium/Eagle/KiCAD, Component Sourcing, Advanced Soldering*
+* ***Mechanical Design -*** Solidworks/Fusion360, Advanced 3D Printing, Laser Cutting, CNC, Motor/Servo control
+* ***Embedded Systems -***  Development Board Design, Sensor Interaction, HCI, Basic Python/C++ Progamming
+* ***Craft -***  Woodworking, Joinery, Sewing, Industrial Shop Tools, Inlays, and Advanced Construction
 
 Each focus area has 1st and 2nd tier proficiencies. Final projects must represent all 1st tier proficiencies and at least two 2nd tier proficiencies. Students may present their own project ideas for consideration, or choose from existing projects that they may build upon.
