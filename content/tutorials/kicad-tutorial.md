@@ -9,4 +9,6 @@ https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.
 
 **Watch**
 
+*Creating Circuit Boards with KiCad 6*
+
 https://www.youtube.com/watch?v=5Be7XOMmPQE
