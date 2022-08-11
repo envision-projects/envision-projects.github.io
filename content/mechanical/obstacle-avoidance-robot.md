@@ -194,4 +194,6 @@ long microsecondsToCentimeters(long microseconds)   // Converter for microsecond
 
 ## Putting it All Together
 
+![](/images/img-6681.gif)
+
 <!--EndFragment-->
