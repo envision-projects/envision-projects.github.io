@@ -5,8 +5,6 @@ description: By Blake Iwaisako
 ---
 <!--StartFragment-->
 
-# Obstacle Avoidance Robot
-
 EnVision Maker Studio
 
 ## Description:
@@ -194,10 +192,6 @@ long microsecondsToCentimeters(long microseconds)   // Converter for microsecond
 }
 ```
 
-## Putting it All Together 
-
-
-
-
+## Putting it All Together
 
 <!--EndFragment-->
