@@ -43,7 +43,9 @@ The ***HOPFAM*** certification program is entirely project-based. Students may c
 
 * ***Electrical Design* -** PCB Design, Schematics, Altium/Eagle/KiCAD, Component Sourcing, Advanced Soldering
 * ***Mechanical Design -*** Solidworks/Fusion360, Advanced 3D Printing, Laser Cutting, CNC, Motor/Servo control
-* ***Embedded Systems -***  Development Boards, Microcontrollers, Sensor Interaction, HCI, Basic Python/C++ Progamming
+* ***Embedded Systems -***  Development Boards, Microcontrollers, Sensor Interaction, HCI, Basic Python/C++ Programming
 * ***Craft -***  Woodworking, Joinery, Sewing, Industrial Shop Tools, Inlays, and Advanced Construction
 
 Each focus area has 1st and 2nd tier proficiencies. Final projects must represent all 1st tier proficiencies and at least two 2nd tier proficiencies. Students may present their own project ideas for consideration, or choose from existing projects that they may build upon.
+
+Instruction for each course is self-directed and at any pace. It is generally assumed that each course/project will take around 80 hours to complete and be done over the course of one or two quarters. One-on-one instruction is available for any student upon request for any portion(s) of the course. This website is the primary instructional tool, however, as it provides step-by-step instructions, useful links, files, and more.
