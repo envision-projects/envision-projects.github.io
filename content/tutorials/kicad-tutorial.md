@@ -1,5 +1,5 @@
 ---
-title: KiCad Tutorial
+title: KiCad Tutorials
 date: 2022-08-11T22:32:05.840Z
 description: Links of Kicad Tutorials found online.
 ---
