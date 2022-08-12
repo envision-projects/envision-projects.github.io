@@ -30,7 +30,11 @@ The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. T
 
 ![](/images/explanation.png)
 
+In this robot may notice that there are actually *two* crank-rocker mechanisms at work:
 
+![](/images/cr1.png)
+
+![](/images/cr2.png)
 
 ## Design a Chassis
 
@@ -45,3 +49,13 @@ Without dimensions, here is an example of a semi-working chassis:
 
 
 ![](/images/chassis.png)
+
+## Design the Links
+
+
+
+For this project you will need a total of three different linkages of varying length as shown:
+
+![Notice the blue link has a "foot" on the bottom to grab the surface. ](/images/legs.png)
+
+The short orange link connects the top of the blue leg shaft to the chassis. The middle hole on the blue leg connects directly to the servo motor wheel which acts as the crank. Lastly the grey coupler link
