@@ -80,6 +80,13 @@ In order to build the synthesizer,
     and then add the same nets to the MUX:
 
     ![](/images/muxnets.png)
+16. The next component we need is the "header" to which we will eventually solder our switches. Since we have 13 switches, we will need to create a 1X13 Header Library.  If you have not yet created libraries, refer to: https://www.altium.com/documentation/altium-designer/creating-file-based-library-components?version=18.0 .  The footprint I created for this file has a 2.54mm pitch, with 60mm pads and 40mm holes.
+17. Once you have created your symbol and footprint, place the symbol in your schematic and name it J1. 
+18. Now connect wires from the header pins to the 3.3v side of the switches. You should now have something that looks like this:
+
+
+
+14. Once you have created 
 
 <!--EndFragment-->
 
