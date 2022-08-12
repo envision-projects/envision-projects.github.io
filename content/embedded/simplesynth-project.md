@@ -88,4 +88,12 @@ In order to build the synthesizer,
 
     And Now we're done with the schematic. This is a very simple schematic; we don't need to add a lot of components because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
 
+**PART 2: PCB Creation**
+
+This is the first part of the project where you get to be creative. I won't go into step-by-step detail describing this part of the project once we get the parts into the PCB, but rather talk about some best practices and general considerations. The rest will be up to the user to decide the aesthetics of their board.
+
+1. While in the schematic document, press d, then u. (For Design, Update PCB Document)
+2. In the pop-up dialogue, validate the changes, then execute the changes. Close the windows.
+3. Now go to the PCB document. If you properly created all your nets and schematic symbols, you should now see all of your components laid out in a row next to a blank slate. Drag the components into the black area of the page to place them on the PCB area.
+
 <!--EndFragment-->
