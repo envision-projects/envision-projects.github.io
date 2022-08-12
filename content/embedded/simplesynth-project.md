@@ -100,6 +100,6 @@ This is the first part of the project where you get to be creative. I won't go i
 
    ![](/images/updatepcb.png)
 
-   We now need to determine what our PCB will look like. Drag the components into the black area of the page to place them on the PCB area. Keep in mind that the switches should be close to their associated resis
+   We now need to determine what our PCB will look like. Before we even decide how large our board will be, we need to get a general idea of what our component placement will be. Drag the components into the black area of the page to place them on the PCB area. Keep in mind that the switches should be close to their associated resistors. You also want to place the MUX chip between the switches and the Teensy. 
 
 <!--EndFragment-->
