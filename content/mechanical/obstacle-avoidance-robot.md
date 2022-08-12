@@ -39,7 +39,7 @@ Typical Final Assembly of Robot (just to get an idea of where you’re headed):
 
 Depending on the type of drive system you want (2-wheel or 4-wheel drive), create a new SolidWorks part that will house your motor, micro servo, Arduino Uno, Adafruit Motor Shield, and battery pack.
 
-Here are some examples that are not finished but may give you some ideas:
+Here are some examples that are NOT finished but may give you some ideas:
 
 **2-wheel continuous servo chassis (basic)**
 
@@ -111,7 +111,7 @@ void setup()
   RBMotor->run(RELEASE);
   LBMotor->run(RELEASE);
 
-  sweepServo.attach(10);
+  sweepServo.attach(10);               // Connect servo motor to pin 10 (Servo 2)
 }
 ```
 
