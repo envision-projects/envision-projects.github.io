@@ -24,7 +24,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -84,8 +86,6 @@ In order to build the synthesizer,
 
     ![](/images/ss_scematic2.png)
 
-    And Now we're done with the schematic. This is a very simple schematic because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
-
-
+    And Now we're done with the schematic. This is a very simple schematic; we don't need to add a lot of components because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
 
 <!--EndFragment-->
