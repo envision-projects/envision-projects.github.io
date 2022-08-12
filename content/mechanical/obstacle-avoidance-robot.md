@@ -33,7 +33,7 @@ Build a rover vehicle that drives straight until it encounters an object that it
 
 Typical Final Assembly of Robot (just to get an idea of where you’re headed):
 
-![I know the chassis is not 3D printed here but to attain certification your chassis must be 3D printed.](/images/finalproduct.jpg)
+![](/images/finalproduct.jpg "I know the chassis is not 3D printed here but to attain certification your chassis must be 3D printed.")
 
 ## Designing the chassis in SolidWorks:
 
