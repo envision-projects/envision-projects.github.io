@@ -21,7 +21,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 {{< tip >}}
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 {{< /tip >}}
 
@@ -66,8 +68,10 @@ In order to build the synthesizer,
 
 14. Now we should annotate our schematic, meaning, assign every component its own unique designator, which we will need to refer to in our PCB. To do this, press t a a. You will see this dialogue:
 
-    ![]()
-15.
+    ![](/images/annotattion.png)
+
+    Press "Update Changes List", then press "OK", Press "Accept Changes." When the net dialogue opens, press "Execute Changes." Once finished, you can close those the annotation windows.
+15. Now we need to create our Nets: the Nets will connect the switches to the MUX inputs, and we need one per note on our keyboard. Connect wires to the conjunction of the switches and resistors:
 
 <!--EndFragment-->
 
