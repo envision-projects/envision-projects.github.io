@@ -26,7 +26,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -100,6 +102,8 @@ This is the first part of the project where you get to be creative. I won't go i
 
    ![](/images/updatepcb.png)
 
-   We now need to determine what our PCB will look like. Before we even decide how large our board will be, we need to get a general idea of what our component placement will be. Drag the components into the black area of the page to place them on the PCB area. Keep in mind that the switches should be close to their associated resistors. You also want to place the MUX chip between the switches and the Teensy. 
+   We now need to determine what our PCB will look like. Before we even decide how large our board will be, we need to get a general idea of what our component placement will be. Drag the components into the black area of the page to place them on the PCB area. Keep in mind that the switches should be close to their associated resistors. You also want to place the MUX chip between the switches and the Teensy. Something like this: 
+
+   ![](/images/ss_pcb1.png)
 
 <!--EndFragment-->
