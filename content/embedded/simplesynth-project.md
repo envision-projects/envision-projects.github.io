@@ -23,7 +23,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -66,8 +68,6 @@ In order to build the synthesizer,
 
 ![](/images/ss_switches.png)
 
-<!--StartFragment-->
-
 14. Now we should annotate our schematic, meaning, assign every component its own unique designator, which we will need to refer to in our PCB. To do this, press t a a. You will see this dialogue:
 
     ![](/images/annotattion.png)
@@ -82,12 +82,12 @@ In order to build the synthesizer,
     ![](/images/muxnets.png)
 16. The next component we need is the "header" to which we will eventually solder our switches. Since we have 13 switches, we will need to create a 1X13 Header Library.  If you have not yet created libraries, refer to: https://www.altium.com/documentation/altium-designer/creating-file-based-library-components?version=18.0 .  The footprint I created for this file has a 2.54mm pitch, with 60mm pads and 40mm holes.
 17. Once you have created your symbol and footprint, place the symbol in your schematic and name it J1. 
-18. Now connect wires from the header pins to the 3.3v side of the switches. You should now have something that looks like this:
+18. Now connect wires from the header pins to the 3.3v side of the switches. You should now have something that looks like this: 
+
+    ![](/images/ss_scematic2.png)
+
+    And Now we're done with the schematic. This is a very simple schematic because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
 
 
-
-14. Once you have created 
-
-<!--EndFragment-->
 
 <!--EndFragment-->
