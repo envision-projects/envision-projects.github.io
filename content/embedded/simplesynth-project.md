@@ -28,7 +28,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -110,10 +112,12 @@ This is the first part of the project where you get to be creative. I won't go i
 4. Now connect all the nets with wires. I typically use 9mil traces for signals, and 15 - 21mil traces for power connections.
 5. Before we determine our board size, we want to make sure everything will (at least for now) fit. Remember that the audio shield will be on the Teensy, and that it is significantly wider than its parent board. So that we get an idea of its size, I have created an outline for it on the Top Overlay layer, using the line tool. The Audio board is approximately 3.9mm x 3.9mm and isn't seated in the middle of the Teensy, but rather is a bit off center: 
 
-   ![]()
+   ![](/images/audioshielddim.png)
 6. Now we know the general size of our board (but keep in mind that we'll be adding more components as we go so leave some space). Create a polygon pour around your components. A simple rectangle is fine. Add the polygon to the GND net. 
 7. On layer Mechanical 15, create a box around your polygon pour using the line tool.
 8. While still on layer Mechanical 15, press e, s, y, then d, s, s (Edit, Select, All on Layer, Design, Board Shape, Define Board Shape).
 9. Next we want to create mounting holes for our board. This isn't absolutely necessary, but it's a good habit to get into (trust me). Create a via that is 4mm with a 3mm hole. Copy and paste this so there's one in each corner. We should now have something like this: 
+
+   ![](/images/ss_pcb2.png)
 
 <!--EndFragment-->
