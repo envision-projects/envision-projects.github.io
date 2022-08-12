@@ -13,3 +13,17 @@ For this project you will design a robot that walks around using a 4-bar linkage
 
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
+
+## Design a Chassis
+
+You can design this robot with one or two continuous rotation motors. In this tutorial we will be following a robot that has two high torque continuous rotation servo motors. 
+
+Without dimensions, here is an example of a working chassis:
+
+{{< tip "warning" >}}
+**This chassis does not show how to mount the microcontroller or the battery, that will be up to you to design!**
+{{< /tip >}}
+
+
+
+![](/images/chassis.png)
