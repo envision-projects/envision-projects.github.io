@@ -18,13 +18,15 @@ For this project you will design a robot that walks around using a 4-bar linkage
 
 4-bar linkages are a very common mechanism used in mechanical engineering that consists of four rods connected by pins. These mechanisms convert rotational motion into a rocking motion which can be very useful in robotic arms, clamping mechanisms, animatronics etc. 
 
-\*Gif from mecademie on YouTube\*
+*Gif Source: mecademie on YouTube*
 
 ![](/images/frankyoungcaudata-size_restricted.gif)
 
 When designing 4-bar linkages engineers play with different rod lengths in order to find an ideal output motion. One can calculate the exact range of motion when given each rod length. 
 
 The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. Two of the pin joints are mounted in all directions, unable to move at all. The crank arm is the input rod that controls the entire system and is what's typically driven by a motor. The coupler arm simply connects the input crank to the output rocker arm but is crucial in determining the range of motion of the entire mechanism. The output rocker arm is always longer than or equal to the length of the crank arm. 
+
+*Image Source: Wikipedia*
 
 ![](/images/explanation.png)
 
