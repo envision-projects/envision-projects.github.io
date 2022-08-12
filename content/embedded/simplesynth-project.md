@@ -94,6 +94,6 @@ This is the first part of the project where you get to be creative. I won't go i
 
 1. While in the schematic document, press d, then u. (For Design, Update PCB Document)
 2. In the pop-up dialogue, validate the changes, then execute the changes. Close the windows.
-3. Now go to the PCB document. If you properly created all your nets and schematic symbols, you should now see all of your components laid out in a row next to a blank slate. Drag the components into the black area of the page to place them on the PCB area.
+3. Now go to the PCB document. If you properly created all your nets and schematic symbols, you should now see all of your components laid out in a row next to a blank slate. Drag the components into the black area of the page to place them on the PCB area. It should look something like this:
 
 <!--EndFragment-->
