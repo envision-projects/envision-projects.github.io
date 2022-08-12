@@ -34,7 +34,7 @@ The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. T
 
 You can design this robot with one or two continuous rotation motors. In this tutorial we will be following a robot that has two high torque continuous rotation servo motors. 
 
-Without dimensions, here is an example of a working chassis:
+Without dimensions, here is an example of a semi-working chassis:
 
 {{< tip "warning" >}}
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
