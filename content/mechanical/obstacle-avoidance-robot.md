@@ -19,6 +19,7 @@ Build a rover vehicle that drives straight until it encounters an object that it
 * Adafruit Motor Shield v2
 * SG90 Servo Motor
 * 9 Volt Battery
+* Jump Wires
 
 ## Process:
 
@@ -74,7 +75,9 @@ For this project, you have to learn to drive servo motors and/or dc motors. Luck
 The direction of the motors will depend on the orientation of the wires connected to the motor shield.
 
 {{< tip "warning" >}}
+
 If you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos in the top left.
+
 {{< /tip >}}
 
 ![](/images/afms.png)
