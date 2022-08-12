@@ -20,7 +20,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 ![](/images/teensyaudioboard.png)
 
 {{< tip >}}
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 {{< /tip >}}
 
 The final synthesizer will have the following:
@@ -36,8 +38,6 @@ In order to build the synthesizer,
 2. We will design our enclosure using Adobe Illustrator and Makercase.com
 3. We will source and purchase parts from Digikey.com
 4. We will program the synthesizer using the Teesny Audio System Design Tool, the Teensy Audio Library, and Arduino IDE
-
-
 
 **PART 1: PCB/Schematic Creation**
 
@@ -56,12 +56,8 @@ In order to build the synthesizer,
 
 ![](/images/ss_schematic1.png)
 
-
-
 11. Now we need to add the switches that we’ll use for our keys. Use the MPS to find “SW-SPST” and place 13 of them.
-
 12. Copy and paste the resistor. Change the value to 10k and then paste 12 more. Connect one to each switch.
-
 13. Connect the open end of the switches to another 3.3v power port, and connect the open pin of the resistors to a GND port.
 
 ![](/images/ss_switches.png)
@@ -70,7 +66,8 @@ In order to build the synthesizer,
 
 14. Now we should annotate our schematic, meaning, assign every component its own unique designator, which we will need to refer to in our PCB. To do this, press t a a. You will see this dialogue:
 
-15. 
+    ![]()
+15.
 
 <!--EndFragment-->
 
