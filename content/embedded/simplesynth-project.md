@@ -173,6 +173,11 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
    ![](/images/rerouting.png)
 5. Route all your traces. 
 6. Lastly, we're going to add some filtering capacitors to the potentiometers. This will greatly reduce the amount of noise in our circuit and allow for cleaner, more stable readings on our analog inputs. Choose a 0805 capacitor from the Manufacturer Part Search, and change the value to "0.1uF" in its comment.
-7. Copy and paste the capacitor so that there is one connected to the 3.3v pin on every potentiometer. Connect the other leg of the capacitor to GND.
+7. Copy and paste the capacitor so that there is one connected to the 3.3v pin on every potentiometer. Connect the other leg of the capacitor to GND. Don't forget to annotate the schematic so the caps have numbered designators. Now it should look something like this:
+
+   ![]()
+8.
+9.
+10.
 
 <!--EndFragment-->
