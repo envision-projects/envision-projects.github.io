@@ -128,6 +128,6 @@ This is the first part of the project where you get to be creative. I won't go i
 
 Now we have a board that connects our 13 keys to the Teensy through a multiplexer. By using a multiplexer, we saved pins on the Teensy because all 13 keys are now routed into one pin. We are using 4 pins on the Teensy to control the multiplexer, for a total of 5 pins (which is less than 13 = more pins available on the Teensy). Why do we want more pins? Because we want to control aspects of the sound with things like potentiometers (pots). We also want to be able to change oscillator waveforms manually, and therefore need a button or two or three. Now is a good time to decide which effects and controls we want, and the types of physical hardware that will control them. 
 
-
+We're going to have 3 oscillators to generate our waveforms, and we want to cycle through available waveshapes, so we need 3 buttons. We will also want to mix the volumes of the oscillators, so we'll need 3 pots. We're going to have a filter, so we'll need controls for frequency and resolution, and a way to switch between low-pass, high-pass, and band-pass filters. That's two more pots and a button. Then we want to add a delay effect, which typically includes controls for time, feedback, and mix; 3 more pots. Lastly, we will add note envelope controls, or attack, decay, sustain, and release (ADSR) for four more pots. Thus we have a total of 12 pots and 4 buttons. Let's go!
 
 <!--EndFragment-->
