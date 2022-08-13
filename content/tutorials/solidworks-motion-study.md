@@ -97,13 +97,15 @@ Solidworks automatically sets the framerate of the animations to 8 FPS which cre
 
 # Basic Motion
 
-Basic Motion is different from Animation as it takes into account the mass, inertia, gravity, and contacts to calculate motion more accurately. Animation simply uses interpolation provided by keyframes whereas Basic Motion is capable of creating more complex real-world simulations. Change to “Basic Motion” in the Motion Manger bar at the bottom of the screen. 
+Basic Motion is different from Animation as it takes into account the mass, inertia, gravity, and contacts to calculate motion more accurately. Animation simply uses interpolation provided by keyframes whereas Basic Motion is capable of creating more complex real-world simulations. Change to “Basic Motion” in the Motion Manager bar at the bottom of the screen. 
+
+This tutorial will be following a [Ball and Slide Assembly](https://drive.google.com/file/d/17voCM4dhNhSMUEB-H6TOm08IyJ7fT1LI/view?usp=sharing) which you should download and try yourself.
 
 ![](https://lh6.googleusercontent.com/ARQ-fMSU-rBFcIOdVKCK2OeBkwsB5uIB0n1NCvjRYIoitRUKkUPoA0YzzdTgbK9h602hwt2TpOUvULFNdICKzEoOh6_uceyb5itv0ElnLHwR_e6zM6emarXuKnanClL4ZwG2t8EjEMlDmTOXK630H6w)
 
 ## 3.1 Gravity:
 
-Gravity is a key tool to simulating motion in an assembly. Go to the right side of the Motion Manager bar and click on the falling apple symbol. 
+Gravity is a key tool for simulating motion in an assembly. Go to the right side of the Motion Manager bar and click on the falling apple symbol. 
 
 ![](https://lh6.googleusercontent.com/lJ-4cUSyGkConaVp6fM2U9Juhwb083zi1d_t_2iDqdBZTfj3wCQOoGczhMqE6uEcR9NOuGFPzNinR1zgrpMFl8Jzb7WTIMGRIpcOKnDmRiGw9yP9b7PvRxAKbq4lusXdulFsg1zRtXi7TegWTMfFFaM)
 
@@ -127,4 +129,4 @@ Clicking on the Calculate button will run the simulation (Be sure to change the 
 
  ![](https://lh6.googleusercontent.com/7HiCSY3uWGRrwj23idoeLB1fx4rxZeatXSREa1DFyUDz0bALSgFIQBvBVxqrKZamYtrOkU6iw7YpeNNRarMkNOo1LszMCNy-a5aL2RPapJjXlsfEGLW6ib5oUhWWJxUE77mxOLUONqofr35LmnppleY)
 
-<!--EndFragment-->
+## Motion Analysis
