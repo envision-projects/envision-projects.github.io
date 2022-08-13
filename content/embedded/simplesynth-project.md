@@ -130,4 +130,16 @@ Now we have a board that connects our 13 keys to the Teensy through a multiplexe
 
 We're going to have 3 oscillators to generate our waveforms, and we want to cycle through available waveshapes, so we need 3 buttons. We will also want to mix the volumes of the oscillators, so we'll need 3 pots. We're going to have a filter, so we'll need controls for frequency and resolution, and a way to switch between low-pass, high-pass, and band-pass filters. That's two more pots and a button. Then we want to add a delay effect, which typically includes controls for time, feedback, and mix; 3 more pots. Lastly, we will add note envelope controls, or attack, decay, sustain, and release (ADSR) for four more pots. Thus we have a total of 12 pots and 4 buttons. Let's go!
 
+1. Back in our SimpleSynth schematic, we need to add potentiometers.
+
+{{< tip >}}
+1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+{{< /tip >}}
+
+I just made a very basic three-pin symbol and a footprint with standard 4mm x 3mm holes, 2mm spacing.
+
+![]()
+
+\    2. 
+
 <!--EndFragment-->
