@@ -32,7 +32,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -139,7 +141,9 @@ We're going to have 3 oscillators to generate our waveforms, and we want to cycl
 {{< tip >}}
 
 
+
 1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+
 
 
 {{< /tip >}}
@@ -150,21 +154,25 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 ![](/images/potfoot.png)
 
-   2. Once you've made your symbol and footprint, place them in the schematic. I placed mine in such a way that they are grouped together according to their function. Add net labels to denote the component's function.
+2. Once you've made your symbol and footprint, place them in the schematic. I placed mine in such a way that they are grouped together according to their function. Add net labels to denote the component's function.
 
 ![](/images/controls.png)
 
-  3. Once you've placed and labelled your pots and switches, add corresponding net labels to the Teensy. Best practice is to group similar functions together where possible. You should now have something akin to this:
+3. Once you've placed and labelled your pots and switches, add corresponding net labels to the Teensy. Best practice is to group similar functions together where possible. You should now have something akin to this:
 
 ![](/images/ss_schematic3.png)
 
 4. Now we need to add our new parts to the PCB. Update the PCB from the schematic as we did before, and place the new components on the board. You will ( most likely ) need to move things around on your existing PCB, and possibly extend it. 
 
    {{< tip >}}
+
    As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+
    {{< /tip >}}
 
-   ![]()
-5.  
+   ![](/images/rerouting.png)
+5. Route all your traces. 
+6. Lastly, we're going to add some filtering capacitors to the potentiometers. This will greatly reduce the amount of noise in our circuit and allow for cleaner, more stable readings on our analog inputs. Choose a 0805 capacitor from the Manufacturer Part Search, and change the value to "0.1uF" in its comment.
+7. Copy and paste the capacitor so that there is one connected to the 3.3v pin on every potentiometer. Connect the other leg of the capacitor to GND.
 
 <!--EndFragment-->
