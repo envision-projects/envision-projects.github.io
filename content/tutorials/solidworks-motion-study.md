@@ -19,13 +19,13 @@ The MotionManager is where you can find all of the core Solidworks tools used fo
 
 ![](https://lh3.googleusercontent.com/HxenWpK1tI1FZ7f-tEAJsCWy6-1HpJcavYNtTfekjyqhUvKLpSiuUMASMX0c7qzd1aBQByrLtJK6f9BPXwd-2fxhXs77m87o-nvhDr7pcuGNls0-tOb89n0Pzy5R1fw9-67jqjO3vWbPewiIj00PTjw)
 
-This toolbar is by default found at the bottom of the screen, however, if you do not see anything there you may have to enable the add-in in the settings. To do this go to the top of the screen and click on the settings icon and click “Add-ins” from the pull down menu.
+This toolbar is by default found at the bottom of the screen, however, if you do not see anything there you may have to enable the add-in in the settings. To do this, go to the top of the screen and click on the settings icon and click “Add-ins” from the pull-down menu.
 
 ![](https://lh6.googleusercontent.com/7nhx4RD8Q2N2GAuDEr5wpxMVjumTooz74zE8xavBuwyNcA9mzm55DEgf01gXhk5Zod4i_iFx2yrVeuhBm8iEfTJ-tzBcHSPEWDJtgEXEEB92TSjw4R76vt_m9H250Snx8JTOPq3Kbdqkugl3BD6S9RE)
 
 From the “Add-ins” menu ensure that “SOLIDWORKS Motion” and “SOLIDWORKS Simulation” are checked before clicking on “OK”.
 
-![](https://lh6.googleusercontent.com/O4T1uG2fNGNIenax-2YfDw26jI6rjycq6LEJo2cSqITg0_NvybpY9NBZw3_h81Oyha-T61XTlzl_QdfoEQHb-MgSJFMccK2R7kgvIlibhSkX2KkKHJoxiluU0NLDJPDv2mUXO2J4M-LETE8H1QeuT8Y)
+![](/images/addins.png)
 
 # Animation
 
@@ -49,21 +49,23 @@ The last pop-up menu will ask you when to begin the rotation and how long the ro
 
 The Animation Wizard then generates camera keyframes marked as diamonds in the MotionManager. Before starting the animation, ensure the grey bar is at the “0 sec” mark. Clicking the play button will start the animation.
 
-![]()
-
 ## 2.2 More on Camera Keyframes:
 
-Instead of using the Animation Wizard to make keyframes, we can make our own camera keyframes based on our views in the Solidworks assembly window. First find a view in your Assembly window that you want to begin your animation on. Next locate and right-click on the first keyframe next to “Orientation and Camera Views”. Click on “Replace Key”, this changes the first camera view of the animation to be yor preffered starting view. Until you replace this key again, everytime you start the animation from the beginning it will return to this camera view. 
+Instead of using the Animation Wizard to make keyframes, we can make our own camera keyframes based on our views in the Solidworks assembly window. First, find a view in your Assembly window that you want to begin your animation on. Next, locate and right-click on the first keyframe next to “Orientation and Camera Views”. Click on “Replace Key”, this changes the first camera view of the animation to be your prefered starting view. Until you replace this key again, every time you start the animation from the beginning it will return to this camera view. 
 
 ![](https://lh3.googleusercontent.com/YKkKlFOp0e6z9aL9XKxZgdIvTzWKRMAH5_iCDgrQjjOvMX3O4YcNpPRGqAqOD-pPvbSgEKz66Egk3fZG-djKYZns0-YVgcrfb4YUstCbPi82sJhp5vvjWMlprFhVDGYgEGGmb4hFTtdqmnqXtAbZ960)
 
 ### Bounce Animation:
 
-The easiest way to make camera keyframes is by click-holding onto the first keyframe and dragging it along the time line. This makes a copy of the original camera view but that can be changed by clicking “Replace Key”. First create two copies of the first keyframe and place them along the timeline like so: 
+The easiest way to make camera keyframes is by click-holding onto the first keyframe and dragging it along the timeline. This makes a copy of the original camera view but that can be changed by clicking “Replace Key”. First, create two copies of the first keyframe and place them along the timeline like so: 
 
 ![](https://lh4.googleusercontent.com/8yqRmfprG0PeiM36m1dFE6GdQrCY09JFTW7aymkNE2mpMTDUzsyMgbC3LNR9Gw6O38SSVNU3VDiVFQtI4Th7rFnXAvdeqLIQ31blq2QDFUWn0n1eDDsZZzlmzyDZN78AKz3yxyvH4_yZl_FI-DpmGxs)
 
-To create the Bounce animation, move the grey bar to be right on top of the middle keyframe. Next move the assembly to a second position that is different from the first. Finally right click on the middle keyframe and select “Replace Key”. Note: this process can be done with any keyframe you create on the camera timeline.
+To create the Bounce animation, move the grey bar on top of the middle keyframe. Next, move the assembly to a second position that is different from the first. Finally right click on the middle keyframe and select “Replace Key”. 
+
+{{< tip >}}
+This process can be done with any keyframe you create on the camera timeline.
+{{< /tip >}}
 
 ![](https://lh5.googleusercontent.com/9mrCOsgBhyfWRPeRcI32qqH3JvAADfcT_rdEH5i8BwBTojKODQkbD-ehojAAD2yIXg77bHU4hNB-43Hh6xxf8YCnYgzcrasktyWcOpzJoToauqFnrPMXqI8CfIKu-rBHWUSW496CGfK3EKV1JhlODRg)
 
@@ -71,13 +73,13 @@ This will create a Bounce animation where the camera moves from Position 1 to Po
 
 ## 2.3 Motors:
 
-Motors can be used to manipulate a component for a certain amount of time as defined by a mate. In this tutorial you will animate a rotation along an axis but be aware that you can also create a linear oscilation along an edge/axis as well. 
+Motors can be used to manipulate a component for a certain amount of time as defined by a mate. In this tutorial, you will animate a rotation along an axis but be aware that you can also create a linear oscillation along an edge/axis as well. 
 
 ![](https://lh5.googleusercontent.com/1v3UvnLKZ7hRjImCkV2K9aIGsOop2dlVrM8lInRfpiVY1qhsjXyd7D55WZJyO0npdNo5Q9diIN7cLYHQ78zW_wZM9Rx7SHxNTRCMQZYOLxR3GoF8p1mMWKWq7Na3FBpjHFUA415WoJQF6zDILBu9aYU)
 
-***Note***: Create a new motion study quickly by right clicking your current “Motion Study” tab at the bottom of the screen and selecting “Create New Motion Study”
+***Note***: Create a new motion study quickly by right-clicking your current “Motion Study” tab at the bottom of the screen and selecting “Create New Motion Study”
 
-To create a Rotary Motor, first click on a circular edge to establish what direction and part that you want to move. The assembly mates will update based on the properties of the motor. Ensure that the motor you create has a red arrow indicating the direction of the motor which can be changed. 
+To create a Rotary Motor first click on a circular edge to establish what direction and part you want to move. The assembly mates will update based on the properties of the motor. Ensure that the motor you create has a red arrow indicating the direction of the motor which can be changed. 
 
 ![](https://lh4.googleusercontent.com/0Urck4MaqtIvoVk9xjUlIBaJd5HfT09HeXoOsgrfN90xvCFHrEPWn7MkGAswpz6O06svTSZIpdy6okrLv1_9mOHFr1dhZ6aquMX5fep1qIn9zpilC5k699uAUvDD-_nVb2c22q62I87Sbd9J-ICqrDY)
 
@@ -130,3 +132,5 @@ Clicking on the Calculate button will run the simulation (Be sure to change the 
  ![](https://lh6.googleusercontent.com/7HiCSY3uWGRrwj23idoeLB1fx4rxZeatXSREa1DFyUDz0bALSgFIQBvBVxqrKZamYtrOkU6iw7YpeNNRarMkNOo1LszMCNy-a5aL2RPapJjXlsfEGLW6ib5oUhWWJxUE77mxOLUONqofr35LmnppleY)
 
 ## Motion Analysis
+
+Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. In this tutorial, we will cover Trace Paths which is an important step in the Walking Robot project.
