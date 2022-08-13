@@ -3,7 +3,7 @@ title: Walking Robot
 date: 2022-08-12T19:16:44.064Z
 description: By Blake Iwaisako
 ---
-For this project you will design a robot that walks around using a 4-bar linkage for legs! You will be required to:
+For this project, you will design a robot that walks around using a 4-bar linkage for legs! You will be required to:
 
 1. Design a working chassis to house all electronic components in SolidWorks.
 2. Manufacture and/or source all parts needed (nuts, bolts, motors, microcontrollers, etc.).
@@ -55,3 +55,7 @@ For this project you will need a total of three different linkages of varying le
 ![Notice the blue link has a "foot" on the bottom to grab the surface. ](/images/legs.png)
 
 The short orange link connects the top of the blue leg shaft to the chassis. The middle hole on the blue leg connects directly to the servo motor wheel which acts as the crank. Lastly, the link acts as the coupler. Intentionally dimensions were left out since your model will most likely be different and you should play around with the linkage lengths in order to figure out what dimensions work best.
+
+## Create a Motion Study in SolidWorks
+
+Head to: Tutorials -> [Motion Study: SolidWorks](https://envision-projects.github.io/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. For the purposes of this project, you should at least read through the entire tutorial and try out some of the examples.
