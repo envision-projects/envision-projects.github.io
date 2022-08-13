@@ -158,6 +158,13 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 ![](/images/ss_schematic3.png)
 
-4. Now we need to add our new parts to the PCB. Update the PCB from the schematic as we did before, and place the new components on the board. You will ( most likely ) need to move things around on your existing PCB, and possibly extend it. These types of redesigns are part of the process.
+4. Now we need to add our new parts to the PCB. Update the PCB from the schematic as we did before, and place the new components on the board. You will ( most likely ) need to move things around on your existing PCB, and possibly extend it. 
+
+   {{< tip >}}
+   As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+   {{< /tip >}}
+
+   ![]()
+5.  
 
 <!--EndFragment-->
