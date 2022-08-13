@@ -209,4 +209,9 @@ And we're done with the circuit board portion of the project! You should now hav
 
 We want something practical and sturdy for the SimpleSynth's enclosure. We should consider where things make the most sense in terms of placement, functionality, and form. We're going to start by creating a simple box using [makercase.com](https://www.makercase.com/#/). 
 
+1. Choose "Basic Box" on the MakerCase homepage.
+2. Enter the dimensions for you box. You can choose whatever makes sense to you, but I chose W=10, H=2, D=5.
+3. Choose your material thickness. I chose 1/4" because I want the case to be sturdy, but yours doesn't need to be that thick.
+4. Choose "Finger" for the edge joints and a finger size that isn't too small or large. I went with .885".
+
 <!--EndFragment-->
