@@ -211,9 +211,7 @@ And we're done with the circuit board portion of the project! You should now hav
 
 ![](/images/ss_pcb3.png)
 
-## \-----------------------------------------------------------------------------------------------------------------
-
-## PART 3: Designing the Enclosure
+## Part 3: Designing the Enclosure
 
 We want something practical and sturdy for the SimpleSynth's enclosure. We should consider where things make the most sense in terms of placement, functionality, and form. We're going to start by creating a simple box using [makercase.com](https://www.makercase.com/#/). 
 
