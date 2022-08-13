@@ -14,13 +14,13 @@ For this project, you will design a robot that walks around using a 4-bar linkag
 
 ## Brief on 4-bar Linkages
 
-4-bar linkages are a very common mechanism used in mechanical engineering that consists of four rods connected by pins. These mechanisms convert rotational motion into a rocking motion which can be very useful in robotic arms, clamping mechanisms, animatronics etc. 
+4-bar linkages are a very useful mechanism used in mechanical engineering that consists of four rods connected by pins. These mechanisms convert rotational motion into a rocking motion which can be very useful in robotic arms, clamping mechanisms, animatronics etc. 
 
 *Gif Source: mecademie on YouTube*
 
 ![](/images/frankyoungcaudata-size_restricted.gif)
 
-When designing 4-bar linkages engineers play with different rod lengths in order to find an ideal output motion. One can calculate the exact range of motion when given each rod length. 
+When designing 4-bar linkages engineers analyze different rod lengths in order to find an ideal output motion. One can calculate the exact range of motion when given each rod length and tools like SolidWorks allow you to simulate a path for every point in the system. 
 
 The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. Two of the pin joints are mounted in all directions, unable to move at all. The crank arm is the input rod that controls the entire system and is what's typically driven by a motor. The coupler arm simply connects the input crank to the output rocker arm but is crucial in determining the range of motion of the entire mechanism. The output rocker arm is always longer than or equal to the length of the crank arm. 
 
@@ -28,11 +28,15 @@ The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. T
 
 ![](/images/explanation.png)
 
-In this robot may notice that there are actually *two* crank-rocker mechanisms at work:
+In this robot, you may notice that there are actually *two* crank-rocker mechanisms at work:
 
 ![](/images/cr1.png)
 
 ![](/images/cr2.png)
+
+
+
+
 
 ## Design a Chassis
 
@@ -42,7 +46,9 @@ Without dimensions, here is an example of a semi-working chassis:
 
 {{< tip "warning" >}}
 
+
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
+
 
 {{< /tip >}}
 
@@ -58,4 +64,6 @@ The short orange link connects the top of the blue leg shaft to the chassis. The
 
 ## Create a Motion Study in SolidWorks
 
-Head to: Tutorials -> [Motion Study: SolidWorks](https://envision-projects.github.io/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. For the purposes of this project, you should at least read through the entire tutorial and try out some of the examples.
+Head to: Tutorials -> [Motion Study: SolidWorks](https://envision-projects.github.io/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
+
+For the purposes of this project, you should complete the Animation and Motion Analysis sections of the tutorial. The exported animation file and trace path data will be turned in alongside your project.
