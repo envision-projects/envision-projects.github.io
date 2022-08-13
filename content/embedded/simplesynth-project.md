@@ -150,6 +150,10 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 ![](/images/controls.png)
 
-\    3. Once you've placed and labelled your pots and switches, add corresponding net labels to the Teensy. Best practice is to group similar functions together where possible.
+\    3. Once you've placed and labelled your pots and switches, add corresponding net labels to the Teensy. Best practice is to group similar functions together where possible. You should now have something akin to this:
+
+![]()
+
+  4. Now we need to add our new parts to the PCB. Update the PCB from the schematic as we did before, and place the new components on the board. You will ( most likely ) need to move things around on your existing PCB, and possibly extend it. These types of redesigns are part of the process.
 
 <!--EndFragment-->
