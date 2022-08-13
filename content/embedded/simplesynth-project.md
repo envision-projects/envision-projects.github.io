@@ -185,12 +185,18 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 8. Update your PCB document.
 9. Place all the caps to their associated pots.
 10. Route traces between the caps and pots. 
+11. Finishing up: You can now customize your board further by adding text, labels, and things like that. It's a good idea to arrange the component designators so they face the same way and are legible.
 
-    {{< tip >}}
-    Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
-    {{< /tip >}}
-11. And we're done with the circuit board portion of the project! You should now have something that looks like this: 
+{{< tip >}}
+Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
+{{< /tip >}}
 
-    ![]()
+
+
+And we're done with the circuit board portion of the project! You should now have something that looks like this: 
+
+![]()
+
+4.
 
 <!--EndFragment-->
