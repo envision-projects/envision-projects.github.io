@@ -29,7 +29,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -55,7 +57,7 @@ In order to build the synthesizer,
 3. We will source and purchase parts from Digikey.com
 4. We will program the synthesizer using the Teesny Audio System Design Tool, the Teensy Audio Library, and Arduino IDE
 
-**PART 1: PCB/Schematic Creation**
+## **PART 1: PCB/Schematic Creation**
 
 1. Create a new project in Altium and call it SimpleSynth
 2. Add a new schematic document to the project, followed by a new PCB document, both named SimpleSynth
@@ -96,7 +98,7 @@ In order to build the synthesizer,
 
     And Now we're done with the schematic. This is a very simple schematic; we don't need to add a lot of components because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
 
-**PART 2: PCB Creation**
+## **PART 2: PCB Creation**
 
 This is the first part of the project where you get to be creative. I won't go into step-by-step detail describing this part of the project once we get the parts into the PCB, but rather talk about some best practices and general considerations. The rest will be up to the user to decide the aesthetics of their board.
 
@@ -119,5 +121,13 @@ This is the first part of the project where you get to be creative. I won't go i
 9. Next we want to create mounting holes for our board. This isn't absolutely necessary, but it's a good habit to get into (trust me). Create a via that is 4mm with a 3mm hole. Copy and paste this so there's one in each corner. We should now have something like this: 
 
    ![](/images/ss_pcb2.png)
+
+### Next Steps -------
+
+**Adding Controls and Effects**
+
+Now we have a board that connects our 13 keys to the Teensy through a multiplexer. By using a multiplexer, we saved pins on the Teensy because all 13 keys are now routed into one pin. We are using 4 pins on the Teensy to control the multiplexer, for a total of 5 pins (which is less than 13 = more pins available on the Teensy). Why do we want more pins? Because we want to control aspects of the sound with things like potentiometers (pots). We also want to be able to change oscillator waveforms manually, and therefore need a button or two or three. Now is a good time to decide which effects and controls we want, and the types of physical hardware that will control them. 
+
+
 
 <!--EndFragment-->
