@@ -133,4 +133,10 @@ Clicking on the Calculate button will run the simulation (Be sure to change the 
 
 ## Motion Analysis
 
-Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. In this tutorial, we will cover Trace Paths which is an important step in the Walking Robot project.
+Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. In this tutorial, we will cover Trace Paths which is an important step in the Walking Robot project. 
+
+## 4.1 Trace Paths 
+
+The trace paths function allows you to pick any point on your assembly to trace a path during a motion study, This is helpful especially when creating linkages that have complex paths of motion 
+
+![](/images/tracepaths.png)
