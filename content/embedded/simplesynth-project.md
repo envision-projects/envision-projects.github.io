@@ -243,10 +243,15 @@ We want something practical and sturdy for the SimpleSynth's enclosure. We shoul
 10. Make 11 copies of the hole.
 11. Here it's probably a good idea to lay out a grid. Press CTRL+R to bring up Rulers. 
 12. Use the Selection Tool (V) to drag guidelines from the rulers onto the face of your box where you want them. I chose a 1" grid for the controls.
-13. Create another circle that is .5" and maker 12 copies. These will be the keyboard keys.
-14. Lay your holes out in a way that makes sense to you. I grouped mine together according to function.
+13. Create another circle that is .5" and make 12 copies. These will be the keyboard keys.
+14. Lay your holes out in a way that makes sense to you. I grouped mine together according to function as so:
 
     ![](/images/ss_illustr5.png)
 15. Use the Text Tool (T) to create labels for your controls.
+16. If you find it helpful, you can create lines around your controls to delineate their functional groups. 
+17. On one of the other faces ( the short face if you want your plugs on the side, the long face if you want them in back ) paste one of the .5" holes. This is for our audio output.
+18. Next to that hole, create a rounded rectangle that is 5mm x 3mm. This is for our power/USB connector.
+
+Now we're done with the enclosure design, and you should have something in the neighborhood of this:
 
 <!--EndFragment-->
