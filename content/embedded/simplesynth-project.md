@@ -216,11 +216,21 @@ And we're done with the circuit board portion of the project! You should now hav
 We want something practical and sturdy for the SimpleSynth's enclosure. We should consider where things make the most sense in terms of placement, functionality, and form. We're going to start by creating a simple box using [makercase.com](https://www.makercase.com/#/). 
 
 1. Choose "Basic Box" on the MakerCase homepage.
-2. Enter the dimensions for you box. You can choose whatever makes sense to you, but I chose W=10, H=2, D=5.
+2. Enter the dimensions for you box. You can choose whatever makes sense to you, but I chose W=8, H=2, D=5.
 3. Choose your material thickness. I chose 1/4" because I want the case to be sturdy, but yours doesn't need to be that thick.
 4. Choose "Finger" for the edge joints and a finger size that isn't too small or large. I went with .885".
 
    ![](/images/ss_makercase.png)
 5. Click "Download Box Plans". Disable panel labels, and click "Download SVG" and save the file.
+6. Now open that file in Adobe Illustrator.
+7. Change the stroke weight for the lines to 0.5.
+8. We need to make 12 holes for the potentiometers, so create an ellipse while holding down Shift and Alt (this creates and equilateral ellipse \[circle] drawn from the center). Draw it out to approximately .25".
+9. In the Transform section of the Properties window, change the W/H to .25in so they are exact.  
+10. Make 11 copies of the hole.
+11. Here it's probably a good idea to lay out a grid. Press CTRL+R to bring up Rulers. 
+12. Use the Selection Tool (V) to drag guidelines from the rulers onto the face of your box where you want them. I chose a 1" grid for the controls.
+13. Create another circle that is .5" and maker 12 copies. These will be the keyboard keys.
+14. Lay your holes out in a way that makes sense to you. I grouped mine together according to function.
+15. Use the Text Tool (T) to create labels for your controls.
 
 <!--EndFragment-->
