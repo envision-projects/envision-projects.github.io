@@ -31,4 +31,8 @@ You should now see an image of all the holes on your PCB, as so:
 
 ![](/images/gerbers5.png)
 
-All of the files have been exported to your project folder to Project Outputs:
+All of the files have been exported to your project folder to Project Outputs: 
+
+![](/images/gerbers7.png)
+
+Zip that folder. That is what you will upload to JLC PCB.
