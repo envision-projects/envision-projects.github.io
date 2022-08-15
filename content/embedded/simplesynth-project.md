@@ -227,6 +227,8 @@ And we're done with the circuit board portion of the project! You should now hav
 
 ![](/images/ss_pcb3.png)
 
+You can now order your boards. For instructions on how to do so, follow these instructions:
+
 ## Part 3: Designing the Enclosure
 
 We want something practical and sturdy for the SimpleSynth's enclosure. We should consider where things make the most sense in terms of placement, functionality, and form. We're going to start by creating a simple box using [makercase.com](https://www.makercase.com/#/). 
@@ -263,5 +265,7 @@ We want something practical and sturdy for the SimpleSynth's enclosure. We shoul
 Now we're done with the enclosure design, and you should have something in the neighborhood of this:
 
 ![](/images/ss_illustr6.png)
+
+\    You can now cut the enclosure out using the laser cutter. Follow the tutorial [here](https://sites.google.com/ucsd.edu/envisionhub/tutorials/laser-cutter?authuser=0) for instructions on how to do so.
 
 <!--EndFragment-->
