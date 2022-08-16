@@ -64,6 +64,6 @@ The short orange link connects the top of the blue leg shaft to the chassis. The
 
 ## Create a Motion Study in SolidWorks
 
-Head to: Tutorials -> [Motion Study: SolidWorks](https://envision-projects.github.io/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
+Head to: Tutorials -> [Motion Study: SolidWorks](/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
 
 For the purposes of this project, you should complete the Animation and Motion Analysis sections of the tutorial. The exported animation file and trace path data will be turned in alongside your project.

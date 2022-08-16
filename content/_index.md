@@ -10,22 +10,22 @@ description: HOPFAM Description
 
 {{< block "grid-4" "mt-4" "mb-4">}}
 
-{{< column  "mt-4">}}
+{{< column >}}
 **Mechanical**
 {{< figure src="images/gears.svg" link="mechanical/" width="60%" >}}
 {{< /column >}}
 
-{{< column "mt-4">}}
+{{< column >}}
 **Electrical**
 {{< figure src="images/space-rover-2.svg" link="electrical/" width="60%" >}}
 {{< /column >}}
 
-{{< column "mt-4">}}
+{{< column >}}
 **Embedded**
 {{< figure src="images/desktop.svg" link="embedded/" width="60%" >}}
 {{< /column >}}
 
-{{< column "mt-4">}}
+{{< column >}}
 **Craft** (under construction)
 {{< figure src="images/picture.svg" width="60%" >}}
 {{< /column >}}
