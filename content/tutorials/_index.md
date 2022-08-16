@@ -1,13 +1,33 @@
 ---
-title: "Tutorial Links"
+title: Tutorial Links
 weight: 1
+date: 2022-08-16T21:24:31.928Z
+description: Tutorials for Envision Projects
 ---
 Here you can find helpful references for the various projects and skills that you might be learning. 
 For more in depth or specific tutorials, look on the left sidebar
 
-{{< tip "warning" >}}
-***For Admin:*** When linking to tutorials, please link to the tutorial section, such as `"/tutorials/#solidworks`
-{{< /tip >}}
+<!-- \\\*\\\*\\\*For Admin:\\\*\\\*\\\* When linking to tutorials, please link to the tutorial section, such as \\\`"/tutorials/#solidworks\\\` -->
+
+# General
+
+### Vector Design with Inkscape
+
+📚 : *Inkscape introduction with Examples* [An Introduction to Inkscape](https://wiki.inkscape.org/wiki/images/f/f2/Introduction_to_Inkscape_by_Gavin_Corley.pdf)
+
+📰 : *Instructables Inkscape Intro* [Intro to Inkscape](https://www.instructables.com/Intro-to-Inkscape/)
+
+<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0"> : *Using Inkscape with the Envision Laser Cutter* [Making Laser Cutter Files with Inkscape](https://docs.google.com/presentation/d/1WsqGhXSQNI8gIABASzcQUoLCdPK2LxA8qUmMzdz1ycQ/present#slide=id.p)
+
+### Vector Design with Adobe Illustrator
+
+📚 : Adobe Illustrator User Manual [Illustrator User Guide](https://helpx.adobe.com/illustrator/user-guide.html)
+
+📰 + 📼 : Illustrator Basics and Fundamentals [Get to know Illustrator](https://helpx.adobe.com/illustrator/how-to/ai-basics-fundamentals.html)
+
+📰 : Guide for Vectorizing images in Adobe Illustrator *(ignore final step)* [Laser Cutting Images - on Adobe Illustrator](https://www.instructables.com/Laser-Cutting-Images-on-Adobe-Illustrator/)
+
+- - -
 
 # Mechanical
 
@@ -19,7 +39,8 @@ For more in depth or specific tutorials, look on the left sidebar
 
 📚 : *Solidworks Manual* [Fundementals of 3D Design and Simulation](https://www.solidworks.com/sites/default/files/2020-05/Fundamentals3DDesign-SIM-ENG-SV.pdf)
 
----
+- - -
+
 # Electrical and Embedded
 
 ### Soldering
@@ -34,9 +55,6 @@ For more in depth or specific tutorials, look on the left sidebar
 
 📼 : *KiCAD Quickstart Video* [Creating Circuit Boards with KiCad 6](https://www.youtube.com/watch?v=5Be7XOMmPQE)
 
-
-
 ### Altium Designer
 
 📚 : *Altium Designer 22 User Manual* [Tutorial - A Complete Design Walkthrough with Altium Designer](https://www.altium.com/documentation/altium-designer/tutorial-complete-design-walkthrough)
-
