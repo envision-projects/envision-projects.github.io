@@ -64,7 +64,11 @@ The easiest way to make camera keyframes is by click-holding onto the first keyf
 To create the Bounce animation, move the grey bar on top of the middle keyframe. Next, move the assembly to a second position that is different from the first. Finally right click on the middle keyframe and select “Replace Key”. 
 
 {{< tip >}}
+
+
 This process can be done with any keyframe you create on the camera timeline.
+
+
 {{< /tip >}}
 
 ![](https://lh5.googleusercontent.com/9mrCOsgBhyfWRPeRcI32qqH3JvAADfcT_rdEH5i8BwBTojKODQkbD-ehojAAD2yIXg77bHU4hNB-43Hh6xxf8YCnYgzcrasktyWcOpzJoToauqFnrPMXqI8CfIKu-rBHWUSW496CGfK3EKV1JhlODRg)
@@ -131,12 +135,74 @@ Clicking on the Calculate button will run the simulation (Be sure to change the 
 
  ![](https://lh6.googleusercontent.com/7HiCSY3uWGRrwj23idoeLB1fx4rxZeatXSREa1DFyUDz0bALSgFIQBvBVxqrKZamYtrOkU6iw7YpeNNRarMkNOo1LszMCNy-a5aL2RPapJjXlsfEGLW6ib5oUhWWJxUE77mxOLUONqofr35LmnppleY)
 
-## Motion Analysis
+# Motion Analysis
 
-Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. In this tutorial, we will cover Trace Paths which is an important step in the Walking Robot project. 
+Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. Just like Basic Motion, Motion Analysis uses the mates and rigid bodies defined in your assembly to calculate motion. However, motion analysis offers you more tools for analyzing the data that results from this motion so that the engineer can better understand the dynamic system. In this tutorial, we will cover Trace Paths and Result Plots which are important steps in the Walking Robot project.  
 
-## 4.1 Trace Paths 
+{{< tip "warning" >}}
 
-The trace paths function allows you to pick any point on your assembly to trace a path during a motion study, This is helpful especially when creating linkages that have complex paths of motion 
+To do an accurate Motion Analysis your assembly mates have to be accurate! 
+
+{{< /tip >}}
+
+{{< tip >}}
+
+This means that your assembly should move in a way that matches how it moves in real life. 
+
+{{< /tip >}}
+
+## 4.1 Trace Paths
+
+The Trace Paths function allows you to pick any point on your assembly to trace a path during a motion study. This is helpful especially when creating linkages that have complex paths of motion that you want to analyze. 
 
 ![](/images/tracepaths.png)
+
+To start, create a new motion study by right-clicking the current motion study tab at the bottom of the window and selecting "create new motion study".
+
+![](/images/newmotionstudy.png)
+
+In the new motion study ensure you select "Motion Analysis" in the top left corner of the manager tab. 
+
+![](/images/motionanalysis.png)
+
+Create a new rotary motor by following the same steps as the Animation  study so you have a result that looks like this:
+
+![](/images/ezgif.com-gif-maker-3-.gif)
+
+ For the purposes of this tutorial, we will only be analyzing one side of the robot since it is symmetrical. Now we will create a new trace path by using the Results and Plots tool in the motion manager. 
+
+![](/images/resultsandplots.png)
+
+In the Result section select Displacement/Velocity/Acceleration and then Trace Path.
+
+![](/images/results.png)
+
+Next, select a point on your moving assembly where you want to trace a path. If you select an edge this will not work since a path cannot be traced for an infinite amount of specified points, however, if you select a curved edge SolidWorks will automatically attach the tracepoint to the radial center of the curve.
+
+![](/images/firstpath.png)
+
+
+
+Repeat this step for the other leg:
+
+![](/images/tracepaths.gif)
+
+
+
+Use these trace paths to analyze the motion of the legs and optimize the link lengths. 
+
+
+
+## 4.2 Motor Torque Analysis
+
+In a moving assembly such as this one, one may find it useful to analyze the load being applied by the motor to ensure the amount of torque is realistic. 
+
+Once again click on the "Results and Plots" button. This time in the Results section select "Forces" then select "Motor Torque" and lastly select "Magnitude". This analysis will be applied to the Rotary Motor just created so be sure to select it from the left side of the motion manager bar. 
+
+![](/images/motortorque.png)
+
+This will generate a detailed plot of the motor torque. The reason for this analysis is to determine whether or not the magnitude of the motor torque required for the assembly is greater than what the actual motor can supply. In this case, the motor torque is just fine as the maximum magnitude the assembly ever reaches is just 0.31 newton-mm (1 newton-mm = 0.001 newton-m) and the motor being used in the actual robot is rated for 10 kg-cm (9.8 newton-m). 
+
+{{< tip >}}
+Obviously this analysis is of a theoretically perfect model and its real-world counterpart may require slightly more or less torque. This analysis is just a great way to get a ballpark answer to and ensure that the robot you created works as intended. 
+{{< /tip >}}
