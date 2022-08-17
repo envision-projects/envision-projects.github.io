@@ -197,4 +197,12 @@ Use these trace paths to analyze the motion of the legs and optimize the link le
 
 In a moving assembly such as this one, one may find it useful to analyze the load being applied by the motor to ensure the amount of torque is realistic. 
 
-Once again click on the "Results and Plots" button. This time in the Results section select "Forces" and then select "Motor Torque".
+Once again click on the "Results and Plots" button. This time in the Results section select "Forces" then select "Motor Torque" and lastly select "Magnitude". This analysis will be applied to the Rotary Motor just created so be sure to select it from the left side of the motion manager bar. 
+
+![](/images/motortorque.png)
+
+This will generate a detailed plot of the motor torque. The reason for this analysis is to determine whether or not the magnitude of the motor torque required for the assembly is greater than what the actual motor can supply. In this case, the motor torque is just fine as the maximum magnitude the assembly ever reaches is just 0.31 newton-mm (1 newton-mm = 0.001 newton-m) and the motor being used in the actual robot is rated for 9.8 newton-m. 
+
+{{< tip >}}
+Obviously this analysis is of a theoretically perfect model and its real-world counterpart may require slightly more or less torque. This analysis is just a great way to get a ballpark answer to and ensure that the robot you created works as intended. 
+{{< /tip >}}
