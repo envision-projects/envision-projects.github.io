@@ -159,6 +159,20 @@ In the new motion study ensure you select "Motion Analysis" in the top left corn
 
 ![](/images/motionanalysis.png)
 
-Create a new motor by following the same steps as the Basic Motion study so you have a result that looks like this:
+Create a new rotary motor by following the same steps as the Basic Motion study so you have a result that looks like this:
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
+
+ For the purposes of this tutorial, we will only be analyzing one side of the robot since it is symmetrical. Now we will create a new trace path by using the Results and Plots tool in the motion manager. 
+
+![](/images/resultsandplots.png)
+
+In the Result section select Displacement/Velocity/Acceleration and then Trace Path.
+
+![](/images/results.png)
+
+Next, select a point on your moving assembly where you want to trace a path. If you select an edge this will not work since a path cannot be traced for an infinite amount of specified points, however, if you select a curved edge SolidWorks will automatically attach the tracepoint to the radial center of the curve.
+
+
+
+![](/images/firstpath.png)
