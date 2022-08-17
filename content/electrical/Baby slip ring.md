@@ -317,7 +317,7 @@ The video demonstrates the technique that we'll be using for the side of the PCB
 
 
 ## Final assembly 
-Use the [CAD Model](https://cad.onshape.com/documents/7e4d5f0707a25351e8d13112/w/9d0378d822ee5adaee731d07/e/08f298a3772dbd6067a75a64?renderMode=0&uiState=62f2f84e395ff224f64a4894) to see where fasteners and such need to go.
+You can now refer to the [CAD Model](https://cad.onshape.com/documents/7e4d5f0707a25351e8d13112/w/9d0378d822ee5adaee731d07/e/08f298a3772dbd6067a75a64?renderMode=0&uiState=62f2f84e395ff224f64a4894) to complete the final assembly with all the fasteners and 3D printed parts.
 
 1) Attach each ring to its respective 3D printed mount with M3 bolts 
 2) Insert 1/4" flanged bearings into the top and bottom hole of the spring contact side 
@@ -328,4 +328,6 @@ Use the [CAD Model](https://cad.onshape.com/documents/7e4d5f0707a25351e8d13112/w
 7) Adjust amount of contact to be just the right amount of rub without too much noise
 8) Tighten the grub screw, locking the shaft when satisifed
 9) Insert 5mm LEDs, making sure to get the polarity correct
+10) Plug it in and watch it spin!
 
+![](/images/babyslipring/cadslipring.gif)
