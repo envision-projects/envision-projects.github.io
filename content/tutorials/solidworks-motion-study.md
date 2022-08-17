@@ -65,7 +65,9 @@ To create the Bounce animation, move the grey bar on top of the middle keyframe.
 
 {{< tip >}}
 
+
 This process can be done with any keyframe you create on the camera timeline.
+
 
 {{< /tip >}}
 
@@ -138,11 +140,15 @@ Clicking on the Calculate button will run the simulation (Be sure to change the 
 Motion analysis is a more intensive version of basic motion as it allows you to more closely analyze the effects of motion in an assembly. Just like Basic Motion, Motion Analysis uses the mates and rigid bodies defined in your assembly to calculate motion. However, motion analysis offers you more tools for analyzing the data that results from this motion so that the engineer can better understand the dynamic system. In this tutorial, we will cover Trace Paths and Result Plots which are important steps in the Walking Robot project.  
 
 {{< tip "warning" >}}
+
 To do an accurate Motion Analysis your assembly mates have to be accurate! 
+
 {{< /tip >}}
 
 {{< tip >}}
+
 This means that your assembly should move in a way that matches how it moves in real life. 
+
 {{< /tip >}}
 
 ## 4.1 Trace Paths
@@ -159,7 +165,7 @@ In the new motion study ensure you select "Motion Analysis" in the top left corn
 
 ![](/images/motionanalysis.png)
 
-Create a new rotary motor by following the same steps as the Basic Motion study so you have a result that looks like this:
+Create a new rotary motor by following the same steps as the Animation  study so you have a result that looks like this:
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
 
@@ -173,6 +179,22 @@ In the Result section select Displacement/Velocity/Acceleration and then Trace P
 
 Next, select a point on your moving assembly where you want to trace a path. If you select an edge this will not work since a path cannot be traced for an infinite amount of specified points, however, if you select a curved edge SolidWorks will automatically attach the tracepoint to the radial center of the curve.
 
-
-
 ![](/images/firstpath.png)
+
+
+
+Repeat this step for the other leg:
+
+![](/images/tracepaths.gif)
+
+
+
+Use these trace paths to analyze the motion of the legs and optimize the link lengths. 
+
+
+
+## 4.2 Motor Torque Analysis
+
+In a moving assembly such as this one, one may find it useful to analyze the load being applied by the motor to ensure the amount of torque is realistic. 
+
+Once again click on the "Results and Plots" button. This time in the Results section select "Forces" and then select "Motor Torque".
