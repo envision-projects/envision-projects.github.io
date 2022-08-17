@@ -1,17 +1,24 @@
 ---
-title: "Mechanical Design and Prototyping Certification"
+title: Mechanical Design and Prototyping Certification
 weight: 1
+date: 2022-08-17T22:00:05.178Z
+description: Mechanical Design
 ---
-
-SolidWorks Software, 3D Printing, Post Processing, Laser Cutting, Enclosures and Assemblies, CNC Machine, Solid CAM, Motor/Servo Control, Finite Element Analysis, woodworking
-
 Mechanical Design and Prototyping will focus on the process through which moving machines are created and built. Beginning with ideation in CAD software, this certification will cover all parts of the process, from idea to product. Much of the material will concentrate on modern fabrication tools.
 
-Each certified student will be proficient in:
-* CAD Software - a working knowledge of 2D and 3D design software including Adobe Illustrator and Solidworks
-* 3D Printing - an understanding of different 3D printing techniques, slicing software, and the functionality of 3D printers in general
-* Laser Cutting - something about laser cutting, probably.
 
+
+1ST TIER PROFICIENCIES:
+
+* 2D and 3D Design Using CAD Software
+* Creating parts by 3D printing, Laser Cutting, and Machining
+* Assembling Complex Mechanisms 
+* Motor and Servo Control
+
+2ND TIER PROFICIENCIES:
+
+* Feedback Control Systems
+* Remote Control
+* Sensors and I/O
 
 {{< button "./3d-printing/" "Get Started!" "mt-1" >}}
-
