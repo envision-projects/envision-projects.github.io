@@ -201,7 +201,7 @@ Once again click on the "Results and Plots" button. This time in the Results sec
 
 ![](/images/motortorque.png)
 
-This will generate a detailed plot of the motor torque. The reason for this analysis is to determine whether or not the magnitude of the motor torque required for the assembly is greater than what the actual motor can supply. In this case, the motor torque is just fine as the maximum magnitude the assembly ever reaches is just 0.31 newton-mm (1 newton-mm = 0.001 newton-m) and the motor being used in the actual robot is rated for 9.8 newton-m. 
+This will generate a detailed plot of the motor torque. The reason for this analysis is to determine whether or not the magnitude of the motor torque required for the assembly is greater than what the actual motor can supply. In this case, the motor torque is just fine as the maximum magnitude the assembly ever reaches is just 0.31 newton-mm (1 newton-mm = 0.001 newton-m) and the motor being used in the actual robot is rated for 10 kg-cm (9.8 newton-m). 
 
 {{< tip >}}
 Obviously this analysis is of a theoretically perfect model and its real-world counterpart may require slightly more or less torque. This analysis is just a great way to get a ballpark answer to and ensure that the robot you created works as intended. 
