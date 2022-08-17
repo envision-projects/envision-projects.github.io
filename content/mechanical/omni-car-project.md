@@ -292,7 +292,7 @@ For this project we will be using a certain protocol called I-Bus in order to re
 The I Bus pin on the receiver is circled below. (It took me some time to figure out the right one the first time I was doing this lol)
 
 
-![image](/images/Pasted%20image%2020220730112302.png)
+![image](/images/Pasted%20image%20220730112302.png)
 
 
 ## Wiring 
