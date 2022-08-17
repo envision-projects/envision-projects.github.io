@@ -20,5 +20,6 @@ Mechanical Design and Prototyping will focus on the process through which moving
 * Feedback Control Systems
 * Remote Control
 * Sensors and I/O
+* Motor Driver ICs
 
 {{< button "./3d-printing/" "Get Started!" "mt-1" >}}
