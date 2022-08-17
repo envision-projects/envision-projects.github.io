@@ -4,4 +4,7 @@ Physical circuits on a board are first built on paper in the form of a schematic
 1.1 Introduction:
 PCB layout is a necessary part of electronics development. While breadboards and perfboards are fine for prototyping, fabrication and manufacturing for a production run require a fully functional and professional circuit board. There are several options regarding circuit design tools, but we will focus on three common ones: Eagle, KiCAD and Altium. While there are substantial differences between these programs, there are also many topics and practices that are ubiquitous across platforms.</description></item><item><title>wipers</title><link>/electrical/wipers/</link><pubDate>Tue, 26 Jul 2022 18:30:35 +0000</pubDate><guid>/electrical/wipers/</guid><description>test CMS</description></item><item><title>Pcb Design with KiCAD</title><link>/electrical/pcb-design-with-kicad/</link><pubDate>Tue, 26 Jul 2022 18:15:02 +0000</pubDate><guid>/electrical/pcb-design-with-kicad/</guid><description>Test netlifyCMS
 In richtext, BOLD
-plain</description></item></channel></rss>
+plain</description></item><item><title>Slip Ring Project</title><link>/electrical/baby-slip-ring/</link><pubDate>Wed, 20 Jul 2022 00:15:38 +0000</pubDate><guid>/electrical/baby-slip-ring/</guid><description>About the Project We will be creating a pcb slip ring that lights up 2 LED lights with a USB C Connector!
+Slip rings are devices that allow electrical contacts through rotating bodies.
+Usually you would simply buy a slip ring, so the question remains, why reinvent the slip ring if it already exists?
+My excuse was that they're expensive. Most especially ones with a through hole in the center :( Slip rings are a good way to practice PCB and CAD design.</description></item></channel></rss>
