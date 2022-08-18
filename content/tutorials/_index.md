@@ -9,6 +9,14 @@ For more in depth or specific tutorials, look on the left sidebar
 
 <!-- \\\*\\\*\\\*For Admin:\\\*\\\*\\\* When linking to tutorials, please link to the tutorial section, such as \\\`"/tutorials/#solidworks\\\` -->
 
+- - -
+{{< block "grid-2" >}}
+
+{{< column >}}
+<!--COLUMN #1-->
+
+<!--Try to keep these two columns generally balanced-->
+
 # General
 
 ### Vector Design with Inkscape
@@ -41,6 +49,23 @@ For more in depth or specific tutorials, look on the left sidebar
 
 - - -
 
+
+
+
+
+
+<!--COLUMN BREAK-->
+{{< /column >}}
+{{< column >}}
+
+
+
+
+
+
+<!--COLUMN #2-->
+
+
 # Electrical and Embedded
 
 ### Soldering
@@ -58,3 +83,16 @@ For more in depth or specific tutorials, look on the left sidebar
 ### Altium Designer
 
 📚 : *Altium Designer 22 User Manual* [Tutorial - A Complete Design Walkthrough with Altium Designer](https://www.altium.com/documentation/altium-designer/tutorial-complete-design-walkthrough)
+
+- - -
+
+
+
+
+
+
+
+
+{{< /column >}}
+
+{{< /block >}}
