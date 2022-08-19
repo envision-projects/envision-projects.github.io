@@ -46,7 +46,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -181,7 +183,9 @@ We're going to have 3 oscillators to generate our waveforms, and we want to cycl
 
 
 
+
 1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+
 
 
 
@@ -231,7 +235,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
    As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+
 
 
 
@@ -272,7 +278,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
 Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
+
 
 
 
@@ -340,7 +348,9 @@ You can now cut the enclosure out using the laser cutter. Follow the tutorial [h
 
 
 
+
 If you leave the adhesive on the acrylic when you engrave it, you can easily add paint to fill in the engraved parts. Then peel the paper off when the paint dries.
+
 
 
 
@@ -359,7 +369,9 @@ The next part of this project will involve coding the functions of our synth. Fo
 
 
 
+
 Graphical Programming Interfaces - GPIs are collections of code that are represented graphically, typically by rectangles, or "blocks" that the user connects in order to route functions and signals. Examples are Touch Designer, Max/MSP, and Pure Data.
+
 
 
 
@@ -377,7 +389,9 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
 
 
+
    Mono- Vs. Poly-Synths - Synthesizers use oscillators to generate waveforms. An oscillator is only capable of generating one waveform, at one frequency, at a time. Therefore, if we want our synth to be able to play chords, or more than one note at a time, we need multiple oscillators. Since we have a total of 13 notes that can be played, we need 13 oscillators!
+
 
 
 
@@ -411,6 +425,9 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
     You have now created what is essentially synthesizer's functional diagram and signal flow chart.  
 15. Click the red Export button at the top of the page and copy the code that pops up.
-16. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. 
+16. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. We also need to include the header Bounce.h
+
+    ![](/images/ss_arduino1.png)
+17. Now we add the necessary functions to our setup(). Most of the objects we used in the ASDT require some sort of initialization. We'll need to check each object's functions to see how it is initialized and how to call its functions, as we saw with the envelope object above.
 
 <!--EndFragment-->
