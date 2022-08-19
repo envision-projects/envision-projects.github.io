@@ -389,7 +389,8 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 11. Connect mixer5 to the input of envelope1.
 
     ![](/images/ss_asd4.png)
-
-
+12. Put another mixer between filter1 and delay1.
+13. Connect the rest of your signals.
+14. Lastly, from teh control section of the menu, add the sgtl5000 object. This establishes the connection between the Teensy and the audio codec via I2S. Now we should have this:
 
 <!--EndFragment-->
