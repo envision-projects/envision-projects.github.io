@@ -40,7 +40,11 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
+
 
 
 
@@ -163,7 +167,11 @@ We're going to have 3 oscillators to generate our waveforms, and we want to cycl
 
 
 
+
+
 1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+
+
 
 
 
@@ -201,7 +209,11 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
+
    As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+
+
 
 
 
@@ -230,7 +242,11 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
+
 Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
+
+
 
 
 
@@ -286,12 +302,24 @@ You can now cut the enclosure out using the laser cutter. Follow the tutorial [h
 
 {{< tip >}}
 
+
+
 If you leave the adhesive on the acrylic when you engrave it, you can easily add paint to fill in the engraved parts. Then peel the paper off when the paint dries.
+
+
 
 {{< /tip >}}
 
-![](/images/ss_enclosure_front.jpg)
+## Part 4: Programming the Synthesizer
 
+The next part of this project will involve coding the functions of our synth. For this we will use the Teensy [Audio System Design Tool](https://www.pjrc.com/teensy/gui/index.html)
 
+{{< tip >}}
+Graphical Programming Interfaces - GPIs are collections of code that are represented graphically, typically by rectangles, or "blocks" that the user connects in order to route functions and signals. Examples are Touch Designer, Max/MSP, and Pure Data.
+{{< /tip >}}
+
+We are going to build our synthesizer here, including the oscillators, mixers, delay and filter functions, and audio routing. We will do this by selecting code blocks from the left side of the page and adding them to our design. 
+
+1. From the output section of the objects menu, select i2s. We need this object in order to establish audio connection between the Teensy and the Audio Board.
 
 <!--EndFragment-->
