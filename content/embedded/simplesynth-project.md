@@ -280,4 +280,6 @@ You can now cut the enclosure out using the laser cutter. Follow the tutorial [h
 If you leave the adhesive on the acrylic when you engrave it, you can easily add paint to fill in the engraved parts. Then peel the paper off when the paint dries.
 {{< /tip >}}
 
+![]()
+
 <!--EndFragment-->
