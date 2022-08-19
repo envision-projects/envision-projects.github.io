@@ -409,6 +409,8 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
     ![](/images/ss_ads5.png)
 
-
+    You have now created what is essentially synthesizer's functional diagram and signal flow chart.  
+15. Click the red Export button at the top of the page and copy the code that pops up.
+16. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. 
 
 <!--EndFragment-->
