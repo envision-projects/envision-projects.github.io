@@ -292,4 +292,6 @@ If you leave the adhesive on the acrylic when you engrave it, you can easily add
 
 ![](/images/ss_enclosure_front.jpg)
 
+
+
 <!--EndFragment-->
