@@ -485,4 +485,6 @@ You have now created what is essentially synthesizer's functional diagram and si
    ![](/images/ss_arduino2.png)
 7. Now we have to initialize all of our waveform objects. To do so, we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape.
 
+   ![]()
+
 <!--EndFragment-->
