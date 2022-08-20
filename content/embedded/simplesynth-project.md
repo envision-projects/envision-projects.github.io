@@ -51,7 +51,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -198,7 +200,9 @@ We're going to have 3 oscillators to generate our waveforms, and we want to cycl
 
 
 
+
 1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+
 
 
 
@@ -258,7 +262,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
    As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+
 
 
 
@@ -309,7 +315,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
 Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
+
 
 
 
@@ -387,7 +395,9 @@ You can now cut the enclosure out using the laser cutter. Follow the tutorial [h
 
 
 
+
 If you leave the adhesive on the acrylic when you engrave it, you can easily add paint to fill in the engraved parts. Then peel the paper off when the paint dries.
+
 
 
 
@@ -416,7 +426,9 @@ The next part of this project will involve coding the functions of our synth. Fo
 
 
 
+
 Graphical Programming Interfaces - GPIs are collections of code that are represented graphically, typically by rectangles, or "blocks" that the user connects in order to route functions and signals. Examples are Touch Designer, Max/MSP, and Pure Data.
+
 
 
 
@@ -439,7 +451,9 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
 
 
+
    Mono- Vs. Poly-Synths - Synthesizers use oscillators to generate waveforms. An oscillator is only capable of generating one waveform, at one frequency, at a time. Therefore, if we want our synth to be able to play chords, or more than one note at a time, we need multiple oscillators. Since we have a total of 13 notes that can be played, and we want 3 oscillators playing at all times, we need 39 oscillators.
+
 
 
 
@@ -473,7 +487,9 @@ You have now created what is essentially synthesizer's functional diagram and si
 
    {{< tip >}}
 
+
    One of the really cool and useful things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
+
 
    {{< /tip >}}
 
@@ -483,8 +499,11 @@ You have now created what is essentially synthesizer's functional diagram and si
 6. Then we'll enable and initiate our audio codec: sgtl5000_1.enable();   sgtl5000.volume(0.5);
 
    ![](/images/ss_arduino2.png)
-7. Now we have to initialize all of our waveform objects. To do so, we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape.
+7. Now we have to initialize all of our waveform objects. To do so, we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape. We need to initialize all three waveforms for all 13 notes.
 
-   ![]()
+   ![](/images/ss_arduino3.png)
+8. Next we'll initialize our control buttons with the Teensy's built-in Button library.
+
+   ![](/images/ss_arduino4.png)
 
 <!--EndFragment-->
