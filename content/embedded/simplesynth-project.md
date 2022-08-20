@@ -425,27 +425,35 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
 
 7. Next we'll need an envelope to generate our note shapes.
-8. Add a filter object
-9. Now add a delay. You should have something like this:
-
-   ![]()
-
-   Establishing Connections - one of the really cool things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
-
-   ![](/images/ss_fucntions.png)
-
-
-10. Put another mixer between filter1 and delay1.
-11. Connect the rest of your signals.
-12. Lastly, from the control section of the menu, add the sgtl5000 object. This establishes the connection between the Teensy and the audio codec via I2S. Now we should have this:
+8. Add a filter object.
+9. Add a mixer object, name it mixerFilter1, and connect the filter outputs to its inputs.
+10. Now add a delay. 
+11. Add two mixers, name them mixerDelay1/2, and connect the delay outputs to their inputs.
+12. Add a final mixer, name it mixerOut. Connect the delayMixer outputs to the mixerOut inputs, then connect the mixerOut outputs to the i2s inputs. You should have something like this:
 
     ![]()
 
-    You have now created what is essentially synthesizer's functional diagram and signal flow chart.  
-13. Click the red Export button at the top of the page and copy the code that pops up.
-14. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. We also need to include the header Bounce.h
+Establishing Connections - one of the really cool things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
 
-    ![](/images/ss_arduino1.png)
-15. Now we add the necessary functions to our setup(). Most of the objects we used in the ASDT require some sort of initialization. We'll need to check each object's functions to see how it is initialized and how to call its functions, as we saw with the envelope object above.
+![](/images/ss_fucntions.png)
+
+
+
+1.
+2.
+3.
+4.
+5. Put another mixer between filter1 and delay1.
+6. Connect the rest of your signals.
+7. Lastly, from the control section of the menu, add the sgtl5000 object. This establishes the connection between the Teensy and the audio codec via I2S. Now we should have this:
+
+   ![]()
+
+   You have now created what is essentially synthesizer's functional diagram and signal flow chart.  
+8. Click the red Export button at the top of the page and copy the code that pops up.
+9. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. We also need to include the header Bounce.h
+
+   ![](/images/ss_arduino1.png)
+10. Now we add the necessary functions to our setup(). Most of the objects we used in the ASDT require some sort of initialization. We'll need to check each object's functions to see how it is initialized and how to call its functions, as we saw with the envelope object above.
 
 <!--EndFragment-->
