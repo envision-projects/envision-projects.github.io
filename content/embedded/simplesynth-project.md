@@ -502,8 +502,9 @@ You have now created what is essentially synthesizer's functional diagram and si
 7. Now we have to initialize all of our waveform objects. To do so, we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape. We need to initialize all three waveforms for all 13 notes.
 
    ![](/images/ss_arduino3.png)
-8. Next we'll initialize our control buttons with the Teensy's built-in Button library.
+8. Next, above the setup() function, we'll initialize our control buttons with the Teensy's built-in Button library.
 
    ![](/images/ss_arduino4.png)
+9. ...and initialize our waveform variables:
 
 <!--EndFragment-->
