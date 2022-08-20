@@ -462,5 +462,8 @@ You have now created what is essentially synthesizer's functional diagram and si
 
 
    ![](/images/ss_fucntions.png)
+4. By checking each object's functions in the ASDT, we can find out how to initialize them. Another helpful practice is to check out the example files listed for each object. For the purposes of this project description, I won't delve too far into what every library does, but provide minimal descriptions of why we need it. We'll start by adding and initializing serial communication: Serial.begin(115200);
+5. We also need to allocate sufficient memory to audio processing: AudioMemory(256);
+6. Then we'll enable and initiate our audio codec: sgtl5000_1.enable();   sgtl5000.volume(0.5);
 
 <!--EndFragment-->
