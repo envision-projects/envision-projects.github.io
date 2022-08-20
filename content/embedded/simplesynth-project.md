@@ -483,6 +483,6 @@ You have now created what is essentially synthesizer's functional diagram and si
 6. Then we'll enable and initiate our audio codec: sgtl5000_1.enable();   sgtl5000.volume(0.5);
 
    ![](/images/ss_arduino2.png)
-7. Now we have to initialize all of our waveform objects.
+7. Now we have to initialize all of our waveform objects. To do so, we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape.
 
 <!--EndFragment-->
