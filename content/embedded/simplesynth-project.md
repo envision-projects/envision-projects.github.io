@@ -445,12 +445,6 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
     ![](/images/ss_asd7.png)
 
-Establishing Connections - one of the really cool things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
-
-![](/images/ss_fucntions.png)
-
-
-
 Lastly, from the control section of the menu, add the sgtl5000 object. This establishes the connection between the Teensy and the audio codec via I2S. 
 
 You have now created what is essentially synthesizer's functional diagram and signal flow chart.  Now we move over to Arduino
@@ -459,6 +453,14 @@ You have now created what is essentially synthesizer's functional diagram and si
 2. Open Arduino and paste the code above the setup() function in a new window. The Audio System Design Tool has provided us with the necessary headers, classes, and functions for our synth. We also need to include the header Bounce.h
 
    ![](/images/ss_arduino1.png)
-3. Now we add the necessary functions to our setup(). Most of the objects we used in the ASDT require some sort of initialization. We'll need to check each object's functions to see how it is initialized and how to call its functions, as we saw with the envelope object above.
+3. Now we add the necessary functions to our setup(). Most of the objects we used in the ASDT require some sort of initialization. We'll need to check each object's functions to see how it is initialized and how to call its functions.
+
+   {{< tip >}}
+   One of the really cool and useful things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
+   {{< /tip >}}
+
+
+
+   ![](/images/ss_fucntions.png)
 
 <!--EndFragment-->
