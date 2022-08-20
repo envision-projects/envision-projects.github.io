@@ -403,6 +403,8 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 3. Grab 38 more waveform objects and place them in descending order, one below the previous.
 4. Arrange your waveform objects in groups of three and connect each set of three to a mixer.
 5. Name your waveform and mixer objects like so:
+
+   ![]()
 6. Next we'll need an envelope to generate our note shapes.
 7. Add a filter object
 8. Now add a delay. You should have something like this:
