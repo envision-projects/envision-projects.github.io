@@ -540,5 +540,8 @@ You have now created what is essentially synthesizer's functional diagram and si
 9. Now we'll assign waveforms to our current_waveform variables. Then we'll call the waveform.begin() function, which initializes the waveform amplitude, frequency, and shape. We need to initialize all three waveforms for all 13 notes.
 
    ![](/images/ss_arduino3.png)
+10. Then set the pinMode for each of our control buttons:
+
+    ![]()
 
 <!--EndFragment-->
