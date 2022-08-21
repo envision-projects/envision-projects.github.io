@@ -559,5 +559,6 @@ You have now created what is essentially synthesizer's functional diagram and si
 10. Then set the pinMode for each of our control buttons:
 
     ![](/images/ss_arduino6.png)
+11. Now to set up the multiplexer. For this we'll need a few things. First, initialize the pin variables: 
 
 <!--EndFragment-->
