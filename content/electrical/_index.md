@@ -12,7 +12,7 @@ Electrical - Soldering, PCB Design, Schematic Understanding, Eagle and Altium De
 
 Electrical Design will focus on creating functional circuits and PCBs. Students will gain proficiency in schematic reading and design, PCB layout, soldering, SMD soldering, parts sourcing, and PCB diagnostics. 
 
-1ST TIER PROFICIENCIS:
+1ST TIER PROFICIENCIES:
 
 * Through-hole Soldering / SMD Soldering
 * Schematic and PCB Design / Layout
