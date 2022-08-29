@@ -1,13 +1,17 @@
 ---
 title: Obstacle Avoidance Robot
 date: 2022-08-09T20:54:50.949Z
-description: By Blake Iwaisako
+description: Blake Iwaisako
 ---
 {{< gist undefined undefined >}}
 
 <!--StartFragment-->
 
-EnVision Maker Studio
+By Blake Iwaisako
+
+
+
+
 
 ## Description:
 
@@ -79,7 +83,9 @@ The direction of the motors will depend on the orientation of the wires connecte
 {{< tip "warning" >}}
 
 
+
 If you are using continuous rotation servo motors for this project be aware that the motor shield only has slots for two servos in the top left.
+
 
 
 {{< /tip >}}
