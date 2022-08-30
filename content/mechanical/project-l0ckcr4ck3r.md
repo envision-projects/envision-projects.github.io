@@ -53,7 +53,6 @@ Due to the sheer complexity of the mechanical aspect and that my code is about 8
 * [High torque servos](https://www.amazon.com/Youleke-Torque-Digital-Servo%EF%BC%8CWaterproof-Horn%EF%BC%88270%C2%B0%EF%BC%89/dp/B08739MGPL/ref=sr_1_11?crid=81HZZ5JLGLML&keywords=servo&qid=1661839358&sprefix=servo+%2Caps%2C248&sr=8-11)
 * [Stepper motor](https://www.amazon.com/STEPPERONLINE-Bipolar-Stepper-22-6oz-Extruder/dp/B00PNEQ79Q/ref=sr_1_6?crid=1U1NH4LQTF0ZK&keywords=stepper+motor&qid=1661839383&sprefix=stepper+motor+%2Caps%2C139&sr=8-6)
 * [AS5600 Magnetic Encoder](https://www.amazon.com/Magnetic-Encoder-Induction-Measurement-Precision/dp/B094F8H591/ref=sr_1_4?crid=M8OANSRLFX5C&keywords=as5600+encoder&qid=1661839450&sprefix=as5600+encod%2Caps%2C130&sr=8-4)
-* [Blower Fan](https://www.amazon.com/WINSINN-Bearings-Brushless-Cooling-40mm20mm/dp/B08R9JJZ5Z/ref=sr_1_8?crid=1UCHGY2B410VX&keywords=blower+fan+12v+40mm&qid=1661839541&sprefix=blower+fan+12v+40m%2Caps%2C119&sr=8-8)
 * Assorted M3 Bolts
 
 ## Electrical
@@ -63,6 +62,7 @@ Due to the sheer complexity of the mechanical aspect and that my code is about 8
 * [5V Regulator](https://www.digikey.com/en/products/detail/stmicroelectronics/LD1085V50/669220?s=N4IgTCBcDaIDIBECMAGAHAVgGoZSAugL5A)
 * [OLED Display](https://www.amazon.com/Self-Luminous-Display-Compatible-Arduino-Raspberry/dp/B09JWN8K99/ref=sr_1_2_sspa?crid=DM9HX86FS3Q5&keywords=oled+arduino&qid=1661839948&sprefix=oledarduino%2Caps%2C143&sr=8-2-spons&psc=1)
 * [Rotary Encoder](https://www.amazon.com/Taiss-KY-040-Encoder-15%C3%9716-5-Arduino/dp/B07F26CT6B/ref=sr_1_4?keywords=rotary+encoder&qid=1661839976&sprefix=roataray%2Caps%2C139&sr=8-4)
+* [Blower Fan](https://www.amazon.com/WINSINN-Bearings-Brushless-Cooling-40mm20mm/dp/B08R9JJZ5Z/ref=sr_1_8?crid=1UCHGY2B410VX&keywords=blower+fan+12v+40mm&qid=1661839541&sprefix=blower+fan+12v+40m%2Caps%2C119&sr=8-8)
 
 # Background information
 
