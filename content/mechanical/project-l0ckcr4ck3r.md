@@ -9,7 +9,7 @@ This is **not** for the faint of heart. This thing takes long and its hard to ge
 
 **insert gif of the robot doing thing**
 
-# **About Project**
+# **About the Project**
 
 This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. 
 
@@ -22,6 +22,10 @@ This robot is a true creation of the idea many years ago brought on by Samy Kamk
 ![Master Lock 1500D, Preset Combination Padlock, 1-7/8 in. Wide, Black Dial](https://i5.walmartimages.com/asr/3c5ce2c7-0496-4d75-8dad-ce0944061b1f.0dc4627adae0b1df42f6cac6db78eafa.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF)
 
 <!--EndFragment-->
+
+## Specifications
+
+This robot uses a TMC2208 super silent trinamic stepper driver w/ AS5600 mag encoder on the back to turn the lock dial and "feel" for the lock's geometries. A servo with analog output detects when a successful attempt was made to open the lock. The entire process works on the majority of locks that aren't old and usually ~30 seconds. Also added functionality which includes a GUI which is an oled + rotarary encoder for user input.
 
 
 
