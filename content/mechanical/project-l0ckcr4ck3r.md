@@ -31,6 +31,8 @@ The heart of the robot uses a TMC2208 super silent trinamic stepper driver w/ AS
 
 Due to the sheer complexity of the mechanical aspect, you can just use the PCB files provided.
 
+![](/images/screenshot-2022-08-30-111010.png)
+
 ## CAD
 
 Will be doing the CAD from scratch! 
@@ -42,8 +44,6 @@ Mine ended up looking like this:
 ## Code
 
 Due to the sheer complexity of the mechanical aspect and that my code is about 800 lines long, you can just use the code provided.
-
-
 
 # Materials
 
@@ -67,3 +67,11 @@ Due to the sheer complexity of the mechanical aspect and that my code is about 8
 # Background information
 
 This robot takes advantage of Samy Kamkar's exploit. I reccomend watching this [video](https://www.youtube.com/watch?v=27rE5ZvWLU0&t=647s&ab_channel=HelpfulLockPicker) if you are actually going to build this. You absolutely need to understand what the robot is trying to do under the hood or else there's no way you can debug anything.
+
+# The plan
+
+First we are going to make the housing for the lock, sensor, and actuators. After that works, then we will make an enclosure for the electronics 
+
+# Getting Started
+
+This [document ](https://cad.onshape.com/documents/2de7a66597cc8eb251afdfa3/w/06d4fc68ebc18f9b44e9861d/e/d088818cff71281e0c0d79ce?renderMode=0&uiState=630e4bb71c174454be9985ae)includes all of the standard content needed. You can either work in Onshape (reccomended) or export the content to use in Solidworks
