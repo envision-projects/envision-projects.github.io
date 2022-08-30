@@ -15,8 +15,6 @@ This robot is a true creation of the idea many years ago brought on by Samy Kamk
 
 > I say utilized in quotes because I read through all the documentation that he included with the robot, and not only does he never demonstrate the robot actually "feeling" the lock for it's exploits but the robot's source code appears to be a simply brute forcing algorithm, which would take **FOREVER.**
 
-
-
 <!--StartFragment-->
 
 ![Master Lock 1500D, Preset Combination Padlock, 1-7/8 in. Wide, Black Dial](https://i5.walmartimages.com/asr/3c5ce2c7-0496-4d75-8dad-ce0944061b1f.0dc4627adae0b1df42f6cac6db78eafa.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF)
@@ -27,11 +25,21 @@ This robot is a true creation of the idea many years ago brought on by Samy Kamk
 
 The heart of the robot uses a TMC2208 super silent trinamic stepper driver w/ AS5600 mag encoder on the back to turn the lock dial and "feel" for the lock's geometries. A servo with analog output detects when a successful attempt was made to open the lock. Also added functionality which includes a GUI which is an oled + rotarary encoder for user input. The entire assembly is powered by a 12V USB C charger with a fan to cool down the stepper driver.
 
+# Challenges
 
+## PCB
 
+Due to the sheer complexity of the mechanical aspect, you can just use the PCB files provided.
 
+## CAD
 
+Will be doing the CAD from scratch! 
 
+Mine ended up looking like this:
+
+![](/images/l0ckcr4ck3r.png)
+
+## Code
 
 # Background information
 
