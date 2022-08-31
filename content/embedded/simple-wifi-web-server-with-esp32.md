@@ -3,6 +3,12 @@ title: "IR Beam Breaker with a Simple WiFi Web Server (ESP32) "
 date: 2022-08-29T21:24:15.480Z
 description: By Blake Iwaisako
 ---
+An infrared beam break sensor can be used for many applications such as 
+
+
+
+
+
 For this project, I will be using an ESP32 microcontroller. The ESP32 is an amazing module that comes with integrated WiFi capabilities and can be programmed using the Arduino IDE. 
 
 For this demonstration we will be using the ESP32 Wrover Module shown here:
