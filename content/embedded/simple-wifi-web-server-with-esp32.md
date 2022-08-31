@@ -6,3 +6,5 @@ description: By Blake Iwaisako
 The ESP32 is an amazing module that comes with integrated WiFi capabilities and can be programmed using the Arduino IDE. 
 
 ![](/images/esp32.jpg)
+
+## Installing the ESP32 Library on Arduino IDE
