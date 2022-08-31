@@ -3,7 +3,15 @@ title: "IR Beam Breaker with a Simple WiFi Web Server (ESP32) "
 date: 2022-08-29T21:24:15.480Z
 description: By Blake Iwaisako
 ---
-An infrared beam break sensor can be used for many applications such as 
+## IR Beam Break Sensors
+
+An infrared beam break sensor has a very simple transmitter/receiver design. The transmitter is an infrared light that is invisible to the human eye making it ideal for low-profile security systems. The receiver detects infrared light and will output a signal if it is detected. 
+
+These are Adafruit IR Beam Break Sensors that I will be using for this project.  
+
+![](/images/2168_iso_orig_2021_05-scaled.jpg)
+
+
 
 
 
