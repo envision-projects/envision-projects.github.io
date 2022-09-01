@@ -338,7 +338,11 @@ void loop() {
 
 Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/#:~:text=In%20the%20Select%20app%20field,or%20ESP8266%20to%20send%20emails.)
 
-Simple Mail Transfer Protocol is used by mail servers such as Gmail, Outlook, Yahoo, etc. to send and receive emails 
+Simple Mail Transfer Protocol is used by mail servers such as Gmail, Outlook, Yahoo, etc. to send and receive emails. 
+
+{{< tip "warning" >}}
+You will encounter a problem if you use your UCSD email since it requires a second login (SSO)
+{{< /tip >}}
 
 
 
