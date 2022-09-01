@@ -493,4 +493,22 @@ void smtpCallback(SMTP_Status status){
 }
 ```
 
+## CAD and Building the Device
+
+Both the transmitter and receiver do not need very complicated encasements here are just a few examples of boxes that have holes for the sensors   
+
+IR Transmitter: this can be smaller than the receiver since it does not need to house the ESP32 and extra wiring
+
+![](/images/irtransmitter.png)
+
+IR Receiver: 
+
+![](/images/irreceiver.png)
+
+
+
 ## Putting it All Together
+
+Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs.
+
+There can be many variations of this project that do not have to use the IR beam break sensor.
