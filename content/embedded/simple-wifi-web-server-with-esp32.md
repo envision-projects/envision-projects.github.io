@@ -257,7 +257,7 @@ Network Time Protocol is used to sync your computers to the current time using t
 Below I have pasted a slightly edited version of the code found on the full tutorial:
 
 {{< tip >}}
-For PST set the time offset value to -18000.
+For PST set the time offset value to -25200.
 {{< /tip >}}
 
 ```
@@ -336,4 +336,10 @@ void loop() {
 
 ## SMTP Server
 
-Simple Mail Transfer Protocol is used by mail servers such as Gmail, Outlook, Yahoo, etc. to send and receive emails
+Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/#:~:text=In%20the%20Select%20app%20field,or%20ESP8266%20to%20send%20emails.)
+
+Simple Mail Transfer Protocol is used by mail servers such as Gmail, Outlook, Yahoo, etc. to send and receive emails 
+
+
+
+## Putting it All Together
