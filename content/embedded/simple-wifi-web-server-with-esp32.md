@@ -254,6 +254,8 @@ Full tutorial [here](https://randomnerdtutorials.com/esp32-ntp-client-date-time-
 
 Network Time Protocol is used to sync your computers to the current time using the internet. An ESP32 with WiFi capabilities can access this and attain the current time. To do this you will NEED to download and install a separate library called `NTPClient.h` which can be found in the full tutorial. 
 
+This code will simply update the current time every second and display in the serial monitor. 
+
 Below I have pasted a slightly edited version of the code found on the full tutorial:
 
 {{< tip >}}
@@ -307,7 +309,7 @@ void setup() {
   // GMT +8 = 28800
   // GMT -1 = -3600
   // GMT 0 = 0
-  timeClient.setTimeOffset(-18000);
+  timeClient.setTimeOffset(-25200);   // PST -7 = -252000
 }
 void loop() {
   while(!timeClient.update()) {
@@ -334,11 +336,11 @@ void loop() {
 
 
 
-## SMTP Server
+## Sending Email Notifications (SMTP)
 
 Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/#:~:text=In%20the%20Select%20app%20field,or%20ESP8266%20to%20send%20emails.)
 
-Simple Mail Transfer Protocol is used by mail servers such as Gmail, Outlook, Yahoo, etc. to send and receive emails. 
+Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Yahoo, etc. to send and receive emails. The ESP32 can login to your mail account and send emails written in the Arduino IDE using HTML formatting. The tutorial focuses on Gmail specifically and offers a workaround in case you are using 2-factor authentication. 
 
 {{< tip "warning" >}}
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO)
