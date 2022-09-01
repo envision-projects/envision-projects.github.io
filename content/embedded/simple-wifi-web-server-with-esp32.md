@@ -209,7 +209,9 @@ void loop() {
 
 ## IR Beam Break
 
-Full tutorial [here](https://learn.adafruit.com/ir-breakbeam-sensors/arduino) 
+Full tutorial [here](https://learn.adafruit.com/ir-breakbeam-sensors/arduino).
+
+This code is bare bones but you can use it to understand how the IR beam break sensor works and how you can integrate parts of it with the WiFi web server. This code simply shows whether or not the IR beam is broken and when it does break a connected LED will blink. 
 
 ```
 // from Adafruit edited by Blake Iwaisako
