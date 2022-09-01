@@ -207,6 +207,45 @@ void loop() {
 
 
 
+## IR Beam Break
+
+Full tutorial [here](https://learn.adafruit.com/ir-breakbeam-sensors/arduino) 
+
+```
+// from Adafruit edited by Blake Iwaisako
+
+#define LEDPIN 27
+#define SENSORPIN 14
+
+int sensorState = 0;
+int lastState = 0;
+
+void setup() {
+  pinMode(LEDPIN, OUTPUT);
+  pinMode(SENSORPIN, INPUT);
+  digitalWrite(SENSORPIN, HIGH);
+  Serial.begin(115200);
+
+}
+
+void loop() {
+  sensorState = digitalRead(SENSORPIN);
+  if (sensorState && !lastState){
+    Serial.print("Unbroken");
+  }
+
+  if (!sensorState && lastState) {
+    Serial.print("Broken");
+    digitalWrite(LEDPIN, HIGH);
+    delay(100);
+    digitalWrite(LEDPIN, LOW);
+  }
+  lastState = sensorState;
+}
+```
+
+
+
 ## NTP Server
 
 Network Time Protocol is used to sync your computers to the current time using the internet. An ESP32 with WiFi capabilities can access this and attain the current time. 
