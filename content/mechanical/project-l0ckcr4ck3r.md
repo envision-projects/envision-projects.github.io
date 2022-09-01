@@ -75,3 +75,11 @@ First we are going to make the housing for the lock, sensor, and actuators. Afte
 # Getting Started
 
 This [document ](https://cad.onshape.com/documents/2de7a66597cc8eb251afdfa3/w/06d4fc68ebc18f9b44e9861d/e/d088818cff71281e0c0d79ce?renderMode=0&uiState=630e4bb71c174454be9985ae)includes all of the standard content needed. You can either work in Onshape (reccomended) or export the content to use in Solidworks
+
+# CAD
+
+## Motor -> Lock Dial
+
+Now it is your job to make pieces to hold the motor to the lock dial. 
+
+Make sure that the stepper motor's shaf tis cocentric with the lock dial.
