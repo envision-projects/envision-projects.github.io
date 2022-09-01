@@ -83,3 +83,9 @@ This [document ](https://cad.onshape.com/documents/2de7a66597cc8eb251afdfa3/w/06
 Now it is your job to make pieces to hold the motor to the lock dial. 
 
 Make sure that the stepper motor's shaf tis cocentric with the lock dial.
+
+
+
+## Shackle puller 
+
+![](/images/ezgif.com-gif-maker.gif)
