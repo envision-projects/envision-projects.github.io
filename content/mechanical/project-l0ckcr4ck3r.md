@@ -100,4 +100,12 @@ Next, make a rack and pinion gear that attaches to the servo to pull up (as well
 
 
 
-## Electronics
+## Electronics 
+
+Make an electronics enclosure that has space for the custom PCB, USB C input, and blower fan. Ensure that the blower fan is pointing directly at the stepper driver or else it may overheat. 
+
+Make sure to have opening for the usb connections and secure all the components with M3 fasteners. 
+
+Then make points to put the OLED display as well as the rotary encoder. 
+
+![](/images/screenshot-2022-09-01-232428.png)
