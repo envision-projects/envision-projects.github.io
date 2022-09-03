@@ -7,8 +7,6 @@ description: By Blake Iwaisako
 
 The IR beam break system can be used for many applications including security and data collecting. Whenever a person or object is detected (when the IR beam is broken) the instance will be logged on the ESP32 alongside the time the instance took place. The ESP32 will also be capable of sending you emails whenever a beam break occurs or after a certain period of time. By connecting to the server via IP address, a second party can see the full log of instances recorded In this project, we will learn how to use IR beam break sensors, create a webserver using the ESP32, attain the current time from an NTP server, and send email notifications using SMTP.
 
-
-
 ## IR Beam Break Sensors
 
 An infrared beam break sensor has a very simple transmitter/receiver design. The transmitter is an infrared light that is invisible to the human eye making it ideal for low-profile security systems. The receiver detects infrared light and will output a signal if it is detected. 
@@ -205,8 +203,6 @@ void loop() {
 }
 ```
 
-
-
 ## IR Beam Break
 
 Full tutorial [here](https://learn.adafruit.com/ir-breakbeam-sensors/arduino).
@@ -246,8 +242,6 @@ void loop() {
 }
 ```
 
-
-
 ## NTP Server
 
 Full tutorial [here](https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/)
@@ -259,7 +253,9 @@ This code will simply update the current time every second and display in the se
 Below I have pasted a slightly edited version of the code found on the full tutorial:
 
 {{< tip >}}
+
 For PST set the time offset value to -25200.
+
 {{< /tip >}}
 
 ```
@@ -334,8 +330,6 @@ void loop() {
 }
 ```
 
-
-
 ## Sending Email Notifications (SMTP)
 
 Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/#:~:text=In%20the%20Select%20app%20field,or%20ESP8266%20to%20send%20emails.)
@@ -343,7 +337,9 @@ Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-serve
 Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Yahoo, etc. to send and receive emails. The ESP32 can login to your mail account and send emails written in the Arduino IDE using HTML formatting. The tutorial focuses on Gmail specifically and offers a workaround in case you are using 2-factor authentication. 
 
 {{< tip "warning" >}}
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 {{< /tip >}}
 
 Once again here is the code with a few changes for our purposes:
@@ -495,20 +491,20 @@ void smtpCallback(SMTP_Status status){
 
 ## CAD and Building the Device
 
-Both the transmitter and receiver do not need very complicated encasements here are just a few examples of boxes that have holes for the sensors   
+Both the transmitter and receiver do not need very complicated encasements here are just a few examples of boxes that have holes and holders for the sensors.   
 
-IR Transmitter: this can be smaller than the receiver since it does not need to house the ESP32 and extra wiring
+IR Transmitter: this can be smaller than the receiver since it does not need to house the ESP32 and extra wiring.
 
 ![](/images/irtransmitter.png)
 
-IR Receiver: 
+IR Receiver: This case has to house the ESP32, piezo buzzer, wiring, and IR Receiver.
+
+Optional: create a hole to hold a switch to turn the device on. 
 
 ![](/images/irreceiver.png)
 
-
-
 ## Putting it All Together
 
-Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs.
+Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address 
 
 There can be many variations of this project that do not have to use the IR beam break sensor.
