@@ -535,6 +535,8 @@ In the `setup()` function place this `if` statement which simply ensures the WiF
 
 
 
+[Click for a full explanation](https://randomnerdtutorials.com/esp32-static-fixed-ip-address-arduino-ide/)
+
 ## Putting it All Together
 
 Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address 
