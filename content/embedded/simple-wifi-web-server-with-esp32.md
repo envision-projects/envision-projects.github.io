@@ -254,7 +254,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 {{< tip >}}
 
+
 For PST set the time offset value to -25200.
+
 
 {{< /tip >}}
 
@@ -338,7 +340,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 {{< tip "warning" >}}
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 {{< /tip >}}
 
@@ -502,6 +506,12 @@ IR Receiver: This case has to house the ESP32, piezo buzzer, wiring, and IR Rece
 Optional: create a hole to hold a switch to turn the device on. 
 
 ![](/images/irreceiver.png)
+
+## Optional: Setup Static IP Address
+
+Prior to this step, every time you wanted to connect to the ESP32 web server you had to check the Serial Monitor for the automatically generated IP Address that changes depending on your connection. However, this can be overridden so that you do not have to check the serial monitor and would rather always use one IP address to access the ESP32.
+
+
 
 ## Putting it All Together
 
