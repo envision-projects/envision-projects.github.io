@@ -40,8 +40,12 @@ Below is an example of a symbol and a footprint that I created for the ESP32. (I
 Once you have symbols and footprints for all your components, including the ESP32, you should begin your schematic layout. Feel free to use mine as reference but by no means does it have to look the same. Make sure your LEDs are connected properly as well as your switches and voltage regular. 
 Below is my schematic for reference. (Insert image below).
 
+![](/images/vu-meter-pcb-schematic.jpg "ESS32 S3 Mini Schematic")
+
 Next you must design the PCB. This is where you can get a bit more creative. I made a T shaped PCB but play around with your design and see if you can come up with something different. 
 Below is my PCB design for reference. (Image below).   
+
+![](/images/vu-meter-pcb.jpg "ESP32 S3 Mini PCB Design")
 
 ## Order your PCB and soldering
 
