@@ -539,6 +539,6 @@ In the `setup()` function place this `if` statement which simply ensures the WiF
 
 ## Putting it All Together
 
-Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address 
+Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address. 
 
 There can be many variations of this project that do not have to use the IR beam break sensor.
