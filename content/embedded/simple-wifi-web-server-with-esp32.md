@@ -511,6 +511,28 @@ Optional: create a hole to hold a switch to turn the device on.
 
 Prior to this step, every time you wanted to connect to the ESP32 web server you had to check the Serial Monitor for the automatically generated IP Address that changes depending on your connection. However, this can be overridden so that you do not have to check the serial monitor and would rather always use one IP address to access the ESP32.
 
+You do this by using the `IPAddress` function in Arduino. The values below are from my computer and may be different for your connection. You will at least need to change the local_IP, gateway, and subnet values for your router. To do this go to the command prompt and type in "ipconfig" to bring up your connection's settings that you will just plug in here. These definitions can be placed anywhere before the `setup()` function in your sketch.
+
+```
+// Necessary
+IPAddress local_IP(192, 168, 0, 124);
+IPAddress gateway(192, 168, 0, 1);
+IPAddress subnet(255, 255, 0, 0);
+
+// Optional
+IPAddress primaryDNS(8, 8, 8, 8);   
+IPAddress secondaryDNS(8, 8, 4, 4);
+```
+
+In the `setup()` function place this `if` statement which simply ensures the WiFi was configured correctly and forced to use the IP address you want. 
+
+```
+// Configures static IP address
+  if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
+    Serial.println("STA Failed to configure");
+  }
+```
+
 
 
 ## Putting it All Together
