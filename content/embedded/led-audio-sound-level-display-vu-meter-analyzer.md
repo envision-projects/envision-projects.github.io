@@ -37,7 +37,7 @@ Below is an example of a symbol and a footprint that I created for the ESP32. (I
 
 ![](/images/esp32-s3-mini-footprint.jpg "ESP32 S3 Mini Footprint")
 
-Once you have symbols and footprints for all your components, including the ESP32, you should begin your schematic layout. Feel free to use mine as reference but by no means does it have to look the same. Make sure your LEDs are connected properly as well as your switches and voltage regular. 
+Once you have symbols and footprints for all your components, including the ESP32, you should begin your schematic layout. Feel free to use mine as reference but by no means does it have to look the same. Make sure your LEDs are connected properly as well as your switches and voltage regulator. 
 Below is my schematic for reference. (Insert image below).
 
 ![](/images/vu-meter-pcb-schematic.jpg "ESS32 S3 Mini Schematic")
@@ -49,14 +49,16 @@ Below is my PCB design for reference. (Image below).
 
 ## Order your PCB and soldering
 
-Once you've designed your PCB, you'll have to order it. I ordered mine from JLCPCB. I also ordered a PCB stencil from OSH Stencils since most of my components are SMD components. However, you may use through holes components only if you'd like in which case, you wouldn't need the PCB stencil.
-I'll provide the link to both websites I used. (Insert link to JLCPCB and OSH Stencils)
+Once you've designed your PCB, you'll have to order it. I ordered mine from JLCPCB. I also ordered a PCB stencil from OSH Stencils since most of my components are SMD components. However, you may use through hole components if you'd like, in which case you wouldn't need the PCB stencil.
+[](jlcpcb.com)<https://jlcpcb.com/>
+
+<https://www.oshstencils.com/#>
 
 Once you have all your components, you'll have to solder them onto your PCB.  
 
 ## Coding
 
-Once your board is ready, you'll need to create the code necessary for the VU-Meter to function properly. I'd like this part to be a bit challenging as well so I will not provide code. However, there are great resources online and a ton of code online at your disposal. I'll remind you that the intention is for the LEDs to react to the sound the mic picks up. Try to create your code in this regard. I'd suggest for you to first test out the mic by itself and write code that outputs the signal it picks up on the serial monitor and the serial plotter. This will give you an idea of how to move forward with the rest of the code.  
+Once your board is ready, you'll need to create the code necessary for the VU-Meter to function properly. I'd like this part to be a bit challenging as well, so I will not provide code. However, there are great resources online and a ton of code online at your disposal. I'll remind you that the intention is for the LEDs to react to the sound the mic picks up. Try to create your code in this regard. I'd suggest for you to first test out the mic by itself and write code that outputs the signal it picks up on the serial monitor and the serial plotter. This will give you an idea of how to move forward with the rest of the code.  
 
 ## 3D Casing
 
