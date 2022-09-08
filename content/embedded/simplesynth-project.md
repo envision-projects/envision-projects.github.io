@@ -261,7 +261,7 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 ![](/images/controls.png)
 
-3. Once you've placed and labelled your pots and switches, add corresponding net labels to the Teensy. Best practice is to group similar functions together where possible. You should now have something akin to this:
+3. Once you've placed and labelled your pots and switches, add corresponding net labels to the MUX. Best practice is to group similar functions together where possible. You should now have something akin to this:
 
 ![](/images/ss_schematic3.png)
 
