@@ -57,7 +57,9 @@ Our Microcontroller of choice for this project is the Teensy 4.1:
 
 
 
+
 (A small plug for Teensy - the Teensy series of ARM-based microcontrollers is AWESOME and very powerful and easy to use. There is also a great community of Teensy users, led by the main developer, PJRC: https://www.pjrc.com/ There is also an incredibly useful and helpful forum for troubleshooting and general problem solving help: https://forum.pjrc.com/ )
+
 
 
 
@@ -119,7 +121,7 @@ In order to build the synthesizer,
 2. Add a new schematic document to the project, followed by a new PCB document, both named SimpleSynth
 3. The primary component of our circuit board will be the Teensy 4.1, so we need to either create our own schematic symbol and footprint, or download one from SnapEDA.com: 
 4. [Teensy4.1 Design Files](https://www.snapeda.com/search/?q=Teensy+4.1&SEARCH=Search&sort=&resistance=&tolerance=&search-type=parts) ( I created my own schematic and footprint, so if you download them, yours may look different )
-5. The next component we’ll need is the Texas Instruments CD74HC4067M, which is a 16-channel Multiplexer/demultiplexer. ( The MUX/DeMUX chip is what we’ll use for the extra digital inputs we need for the 12 keys on the keyboard )
+5. The next component we’ll need is the Texas Instruments CD74HC4067M, which is a 16-channel Multiplexer/demultiplexer. ( The MUX/DeMUX chip is what we’ll use for the analog control inputs from the potentiometers )
 6. Unlike the Teensy, we can find this chip by using the Manufacturer Part Search in Altium. Just paste the part number in the search dialog and choose the first part that comes up. ( verify that this is the SMD version of the chip and not the through hole version )
 7. Now we need an LED and a resistor which will serve as our power indicator. Use the Manufacturer Part Search to find “LED 0805” and “resistor 0805” and place both components. Change the resistor’s comment to “560R” (560 Ohms)
 8. Add a GND port to all GND pins and pin 2 of the LED.
@@ -141,11 +143,11 @@ In order to build the synthesizer,
     ![](/images/annotattion.png)
 
     Press "Update Changes List", then press "OK", Press "Accept Changes." When the net dialogue opens, press "Execute Changes." Once finished, you can close those the annotation windows.
-15. Now we need to create our Nets: the Nets will connect the switches to the MUX inputs, and we need one per note on our keyboard. Connect wires to the conjunction of the switches and resistors:
+15. Now we need to create our Nets: the Nets will connect the switches to the Teensy inputs, and we need one per note on our keyboard. Connect wires to the conjunction of the switches and resistors:
 
     ![](/images/switchesnets.png)
 
-    and then add the same nets to the MUX:
+    and then add the same nets to the Teensy:
 
     ![](/images/muxnets.png)
 16. You should now have something that looks like this: 
@@ -216,7 +218,9 @@ We're going to have 3 oscillators to generate our waveforms, and we want to cycl
 
 
 
+
 1. We don't need a part-specific symbol or footprint, as we just need solder connections for the wires that will connect to the components. Another approach would be to mount these components directly to the board, but that is a slightly more involved process that necessitates a good deal more up-front planning. In order to keep things simple and flexible, we're just going to use wires to connect parts to the board.
+
 
 
 
@@ -288,7 +292,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
    As you layout your board, you'll often find yourself making changes that facilitate easier routing. One of the things I did was to reorder the last 5 pins on the MUX so that I wouldn't have to cross too many wires while routing.
+
 
 
 
@@ -351,7 +357,9 @@ I just made a very basic three-pin symbol and a footprint with standard 4mm x 3m
 
 
 
+
 Best Practices: It's generally a good idea to place "stitching vias" around your board to connect the top and bottom GND planes. You don't need a lot of them on a board without too many complicated signals, but they help with signal stability.
+
 
 
 
@@ -441,7 +449,9 @@ You can now cut the enclosure out using the laser cutter. Follow the tutorial [h
 
 
 
+
 If you leave the adhesive on the acrylic when you engrave it, you can easily add paint to fill in the engraved parts. Then peel the paper off when the paint dries.
+
 
 
 
@@ -482,7 +492,9 @@ The next part of this project will involve coding the functions of our synth. Fo
 
 
 
+
 Graphical Programming Interfaces - GPIs are collections of code that are represented graphically, typically by rectangles, or "blocks" that the user connects in order to route functions and signals. Examples are Touch Designer, Max/MSP, and Pure Data.
+
 
 
 
@@ -517,7 +529,9 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
 
 
+
    Mono- Vs. Poly-Synths - Synthesizers use oscillators to generate waveforms. An oscillator is only capable of generating one waveform, at one frequency, at a time. Therefore, if we want our synth to be able to play chords, or more than one note at a time, we need multiple oscillators. Since we have a total of 13 notes that can be played, and we want 3 oscillators playing at all times, we need 39 oscillators.
+
 
 
 
@@ -529,7 +543,7 @@ We are going to build our synthesizer here, including the oscillators, mixers, d
 
    {{< /tip >}}
 3. Grab 38 more waveform objects and place them in descending order, one below the previous.
-4. Arrange your waveform objects in groups of three and connect each set of three to a mixer.
+4. Arrange your waveform objects in groups of three and connect each set of three to a mixer, then to an envelope.
 5. Name your waveform and mixer objects like so:
 
    ![](/images/ss_asd6.png)
@@ -569,7 +583,9 @@ You have now created what is essentially synthesizer's functional diagram and si
 
 
 
+
    One of the really cool and useful things about the Audio System Design Tool is that it very clearly lays out the functions of each object, including all inputs and outputs. When you select an object, its properties are displayed on the right side of the page. There you can also find helpful notes and examples that use that object.
+
 
 
 
@@ -605,10 +621,11 @@ You have now created what is essentially synthesizer's functional diagram and si
 12. Then, in the setup() function, set the pinModes and set the pins low with the digitalWrite() function :
 
     ![](/images/ss_arduino8.png)
-13. Then we need to create a function that will read from the multiplexer by setting the control pins to loop through its inputs:
+13. Then we need to create a function that will read from the multiplexer by setting the control pins to loop through its inputs. Place this after the loop function at the bottom of your code.
 
     ![](/images/ss_arduino9.png)
 
     ##### Moving on to the loop() function
+14.  b
 
 <!--EndFragment-->
