@@ -150,9 +150,6 @@ In order to build the synthesizer,
     and then add the same nets to the Teensy:
 
     ![](/images/muxnets.png)
-16. You should now have something that looks like this: 
-
-    ![](/images/ss_scematic2.png)
 
     And Now we're done with the schematic. This is a very simple schematic; we don't need to add a lot of components because the Teensy handles all of our power conditioning, USB connection, and clocking. All we've really done is enable easy connections between our keys, the multiplexer, and the Teensy. Next we create the PCB layout.
 
