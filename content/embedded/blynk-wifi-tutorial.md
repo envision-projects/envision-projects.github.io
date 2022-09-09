@@ -3,6 +3,10 @@ title: BLYNK Wifi Tutorial
 date: 2022-09-06T21:26:59.477Z
 description: "Blynk IOT for home automation "
 ---
+![](/images/ezgif.com-gif-maker-1-.gif)
+
+
+
 This is a tutorial for using BLYNK, an online service that is perfect for controlling IOT devices like the NodeMCU. This can give you full control of the microcontroller's GPIO pins regardless of where you are as long as you and the microcontroller are connected to the internet.
 
 # Materials 
@@ -39,13 +43,13 @@ Download the Blynk IOT app onto your phone and log in with your credentials
 1. Click on the three horizontal bars in the main menu -> Add New device
 2. Add a device manually
 3. Select the envision tutorial template
-4. Click on the wrench icon while inside of the widget menu to edit the GUI. Add a Button and a labeled display. 
+4. Click on the wrench icon while inside of the widget menu to edit the GUI. Add a **Button** and a **labeled display**. 
 
 # Uploading to ESP8266
 
 ## Getting your credentials 
 
-Because BLYNK does not know what microcontroller you want to talk to, you need to assign the microcontroller a certain ID and authetnication token. To find this follow these steps: 
+Because BLYNK does not know which microcontroller you want to talk to, you need to assign the microcontroller a certain ID and authentication token. To find this follow these steps: 
 
 1. Go to blynk cloud on your computer
 2. Navigate to your device that you want to find information on 
@@ -143,10 +147,30 @@ If all goes well, you will see something like this in your Serial monitor to con
 
 
 
+# App GUI setting up
+
+Virtual Pins are literally pins that do not exist in the real world. Their only purpose is to communicate information back and forth. We will use these to send the button state information to the MCU and the button state information on the MCU side back to the phone.
+
+While in the editing menu of our GUI, click on the button and set the Data Stream to use V1
+
+Now click on the label and set the Data Stream to use V9
+
+
+
+If everything is done correctly, the button on either end will show the correct response on the other end!
+
+![](/images/ezgif.com-gif-maker-1-.gif)
+
 
 
 # Use cases
 
 Wifi controlled garage door opener! 
 
-What we've created is a very powerful remote that does not require any bluetooth connectivity or anything like that
+![](/images/new-house-garage-door.png)
+
+It uses the NodeMCU with a servo arm to give manual control to the user for them to open/close the garage door, as well as automatically with the help of an IR Distance sensor. 
+
+
+
+What we've created is a very powerful remote that does not require any bluetooth connectivity or anything like that!
