@@ -5,17 +5,15 @@ description: "Blynk IOT for home automation "
 ---
 ![](/images/ezgif.com-gif-maker-1-.gif)
 
-
-
 This is a tutorial for using BLYNK, an online service that is perfect for controlling IOT devices like the NodeMCU. This can give you full control of the microcontroller's GPIO pins regardless of where you are as long as you and the microcontroller are connected to the internet.
 
-# Materials 
+# Materials
 
 * [NodeMCU ](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V/ref=sr_1_1_sspa?crid=1WQRMTWIB7OAO&keywords=nodemcu&qid=1662704836&sprefix=nodemc%2Caps%2C147&sr=8-1-spons&psc=1)
 * LED
 * Push Button
 
-# Test Circuit 
+# Test Circuit
 
 We are going to make a simple test circuit to make sure the fundamentals are working 
 
@@ -23,7 +21,7 @@ We are going to make a simple test circuit to make sure the fundamentals are wor
 
 It is a pushbutton attached between GND and D6 and an LED attached to D5
 
-# Signing up 
+# Signing up
 
 Go to the [blynk website](https://blynk.io/) and make an account
 
@@ -38,7 +36,7 @@ Download the Blynk IOT app onto your phone and log in with your credentials
 3. Name it whatever "envision tutorial"
 4. Navigate back to the home page
 
-## Creating a new device 
+## Creating a new device
 
 1. Click on the three horizontal bars in the main menu -> Add New device
 2. Add a device manually
@@ -47,7 +45,7 @@ Download the Blynk IOT app onto your phone and log in with your credentials
 
 # Uploading to ESP8266
 
-## Getting your credentials 
+## Getting your credentials
 
 Because BLYNK does not know which microcontroller you want to talk to, you need to assign the microcontroller a certain ID and authentication token. To find this follow these steps: 
 
@@ -136,7 +134,6 @@ void loop()
   // Check other examples on how to communicate with Blynk. Remember
   // to avoid delay() function!
 }
-
 ```
 
 Paste in your credentials that you copied at the top of the code. Also be sure to fill in your wifi name and password so that your NodeMCU will actually connect to the internet. 
@@ -144,8 +141,6 @@ Paste in your credentials that you copied at the top of the code. Also be sure t
 If all goes well, you will see something like this in your Serial monitor to confirm that the microcontroller successfully connected to the internet!
 
 ![](/images/screenshot-2022-09-08-235847.png)
-
-
 
 # App GUI setting up
 
@@ -155,13 +150,9 @@ While in the editing menu of our GUI, click on the button and set the Data Strea
 
 Now click on the label and set the Data Stream to use V9
 
-
-
 If everything is done correctly, the button on either end will show the correct response on the other end!
 
 ![](/images/ezgif.com-gif-maker-1-.gif)
-
-
 
 # Use cases
 
@@ -171,6 +162,4 @@ Wifi controlled garage door opener!
 
 It uses the NodeMCU with a servo arm to give manual control to the user for them to open/close the garage door, as well as automatically with the help of an IR Distance sensor. 
 
-
-
-What we've created is a very powerful remote that does not require any bluetooth connectivity or anything like that!
+Thanks to Blynk, we can create a very powerful remote that can be controlled from anywhere in the world!
