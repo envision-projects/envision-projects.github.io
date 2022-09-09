@@ -7,31 +7,21 @@ This is a tutorial for using BLYNK, an online service that is perfect for contro
 
 
 
-garage door opener placeholder - ming
+# Signing up 
 
+Go to the [blynk website](https://blynk.io/) and make an account
 
+# Making a new Project in Blynk software
 
-# Making a new Project in Blynk software 
-
-## Create new template 
+## Create new template
 
 On the left hand side, navigate to the template page. Once done 
-
-
-
-
-
-
 
 # Uploading to ESP8266
 
 https://examples.blynk.cc/?board=ESP8266&shield=ESP8266%20WiFi&example=GettingStarted%2FBlynkBlink
 
-
-
-
-
-# Use cases 
+# Use cases
 
 Wifi controlled garage door opener! 
 
