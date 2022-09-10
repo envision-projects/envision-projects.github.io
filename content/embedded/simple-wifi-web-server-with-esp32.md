@@ -255,7 +255,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 {{< tip >}}
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 {{< /tip >}}
@@ -341,7 +343,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 {{< tip "warning" >}}
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 {{< /tip >}}
@@ -533,9 +537,11 @@ In the `setup()` function place this `if` statement which simply ensures the WiF
   }
 ```
 
-
-
 [Click for a full explanation](https://randomnerdtutorials.com/esp32-static-fixed-ip-address-arduino-ide/)
+
+## C﻿reating an table in HTML
+
+
 
 ## Putting it All Together
 
