@@ -125,4 +125,10 @@ Then make points to put the OLED display as well as the rotary encoder.
 
 # Servo modification 
 
-In order to determine whether the lock actually opened or not without an extra sensor, we are going to "hack" our servo.
+In order to determine whether the lock actually opened or not without an extra sensor, we are going to "hack" our servo and turn it into one with an analog feedback. 
+
+To do this, you will need to unscrew the servo and solder a wire to the center potentiometer pin on the outside. You can also follow this video on [youtube](https://www.youtube.com/watch?v=XfZLtkr6dgU&ab_channel=CuriousMotor) to learn more about the process.
+
+You may have to drill a hole in the casing of the servo in order to have the analog output wire come out of it. 
+
+![](/images/screenshot-2022-09-10-232014.png)
