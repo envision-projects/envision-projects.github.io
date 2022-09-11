@@ -7,7 +7,9 @@ By MingWei Yeoh
 
 This is **not** for the faint of heart. This thing takes long and its hard to get right. Only for the advanced and over achievers.
 
-All the project files can be found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).
+PCB Files found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).
+
+Code found [here](https://github.com/Mew463/Project-l0ckcr4ck3r)
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
 
@@ -125,7 +127,7 @@ Then make points to put the OLED display as well as the rotary encoder.
 
 ![](/images/screenshot-2022-09-01-232428.png)
 
-# Servo modification 
+# Analog Output Servo modification 
 
 In order to determine whether the lock actually opened or not without an extra sensor, we are going to "hack" our servo and turn it into one with an analog feedback. 
 
@@ -134,3 +136,35 @@ To do this, you will need to unscrew the servo and solder a wire to the center p
 You may have to drill a hole in the casing of the servo in order to have the analog output wire come out of it. 
 
 ![](/images/screenshot-2022-09-10-232014.png)
+
+
+
+# Electronics 
+
+Solder the correct electronic components to the PCB in accordance with the picture below. I would highly reccomend attaching the female dupont pins so that you can easily disconnect things.
+
+ Be sure to attach the Input pad to the USB C trigger module with the right polarity! 
+
+![](/images/screenshot-2022-08-30-111010.png)
+
+Afterwards, go ahead and wire the stepper motor and the magnetic encoder to their corresponding inputs. Be sure to glue the diametric magnet to its mount and glue the mount to the shaft of the stepper motor.
+
+## Testing the stepper motor / magnetic encoder
+
+Ensure that the stepper motor works by running a basic Stepper motor sketch. Remeber that the stepper motors are dead silent thanks to the TMC2208 silent stepper driver.
+
+Now make sure that the AS5600 magnetic encoder is reading properly. Run a basic example sketch. It's value should change whenever you rotate the motor. 
+
+## Testing the servo 
+
+run the script and stuff
+
+
+
+## Calibration things 
+
+Setting the offset of the magnet
+
+Making sure the direction of the magnet is good 
+
+Making sure the clamp of the motor -> lock dial is loose because otherwise they're overconstrained
