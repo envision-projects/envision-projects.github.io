@@ -13,7 +13,7 @@ All the project files can be found [here](https://drive.google.com/drive/folders
 
 # **About the Project**
 
-This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. The entire process works on the majority of locks that aren't old and usually ~30 seconds. 
+This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. The entire process works on the majority of locks that aren't old and usually ~40 seconds. 
 
 <!--StartFragment-->
 
@@ -59,10 +59,13 @@ Due to the sheer complexity of the mechanical aspect and that my code is about 8
 
 * Arduino Nano
 * 10uF Capacitor x2
+* Diode 
 * [5V Regulator](https://www.digikey.com/en/products/detail/stmicroelectronics/LD1085V50/669220?s=N4IgTCBcDaIDIBECMAGAHAVgGoZSAugL5A)
 * [OLED Display](https://www.amazon.com/Self-Luminous-Display-Compatible-Arduino-Raspberry/dp/B09JWN8K99/ref=sr_1_2_sspa?crid=DM9HX86FS3Q5&keywords=oled+arduino&qid=1661839948&sprefix=oledarduino%2Caps%2C143&sr=8-2-spons&psc=1)
 * [Rotary Encoder](https://www.amazon.com/Taiss-KY-040-Encoder-15%C3%9716-5-Arduino/dp/B07F26CT6B/ref=sr_1_4?keywords=rotary+encoder&qid=1661839976&sprefix=roataray%2Caps%2C139&sr=8-4)
 * [Blower Fan](https://www.amazon.com/WINSINN-Bearings-Brushless-Cooling-40mm20mm/dp/B08R9JJZ5Z/ref=sr_1_8?crid=1UCHGY2B410VX&keywords=blower+fan+12v+40mm&qid=1661839541&sprefix=blower+fan+12v+40m%2Caps%2C119&sr=8-8)
+* [USB C 12V ](https://www.amazon.com/MELIFE-Type-C-Voltage-Trigger-Module/dp/B0953G14Q2/ref=sr_1_3?crid=12XVP47XQI63X&keywords=usb+c+12v+trigger&qid=1662871099&sprefix=usb+c+12v+trigge%2Caps%2C227&sr=8-3)
+* [Power Supply](https://www.amazon.com/ZMI-zPower-Turbo-Power-Adapter/dp/B07D64QLQ1/ref=sr_1_5?crid=3I0WTX44C53G1&keywords=usb+c+charger+pd&qid=1662871140&sprefix=usb+c+charger+%2Caps%2C244&sr=8-5)
 
 # Background information
 
@@ -82,13 +85,15 @@ This [document ](https://cad.onshape.com/documents/2de7a66597cc8eb251afdfa3/w/06
 
 ![](/images/l0ckcr4ck3r-1-.png)
 
-Now it is your job to make pieces to hold the motor to the lock dial. 
+Now it is your job to make pieces to hold the motor in place to the lock dial.
 
-Make a part to hold the lock and the stepper motor in place. Ensure that the stepper motor's shaft is  to be cocentric with the lock dial. 
+Make a part to hold the lock and the stepper motor in place. Ensure that the stepper motor's shaft is cocentric with the lock dial. 
 
 Use the mounting points of the stepper motor to fasten it onto your main part. The lock can be friction fit to the part. 
 
 The coupler from the stepper motor shaft to the lock dial has already been provided since it is hard to get the geometry right.
+
+![](/images/l0ckcr4ck3r-3-.png)
 
 After you have made all the parts, ensure that they work well in an assembly together.
 
@@ -117,3 +122,7 @@ Make sure to have opening for the usb connections and secure all the components 
 Then make points to put the OLED display as well as the rotary encoder. 
 
 ![](/images/screenshot-2022-09-01-232428.png)
+
+# Servo modification 
+
+In order to determine whether the lock actually opened or not without an extra sensor, we are going to "hack" our servo.
