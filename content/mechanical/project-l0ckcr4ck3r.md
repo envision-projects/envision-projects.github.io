@@ -1,7 +1,7 @@
 ---
 title: Project l0ckcr4ck3r
 date: 2022-08-30T05:06:17.710Z
-description: A fully autonomous Lock Cracking Robot
+description: A fully Autonomous Lock Cracking Robot
 ---
 By MingWei Yeoh
 
@@ -10,6 +10,8 @@ This is **not** for the faint of heart. This thing takes long and its hard to ge
 All the project files can be found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
+
+**[Video](https://photos.app.goo.gl/QN5QXWd9ifFrNtgB6)**
 
 # **About the Project**
 
