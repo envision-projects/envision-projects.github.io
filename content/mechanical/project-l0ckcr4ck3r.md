@@ -78,11 +78,13 @@ This [document ](https://cad.onshape.com/documents/2de7a66597cc8eb251afdfa3/w/06
 
 ## Motor -> Lock Dial
 
+![](/images/l0ckcr4ck3r-1-.png)
+
 Now it is your job to make pieces to hold the motor to the lock dial. 
 
-Make a part to hold the lock and the stepper motor in place to be cocentric with the lock dial 
+Make a part to hold the lock and the stepper motor in place. Ensure that the stepper motor's shaft is  to be cocentric with the lock dial. 
 
-Use the mounting points of the stepper motor to fasten it onto your main part. The lock can be friction fit to the apparatus. 
+Use the mounting points of the stepper motor to fasten it onto your main part. The lock can be friction fit to the part. 
 
 The coupler from the stepper motor shaft to the lock dial has already been provided since it is hard to get the geometry right.
 
