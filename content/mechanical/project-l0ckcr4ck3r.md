@@ -7,13 +7,11 @@ By MingWei Yeoh
 
 This is **not** for the faint of heart. This thing takes long and its hard to get right. Only for the advanced and over achievers.
 
-**insert gif of the robot doing thing**
+![](/images/ezgif.com-gif-maker-3-.gif)
 
 # **About the Project**
 
 This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. The entire process works on the majority of locks that aren't old and usually ~30 seconds. 
-
-> I say utilized in quotes because I read through all the documentation that he included with the robot, and not only does he never demonstrate the robot actually "feeling" the lock for it's exploits but the robot's source code appears to be a simply brute forcing algorithm, which would take **FOREVER.**
 
 <!--StartFragment-->
 
@@ -88,19 +86,15 @@ Use the mounting points of the stepper motor to fasten it onto your main part. T
 
 The coupler from the stepper motor shaft to the lock dial has already been provided since it is hard to get the geometry right.
 
-
-
 After you have made all the parts, ensure that they work well in an assembly together.
 
-## Shackle puller 
+## Shackle puller
 
 Next, make a rack and pinion gear that attaches to the servo to pull up (as well as push in) on the shackle. Try to make a design similar to the gif below
 
 ![](/images/ezgif.com-gif-maker.gif)
 
-
-
-## Electronics 
+## Electronics
 
 Make an electronics enclosure that has space for the custom PCB, USB C input, and blower fan. Ensure that the blower fan is pointing directly at the stepper driver or else it may overheat. 
 
