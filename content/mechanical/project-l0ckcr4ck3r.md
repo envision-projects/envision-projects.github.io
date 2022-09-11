@@ -7,6 +7,8 @@ By MingWei Yeoh
 
 This is **not** for the faint of heart. This thing takes long and its hard to get right. Only for the advanced and over achievers.
 
+All the project files can be found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).
+
 ![](/images/ezgif.com-gif-maker-3-.gif)
 
 # **About the Project**
@@ -89,6 +91,16 @@ Use the mounting points of the stepper motor to fasten it onto your main part. T
 The coupler from the stepper motor shaft to the lock dial has already been provided since it is hard to get the geometry right.
 
 After you have made all the parts, ensure that they work well in an assembly together.
+
+
+
+## Motor Encoder 
+
+![](/images/l0ckcr4ck3r-2-.png)
+
+Now you need to attach the AS5600 Magnetic encoder to the back of the stepper motor! Make a part that attaches to the back of the motor and then simply have the magnetic encoder screw into that part. 
+
+
 
 ## Shackle puller
 
