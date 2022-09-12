@@ -17,7 +17,7 @@ Code found [here](https://github.com/Mew463/Project-l0ckcr4ck3r)
 
 # **About the Project**
 
-This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. The entire process works on the majority of locks that aren't old and usually ~40 seconds. 
+This robot is a true creation of the idea many years ago brought on by Samy Kamkar's [robot ](https://samy.pl/combobreaker/)that "utilized" his [algorithm ](https://www.youtube.com/watch?v=09UgmwtL12c&ab_channel=samykamkar)for cracking these combination locks. The entire process works on the majority of locks that don't have much resistance on the dial and usually takes ~40 seconds. 
 
 <!--StartFragment-->
 
@@ -101,15 +101,11 @@ The coupler from the stepper motor shaft to the lock dial has already been provi
 
 After you have made all the parts, ensure that they work well in an assembly together.
 
-
-
-## Motor Encoder 
+## Motor Encoder
 
 ![](/images/l0ckcr4ck3r-2-.png)
 
 Now you need to attach the AS5600 Magnetic encoder to the back of the stepper motor! Make a part that attaches to the back of the motor and then simply have the magnetic encoder screw into that part. 
-
-
 
 ## Shackle puller
 
@@ -127,7 +123,7 @@ Then make points to put the OLED display as well as the rotary encoder.
 
 ![](/images/screenshot-2022-09-01-232428.png)
 
-# Analog Output Servo modification 
+# Analog Output Servo modification
 
 In order to determine whether the lock actually opened or not without an extra sensor, we are going to "hack" our servo and turn it into one with an analog feedback. 
 
@@ -137,17 +133,15 @@ You may have to drill a hole in the casing of the servo in order to have the ana
 
 ![](/images/screenshot-2022-09-10-232014.png)
 
-
-
-# Electronics 
+# Electronics
 
 Solder the correct electronic components to the PCB in accordance with the picture below. I would highly reccomend attaching the female dupont pins so that you can easily disconnect things.
 
- Be sure to attach the Input pad to the USB C trigger module with the right polarity! 
+Be sure to attach the Input pad to the USB C trigger module with the right polarity! 
 
 ![](/images/screenshot-2022-08-30-111010.png)
 
-Afterwards, go ahead and wire the stepper motor and the magnetic encoder to their corresponding inputs. Be sure to glue the diametric magnet to its mount and glue the mount to the shaft of the stepper motor.
+Afterwards, go ahead and wire the stepper motor and the magnetic encoder to their corresponding inputs. Also plug in the servo with it's analog output to the correct port. Be sure to glue the diametric magnet to its mount and glue the mount to the shaft of the stepper motor.
 
 ## Testing the stepper motor / magnetic encoder
 
@@ -155,13 +149,23 @@ Ensure that the stepper motor works by running a basic Stepper motor sketch. Rem
 
 Now make sure that the AS5600 magnetic encoder is reading properly. Run a basic example sketch. It's value should change whenever you rotate the motor. 
 
-## Testing the servo 
+## Testing the servo
 
-run the script and stuff
+Run servo_setup.ino. Try changing the position of the servo by typing a number value between 1000-2000.
 
+Use this script to find the upper and lower bounds that the servo will need to move. 
 
+Lower bound - Lock is fully open
 
-## Calibration things 
+Upper bound - Lock is fully closed (shackle fully pushed into the lock)
+
+## Calibration things
+
+Should be done after all the mechanical aspects are finished!
+
+### Calibrating magnet offset
+
+Run a AS5600 sketch that runs the readAngle() command 
 
 Setting the offset of the magnet
 
