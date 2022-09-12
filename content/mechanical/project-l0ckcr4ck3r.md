@@ -141,6 +141,8 @@ Be sure to attach the Input pad to the USB C trigger module with the right polar
 
 ![](/images/screenshot-2022-08-30-111010.png)
 
+![](/images/mvimg_20220823_125722.jpg)
+
 Afterwards, go ahead and wire the stepper motor and the magnetic encoder to their corresponding inputs. Also plug in the servo with it's analog output to the correct port. Be sure to glue the diametric magnet to its mount and glue the mount to the shaft of the stepper motor.
 
 ## Testing the stepper motor / magnetic encoder
@@ -175,14 +177,14 @@ Run a AS5600 sketch that runs the readAngle() command.
 
 Set the lock dial to zero and read what the readAngle() command is outputting. Input that value into the offset variable for the combobreaker.ino file 
 
-![](/images/screenshot-2022-09-11-183434.png)
+![](/images/screenshot-2022-09-12-001748.png)
 
 ## Checking readLockDial()
 
-In combobreaker.ino run the readLockDial() function to determine whether you are correctly reading the current number that the lock is at. If it seems like the numbers are going in the opposite direction to where you are rotating the dial, change the setDirection function. 
+In combobreaker.ino run the readLockDial() function to determine whether you are correctly reading the current number that the lock is at. If it seems like the numbers are going in the opposite direction when you are rotating the dial, change the setDirection function. 
 
 ![](/images/screenshot-2022-09-11-184840.png)
 
-Making sure the direction of the magnet is good 
+## Lock -> Motor coupler
 
-Making sure the clamp of the motor -> lock dial is loose because otherwise they're overconstrained
+The two bolts that clamp the two motor coupler parts together should be **loose**. The combination locks have a big amount of play in them and are a little ovalized. The looseness in the system helps to prevent the dial from becoming overconstrained and binding up and certain points in the lock dial.
