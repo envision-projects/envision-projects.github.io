@@ -153,21 +153,35 @@ Now make sure that the AS5600 magnetic encoder is reading properly. Run a basic 
 
 Run servo_setup.ino. Try changing the position of the servo by typing a number value between 1000-2000.
 
+# Calibration things
+
+Should be done after all the mechanical aspects are finished!
+
+## Servo values
+
+Run servo_setup.ino. Try changing the position of the servo by typing a number value between 1000-2000.
+
 Use this script to find the upper and lower bounds that the servo will need to move. 
 
 Lower bound - Lock is fully open
 
 Upper bound - Lock is fully closed (shackle fully pushed into the lock)
 
-## Calibration things
+![](/images/servotinkering-2-.png)
 
-Should be done after all the mechanical aspects are finished!
+## Calibrating magnet offset
 
-### Calibrating magnet offset
+Run a AS5600 sketch that runs the readAngle() command.
 
-Run a AS5600 sketch that runs the readAngle() command 
+Set the lock dial to zero and read what the readAngle() command is outputting. Input that value into the offset variable for the combobreaker.ino file 
 
-Setting the offset of the magnet
+![](/images/screenshot-2022-09-11-183434.png)
+
+## Checking readLockDial()
+
+In combobreaker.ino run the readLockDial() function to determine whether you are correctly reading the current number that the lock is at. If it seems like the numbers are going in the opposite direction to where you are rotating the dial, change the setDirection function. 
+
+![](/images/screenshot-2022-09-11-184840.png)
 
 Making sure the direction of the magnet is good 
 
