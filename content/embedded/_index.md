@@ -21,4 +21,4 @@ This course will direct the student through the design and implementation proces
 * Development Board Design
 * Wi-Fi / BLE Integration
 
-{{< button "./3d-printing/" "Get Started!" "mt-1" >}}
+{{< button "./blynk-wifi-tutorial/" "Get Started!" "mt-1" >}}
