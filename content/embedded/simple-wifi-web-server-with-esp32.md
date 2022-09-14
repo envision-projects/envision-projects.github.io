@@ -555,6 +555,13 @@ In the `setup()` function place this `if` statement which simply ensures the WiF
 
 F﻿or the last part of this project we will need to create a data log that will be updated every time the IR beam is broken. This table will display the counter, time broken, and date broken values. This may be one of the trickier parts of the whole project as it requires a good deal of debugging and HTML programming within the Arduino IDE. 
 
+### T﻿ables in HTML
+
+[C﻿ode examples](https://www.w3schools.com/html/html_tables.asp)\
+H﻿TML can be used within the Arduino IDE by using the `client.print()` function. In order to print to the ESP32 web page we need to print HTML code on the client using this function in the main `void loop()` of the Arduino code. 
+
+
+
 ## Putting it All Together
 
 Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address. 
