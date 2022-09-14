@@ -592,9 +592,15 @@ T﻿his plug-in allows you to create a "data" folder in your sketch's folder and
 
 
 
-N﻿ow that you have installed the plug-in, head to the sketch folder 
+N﻿ow that you have installed the plug-in, head to the sketch folder and create another folder named "data". This is where you will store the code for the table. 
 
+![](/images/datafolder.png)
 
+![](/images/table.png)
+
+You can use any HTML code editor to make and export your code to a .txt file. Here I just typed my code into Notepad:
+
+![](/images/tablecode.png)
 
 
 
