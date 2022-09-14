@@ -260,7 +260,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 
@@ -356,7 +358,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 
@@ -561,16 +565,36 @@ F﻿or the last part of this project we will need to create a data log that will
 
 ### T﻿ables in HTML
 
-[C﻿ode examples](https://www.w3schools.com/html/html_tables.asp)\
-H﻿TML can be used within the Arduino IDE by using the `client.print()` function. In order to print to the ESP32 web page we need to print HTML code on the client using this function in the main `void loop()` of the Arduino code. 
+![](/images/screenshot-webpage.png)
+
+\
+H﻿TML can be used within the Arduino IDE by using the `client.print()` function. In order to print to the ESP32 web page we need to print HTML code on the client using this function in the main `void loop()` of the Arduino code. Use the examples below to get a grasp of how to format HTML code.
+
+[C﻿ode examples](https://www.w3schools.com/html/html_tables.asp)
 
 ### W﻿hat are SPIFFS??
 
-S﻿PIFFS stands for Serial Peripheral Interface Flash File System. Essentially this system can store and create simple files directly on the microcontroller by using an onboard flash chip. Files such as .txt can be easily uploaded using the Arduino IDE and edited onboard. This allows us to write in direct HTML language on a .txt file and upload it to the web page client. 
+S﻿PIFFS stands for Serial Peripheral Interface Flash File System. Essentially this system can store and create simple files directly on the microcontroller by using an onboard flash chip. Files such as .txt can be easily uploaded using the Arduino IDE and edited onboard. This allows us to write in direct HTML language on a .txt file and upload it to the web page client. It also allows us to concatenate our code into easy to edit .txt files. 
 
 ### Why do we need to use SPIFFS when we can just client.print() everything?
 
-The main reason we need to use SPIFFS is because we need to create a dynamic log of our data so that every time the IR beam is broken, a new row of data is added to our table and stays there permanently. This cannot be done easily using just client.print(). It also allows us to concatenate our code into easy to edit .txt files. 
+The main reason we need to use SPIFFS is because we need to create a dynamic log of our data so that every time the IR beam is broken, a new row of data is added to our table and stays there permanently. This cannot be done easily using just client.print(). It will be much easier to start with HTML code in a .txt file that generates a table and then write code to put another row of data into the file. 
+
+### U﻿sing SPIFFS with an Arduino Plug-in
+
+[L﻿ink to github and installation instructions](https://github.com/me-no-dev/arduino-esp32fs-plugin)
+
+T﻿his plug-in allows you to create a "data" folder in your sketch's folder and store .txt files which can be uploaded to the ESP32 through the IDE. After successfully installing the SPIFFS plug in you can look in the "Tools" tab at the top of the screen and notice you have a new tool: "ESP32 Sketch Data Upload".
+
+
+
+![](/images/tools.png)
+
+
+
+N﻿ow that you have installed the plug-in, head to the sketch folder 
+
+
 
 
 
