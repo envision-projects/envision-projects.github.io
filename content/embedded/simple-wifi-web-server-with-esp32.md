@@ -602,10 +602,38 @@ You can use any HTML code editor to make and export your code to a .txt file. He
 
 ![](/images/tablecode.png)
 
+N﻿ow when you go back to the Arduino IDE and use the "ESP32 Sketch Data Upload" tool, the plug-in will upload the contents of the data folder into the ESP32. File "table" will be accessible at any time.
 
 
-## Putting it All Together
 
-Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address. 
+### A﻿ppending content in a file
+
+[F﻿ull details here](https://techtutorialsx.com/2018/08/13/esp32-arduino-spiffs-append-content-to-file/)
+
+T﻿o dynamically add rows of data to the log we will need to open the table file for appending using FILE_APPEND. Since the table file will always be on display on the webpage, appending the file whenever the IR beam is broken is all that we have to do.
+
+{{< tip >}}
+This will not change the contents of the "table.txt" file in the data folder. Whenever you need to reset the webpage's table you will need to just reupload the original table.txt file. 
+{{< /tip >}}
+
+A﻿ppending the file to add another row of data should look something like this:
+
+```
+    // Append table file so that it shows another row of log data
+    File table = SPIFFS.open("/table.txt", FILE_APPEND);
+    table.println("<tr><td>");
+    table.println(counter);
+    table.println("</td><td>");
+    table.println(timeStamp);
+    table.println("</td><td>");
+    table.println(dayStamp);
+    table.close();
+```
+
+
+
+## [](https://techtutorialsx.com/2018/08/13/esp32-arduino-spiffs-append-content-to-file/)Putting it All Together
+
+Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address at least. 
 
 There can be many variations of this project that do not have to use the IR beam break sensor.
