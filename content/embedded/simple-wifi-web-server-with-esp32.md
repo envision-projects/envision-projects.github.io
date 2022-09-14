@@ -261,7 +261,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 
@@ -344,7 +346,7 @@ void loop() {
 }
 ```
 
-## Sending Email Notifications (SMTP)
+## Optional: Sending Email Notifications (SMTP)
 
 Full tutorial [here](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/#:~:text=In%20the%20Select%20app%20field,or%20ESP8266%20to%20send%20emails.)
 
@@ -359,7 +361,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 
@@ -586,11 +590,7 @@ The main reason we need to use SPIFFS is because we need to create a dynamic log
 
 T﻿his plug-in allows you to create a "data" folder in your sketch's folder and store .txt files which can be uploaded to the ESP32 through the IDE. After successfully installing the SPIFFS plug in you can look in the "Tools" tab at the top of the screen and notice you have a new tool: "ESP32 Sketch Data Upload".
 
-
-
 ![](/images/tools.png)
-
-
 
 N﻿ow that you have installed the plug-in, head to the sketch folder and create another folder named "data". This is where you will store the code for the table. 
 
@@ -604,8 +604,6 @@ You can use any HTML code editor to make and export your code to a .txt file. He
 
 N﻿ow when you go back to the Arduino IDE and use the "ESP32 Sketch Data Upload" tool, the plug-in will upload the contents of the data folder into the ESP32. File "table" will be accessible at any time.
 
-
-
 ### A﻿ppending content in a file
 
 [F﻿ull details here](https://techtutorialsx.com/2018/08/13/esp32-arduino-spiffs-append-content-to-file/)
@@ -613,7 +611,9 @@ N﻿ow when you go back to the Arduino IDE and use the "ESP32 Sketch Data Upload
 T﻿o dynamically add rows of data to the log we will need to open the table file for appending using FILE_APPEND. Since the table file will always be on display on the webpage, appending the file whenever the IR beam is broken is all that we have to do.
 
 {{< tip >}}
+
 This will not change the contents of the "table.txt" file in the data folder. Whenever you need to reset the webpage's table you will need to just reupload the original table.txt file. 
+
 {{< /tip >}}
 
 A﻿ppending the file to add another row of data should look something like this:
@@ -630,10 +630,14 @@ A﻿ppending the file to add another row of data should look something like this
     table.close();
 ```
 
-
-
 ## [](https://techtutorialsx.com/2018/08/13/esp32-arduino-spiffs-append-content-to-file/)Putting it All Together
 
-Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and sends an email notification when the break occurs. The log must be accessible via an IP address at least. 
+Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and optionally sends an email notification when the break occurs. The log must be accessible via an IP address at least. 
+
+
+
+
+
+## Future projects
 
 There can be many variations of this project that do not have to use the IR beam break sensor.
