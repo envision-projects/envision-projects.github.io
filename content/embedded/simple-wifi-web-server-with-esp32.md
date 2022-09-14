@@ -560,7 +560,9 @@ F﻿or the last part of this project we will need to create a data log that will
 [C﻿ode examples](https://www.w3schools.com/html/html_tables.asp)\
 H﻿TML can be used within the Arduino IDE by using the `client.print()` function. In order to print to the ESP32 web page we need to print HTML code on the client using this function in the main `void loop()` of the Arduino code. 
 
+### W﻿hat are SPIFFS??
 
+S﻿PIFFS stands for Serial Peripheral Interface Flash File System. Essentially this system can store and create simple files directly on the microcontroller by using a flash chip. Files such as .txt can be easily uploaded and edited onboard. This allows us to write in direct HTML language on a .txt file
 
 ## Putting it All Together
 
