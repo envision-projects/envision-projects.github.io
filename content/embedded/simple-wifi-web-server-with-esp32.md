@@ -258,7 +258,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 
@@ -350,7 +352,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 
@@ -549,7 +553,7 @@ In the `setup()` function place this `if` statement which simply ensures the WiF
 
 ## C﻿reating a table in HTML and uploading using SPIFFS
 
-F﻿or the last part of this project we will need to create a data log that will be updated every time the IR beam is broken. This table will display the counter, time broken, and date broken values. This may be one of the trickier parts of the whole project as it requires a good deal of debugging and h programming within the Arduino IDE
+F﻿or the last part of this project we will need to create a data log that will be updated every time the IR beam is broken. This table will display the counter, time broken, and date broken values. This may be one of the trickier parts of the whole project as it requires a good deal of debugging and HTML programming within the Arduino IDE. 
 
 ## Putting it All Together
 
