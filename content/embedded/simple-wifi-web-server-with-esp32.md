@@ -259,7 +259,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 
@@ -353,7 +355,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 
@@ -562,7 +566,13 @@ H﻿TML can be used within the Arduino IDE by using the `client.print()` functio
 
 ### W﻿hat are SPIFFS??
 
-S﻿PIFFS stands for Serial Peripheral Interface Flash File System. Essentially this system can store and create simple files directly on the microcontroller by using a flash chip. Files such as .txt can be easily uploaded and edited onboard. This allows us to write in direct HTML language on a .txt file
+S﻿PIFFS stands for Serial Peripheral Interface Flash File System. Essentially this system can store and create simple files directly on the microcontroller by using an onboard flash chip. Files such as .txt can be easily uploaded using the Arduino IDE and edited onboard. This allows us to write in direct HTML language on a .txt file and upload it to the web page client. 
+
+### Why do we need to use SPIFFS when we can just client.print() everything?
+
+The main reason we need to use SPIFFS is because we need to create a dynamic log of our data so that every time the IR beam is broken, a new row of data is added to our table and stays there permanently. This cannot be done easily using just client.print(). It also allows us to concatenate our code into easy to edit .txt files. 
+
+
 
 ## Putting it All Together
 
