@@ -262,7 +262,9 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
 For PST set the time offset value to -25200.
+
 
 
 
@@ -362,7 +364,9 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
 
 
 
@@ -612,7 +616,9 @@ T﻿o dynamically add rows of data to the log we will need to open the table fil
 
 {{< tip >}}
 
+
 This will not change the contents of the "table.txt" file in the data folder. Whenever you need to reset the webpage's table you will need to just reupload the original table.txt file. 
+
 
 {{< /tip >}}
 
@@ -636,18 +642,4 @@ Now using everything learned from the tutorials above, write code that detects e
 
 H﻿ere is a screenshot of my source code. Your code does not need to look like mine at all but feel free to use it as a guide for your project.
 
-{{< tip >}}
-Access a website's source code by pressing: ctrl+u
-{{< /tip >}}
-
 ![](/images/sourcecode.png)
-
-
-
-
-
-
-
-## Future projects
-
-There can be many variations of this project that do not have to use the IR beam break sensor.
