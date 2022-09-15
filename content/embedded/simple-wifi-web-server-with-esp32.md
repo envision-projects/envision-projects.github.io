@@ -634,6 +634,16 @@ A﻿ppending the file to add another row of data should look something like this
 
 Now using everything learned from the tutorials above, write code that detects every time the IR beam breaks, logs the break along with the time of the event, and optionally sends an email notification when the break occurs. The log must be accessible via an IP address at least. 
 
+H﻿ere is a screenshot of my source code. Your code does not need to look like mine at all but feel free to use it as a guide for your project.
+
+{{< tip >}}
+Access a website's source code by pressing: ctrl+u
+{{< /tip >}}
+
+![](/images/sourcecode.png)
+
+
+
 
 
 
