@@ -7,9 +7,7 @@ By MingWei Yeoh
 
 This is **not** for the faint of heart. This thing takes long and its hard to get right. Only for the advanced and over achievers.
 
-PCB Files found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).
-
-Code found [here](https://github.com/Mew463/Project-l0ckcr4ck3r)
+PCB & Code Files found [here](https://drive.google.com/drive/folders/1nlAPVdNwrT2d3gSRspbw5zdQGXfbqTga?usp=sharing).[](https://github.com/Mew463/Project-l0ckcr4ck3r)
 
 ![](/images/ezgif.com-gif-maker-3-.gif)
 
