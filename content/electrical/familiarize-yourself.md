@@ -7,3 +7,7 @@ description: This provides basic understanding of common terms, tools,
 [Microcontroller Basics](https://www.codrey.com/learn/microcontroller-basics/)
 
 [Electronics Tutorials](https://www.circuitbread.com/tutorials/series/microcontroller-basics)
+
+Schematic Design
+
+PCB Layout
