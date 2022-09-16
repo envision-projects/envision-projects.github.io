@@ -7,7 +7,7 @@ description: Tutorials for Envision Projects
 Here you can find helpful references for the various projects and skills that you might be learning. 
 For more in depth or specific tutorials, look on the left sidebar
 
-<!-- \\\\\*\\\\\*\\\\\*For Admin:\\\\\*\\\\\*\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\`"/tutorials/#solidworks\\\\\` -->
+<!-- \\\\\\*\\\\\\*\\\\\\*For Admin:\\\\\\*\\\\\\*\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\`"/tutorials/#solidworks\\\\\\` -->
 
 - - -
 
@@ -23,7 +23,7 @@ For more in depth or specific tutorials, look on the left sidebar
 
 ### 3D Printing
 
-📚 : [Click Me](https://docs.google.com/presentation/d/1CYFoB5y7_UgWvok6kU07hWUgDARuQ7qd6FVQ0fbHOIs/present#slide=id.p)
+<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0">  [Click Me](https://docs.google.com/presentation/d/1CYFoB5y7_UgWvok6kU07hWUgDARuQ7qd6FVQ0fbHOIs/present#slide=id.p)
 
 ### Vector Design with Inkscape
 
@@ -53,6 +53,12 @@ For more in depth or specific tutorials, look on the left sidebar
 
 📚 : *Solidworks Manual* [Fundementals of 3D Design and Simulation](https://www.solidworks.com/sites/default/files/2020-05/Fundamentals3DDesign-SIM-ENG-SV.pdf)
 
+📚 : *Creating Exploded Views* [](https://www.solidworks.com/sites/default/files/2020-05/Fundamentals3DDesign-SIM-ENG-SV.pdf)[Assemblies](https://help.solidworks.com/2020/english/SolidWorks/sldworks/t_creating_exploded_views.htm)
+
+### Motor Control
+
+📚 : *With Arduino* [Control](https://www.allaboutcircuits.com/projects/control-a-motor-with-an-arduino/)
+
 - - -
 
 <!--COLUMN BREAK-->
@@ -63,6 +69,26 @@ For more in depth or specific tutorials, look on the left sidebar
 <!--COLUMN #2-->
 
 # Electrical and Embedded
+
+### Conversions
+
+📚 : *Analogue to Digital Converter* [](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)[DAC](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+
+📚 : *UARTs* [Serial](https://learn.sparkfun.com/tutorials/serial-communication/uarts)
+
+📚 : *SMTP Server ESP32* Send Emails[](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+
+📚 : *NTP Server ESP32* [Date and Time](https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/)
+
+📚 : *Webserver ESP32 Arduino* [Web Server](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
+
+
+
+
+
+
+
+
 
 ### Soldering
 
@@ -80,7 +106,11 @@ For more in depth or specific tutorials, look on the left sidebar
 
 📚 : *Altium Designer 22 User Manual* [Tutorial - A Complete Design Walkthrough with Altium Designer](https://www.altium.com/documentation/altium-designer/tutorial-complete-design-walkthrough)
 
-📼 : Altium Designer Tutorial: Step by Step Guide: [Setting Up Your Design Project](https://www.ourpcb.com/altium-designer-tutorial-step-by-step-guide.html#Step_2_Setting_Up_Your_Design_Project)
+📼 : *Altium Designer Tutorial: Step by Step Guide:* [Setting Up Your Design Project](https://www.ourpcb.com/altium-designer-tutorial-step-by-step-guide.html#Step_2_Setting_Up_Your_Design_Project)
+
+### Autodesk EAGLE
+
+📚 :*Eagle Software Tutorial* [Designing PCB](https://www.wiringo.com/eagle-software-tutorial.html)
 
 - - -
 
