@@ -3,11 +3,11 @@ title: Walking Robot
 date: 2022-08-12T19:16:44.064Z
 description: By Blake Iwaisako
 ---
-W﻿alking linkage robots are very cool machines that simulate natural motion. However, they can be tedious to engineer as they often have many moving parts that must fit perfectly into the design.
+W﻿alking linkage robots are very cool machines that simulate natural motion. However, they can be tedious to engineer as they often have many moving parts that must fit perfectly into the design. Often they go through many periods of trial and error before they are able to walk properly. 
 
 ![](/images/strandbeest-animation-rgb-100ms.gif)
 
-If you want to build one of these machines, it is crucial that you understand first how the mechanisms operate and how to simulate them. Motion simulations allow you to understand the movement of your machine and calibrate how it interacts with the ground. 
+If you want to build one of these machines, it is crucial that you understand how the mechanisms operate and how to simulate them. Motion simulations allow you to understand the movement of your machine and calibrate how it interacts with the ground. 
 
 
 
