@@ -7,6 +7,8 @@ description: Tutorials for Envision Projects
 Here you can find helpful references for the various projects and skills that you might be learning. 
 For more in depth or specific tutorials, look on the left sidebar.
 
+For more ideas of projects, here is a [helpful link](https://www.youtube.com/playlist?list=PL4F0A475BBCE9CEA3).
+
 <!-- \\\\\\\*\\\\\\\*\\\\\\\*For Admin:\\\\\\\*\\\\\\\*\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\`"/tutorials/#solidworks\\\\\\\` -->
 
 - - -
