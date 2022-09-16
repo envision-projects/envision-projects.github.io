@@ -24,6 +24,6 @@ Electrical Design will focus on creating functional circuits and PCBs. Students 
 * Power Conditioning
 * Using Oscilloscopes and Power Supplies
 
-{{< button "./Baby slip ring/" "Get Started!" "mt-1" >}}
+{{< button "./familiarize-yourself/" "Get Started!" "mt-1" >}}
 
 <!--EndFragment-->
