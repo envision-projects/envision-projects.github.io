@@ -3,12 +3,22 @@ title: Walking Robot
 date: 2022-08-12T19:16:44.064Z
 description: By Blake Iwaisako
 ---
-For this project, you will design a robot that walks around using a 4-bar linkage for legs! You will be required to:
+W﻿alking linkage robots are very cool machines that simulate natural motion. However, they can be tedious to engineer as they often have many moving parts that must fit perfectly into the design.
+
+![](/images/strandbeest-animation-rgb-100ms.gif)
+
+If you want to build one of these machines, it is crucial that you understand first how the mechanisms operate and how to simulate them. Motion simulations allow you to understand the movement of your machine and calibrate how it interacts with the ground. 
+
+
+
+For this project, you will design a robot that walks around using a 4-bar linkage for legs. You will be required to:
 
 1. Design a working chassis to house all electronic components in SolidWorks.
 2. Manufacture and/or source all parts needed (nuts, bolts, motors, microcontrollers, etc.).
 3. Create a Motion Study in SolidWorks that theoretically proves your design will work as intended.
 4. Assemble the robot and write code to make it run.
+
+
 
 {{< tip >}}
 Sorta looks like a bug 
