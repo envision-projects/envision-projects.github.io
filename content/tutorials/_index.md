@@ -7,7 +7,7 @@ description: Tutorials for Envision Projects
 Here you can find helpful references for the various projects and skills that you might be learning. 
 For more in depth or specific tutorials, look on the left sidebar
 
-<!-- \\\\*\\\\*\\\\*For Admin:\\\\*\\\\*\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\`"/tutorials/#solidworks\\\\` -->
+<!-- \\\\\*\\\\\*\\\\\*For Admin:\\\\\*\\\\\*\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\`"/tutorials/#solidworks\\\\\` -->
 
 - - -
 
@@ -79,6 +79,8 @@ For more in depth or specific tutorials, look on the left sidebar
 ### Altium Designer
 
 📚 : *Altium Designer 22 User Manual* [Tutorial - A Complete Design Walkthrough with Altium Designer](https://www.altium.com/documentation/altium-designer/tutorial-complete-design-walkthrough)
+
+📼 : Altium Designer Tutorial: Step by Step Guide: [Setting Up Your Design Project](https://www.ourpcb.com/altium-designer-tutorial-step-by-step-guide.html#Step_2_Setting_Up_Your_Design_Project)
 
 - - -
 
