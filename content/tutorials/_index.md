@@ -5,9 +5,9 @@ date: 2022-08-16T21:24:31.928Z
 description: Tutorials for Envision Projects
 ---
 Here you can find helpful references for the various projects and skills that you might be learning. 
-For more in depth or specific tutorials, look on the left sidebar
+For more in depth or specific tutorials, look on the left sidebar.
 
-<!-- \\\\\\*\\\\\\*\\\\\\*For Admin:\\\\\\*\\\\\\*\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\`"/tutorials/#solidworks\\\\\\` -->
+<!-- \\\\\\\*\\\\\\\*\\\\\\\*For Admin:\\\\\\\*\\\\\\\*\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\`"/tutorials/#solidworks\\\\\\\` -->
 
 - - -
 
@@ -81,14 +81,6 @@ For more in depth or specific tutorials, look on the left sidebar
 📚 : *NTP Server ESP32* [Date and Time](https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/)
 
 📚 : *Webserver ESP32 Arduino* [Web Server](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
-
-
-
-
-
-
-
-
 
 ### Soldering
 
