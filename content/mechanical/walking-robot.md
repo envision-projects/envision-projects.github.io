@@ -28,6 +28,10 @@ The simplest 4-bar linkage can be seen below, called a crank-rocker mechanism. T
 
 In this robot, you may notice that there are actually *two* crank-rocker mechanisms at work:
 
+{{< tip >}}
+Notice in these screenshots I am also showing trace paths that you will do in the complimentary tutorial to this project.
+{{< /tip >}}
+
 ![](/images/cr1.png)
 
 ![](/images/cr2.png)
@@ -43,7 +47,9 @@ Without dimensions, here is an example of a semi-working chassis:
 
 
 
+
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
+
 
 
 
