@@ -9,7 +9,7 @@ For more in depth or specific tutorials, look on the left sidebar.
 
 For more ideas of projects, here is a [helpful link](https://www.youtube.com/playlist?list=PL4F0A475BBCE9CEA3).
 
-<!-- \\\\\\\*\\\\\\\*\\\\\\\*For Admin:\\\\\\\*\\\\\\\*\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\`"/tutorials/#solidworks\\\\\\\` -->
+<!-- \\\\\\\\*\\\\\\\\*\\\\\\\\*For Admin:\\\\\\\\*\\\\\\\\*\\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\\`"/tutorials/#solidworks\\\\\\\\` -->
 
 - - -
 
@@ -78,7 +78,7 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 📚 : *UARTs* [Serial](https://learn.sparkfun.com/tutorials/serial-communication/uarts)
 
-📚 : *SMTP Server ESP32* Send Emails[](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+📚 : *SMTP Server ESP32* [Send Emails](https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/)
 
 📚 : *NTP Server ESP32* [Date and Time](https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/)
 
