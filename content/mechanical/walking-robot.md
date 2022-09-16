@@ -10,8 +10,6 @@ For this project, you will design a robot that walks around using a 4-bar linkag
 3. Create a Motion Study in SolidWorks that theoretically proves your design will work as intended.
 4. Assemble the robot and write code to make it run.
 
-![](/images/ezgif.com-gif-maker-3-.gif)
-
 ## Brief on 4-bar Linkages
 
 4-bar linkages are a very useful mechanism used in mechanical engineering that consists of four rods connected by pins. These mechanisms convert rotational motion into a rocking motion which can be very useful in robotic arms, clamping mechanisms, animatronics etc. 
@@ -44,7 +42,9 @@ Without dimensions, here is an example of a semi-working chassis:
 
 
 
+
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
+
 
 
 
@@ -65,8 +65,6 @@ The short orange link connects the top of the blue leg shaft to the chassis. The
 Head to: Tutorials -> [Motion Study: SolidWorks](/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
 
 For the purposes of this project, you should complete the Animation and Motion Analysis sections of the tutorial. The exported animation file and trace path data will be turned in alongside your project.
-
-
 
 ## P﻿utting it all together
 
