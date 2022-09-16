@@ -74,7 +74,7 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 ### Conversions
 
-📚 : *Analogue to Digital Converter* [](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)[DAC](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+📚 : *Analogue to Digital Converter* [](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)[ADC](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
 
 📚 : *UARTs* [Serial](https://learn.sparkfun.com/tutorials/serial-communication/uarts)
 
