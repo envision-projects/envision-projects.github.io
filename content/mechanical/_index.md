@@ -20,4 +20,4 @@ Mechanical Design and Prototyping will focus on the process through which moving
 * Sensors and I/O
 * Motor Driver ICs
 
-{{< button "./familiarize-yourself/" "Get Started!" "mt-1" >}}
+{{< button "./3d-printing/" "Get Started!" "mt-1" >}}
