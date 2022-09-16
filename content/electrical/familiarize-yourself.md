@@ -8,6 +8,6 @@ description: This provides basic understanding of common terms, tools,
 
 [Electronics Tutorials](https://www.circuitbread.com/tutorials/series/microcontroller-basics)
 
-Schematic Design
+[Schematic Design](https://envision-projects.github.io/tutorials/schematic-design/)
 
-PCB Layout
+[PCB Layout](https://envision-projects.github.io/tutorials/pcb-layout/)
