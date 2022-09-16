@@ -34,10 +34,6 @@ In this robot, you may notice that there are actually *two* crank-rocker mechani
 
 ![](/images/cr2.png)
 
-
-
-
-
 ## Design a Chassis
 
 You can design this robot with one or two continuous rotation motors. In this tutorial we will be following a robot that has two high torque continuous rotation servo motors. 
@@ -47,7 +43,9 @@ Without dimensions, here is an example of a semi-working chassis:
 {{< tip "warning" >}}
 
 
+
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
+
 
 
 {{< /tip >}}
@@ -67,3 +65,9 @@ The short orange link connects the top of the blue leg shaft to the chassis. The
 Head to: Tutorials -> [Motion Study: SolidWorks](/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
 
 For the purposes of this project, you should complete the Animation and Motion Analysis sections of the tutorial. The exported animation file and trace path data will be turned in alongside your project.
+
+
+
+## P﻿utting it all together
+
+H﻿opefully by now you have completed the motion study tutorial and have a moving animation. Now you need to finish building the actual robot which may be tedious. I would suggest that you laser-cut the leg links as that will be much faster than 3D printing or machining. The chassis will most likely have to be 3D printed depending on how much detail you put into it. Be sure to include a convenient place to store the battery on the robot.
