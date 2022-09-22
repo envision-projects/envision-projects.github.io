@@ -25,7 +25,7 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 ### 3D Printing
 
-<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0">  [Click Me](https://docs.google.com/presentation/d/1CYFoB5y7_UgWvok6kU07hWUgDARuQ7qd6FVQ0fbHOIs/present#slide=id.p)
+<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0"> :  [EnVision 3D Printing Tutorial](https://docs.google.com/presentation/d/1CYFoB5y7_UgWvok6kU07hWUgDARuQ7qd6FVQ0fbHOIs/present#slide=id.p)
 
 ### Vector Design with Inkscape
 
@@ -72,9 +72,19 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 # Electrical and Embedded
 
+### Important General Electrical skills
+
+📰 : *Intro to Microcontrollers* [Microcontroller Basics](https://www.codrey.com/learn/microcontroller-basics/)
+
+📚 : *Assorted Electronics Tutorials* [CircuitBread Electronics Tutorials](https://www.circuitbread.com/tutorials/series/microcontroller-basics)
+
+<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0"> : [Schematic Design](/tutorials/schematic-design/)
+
+<img src="/favicons/favicon-32x32.png" height="1em" style="display: span; margin: 0; padding: 0"> : [PCB Layout](/tutorials/pcb-layout/)
+
 ### Conversions
 
-📚 : *Analogue to Digital Converter* [](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)[ADC](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+📚 : *Analogue to Digital Converter* [ADC](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
 
 📚 : *UARTs* [Serial](https://learn.sparkfun.com/tutorials/serial-communication/uarts)
 
