@@ -3,7 +3,7 @@ Project and certification website for the EnVision makerspace, for use by EnVisi
 
 ## Content Management System
 
-This is the quickest and simplest option for writing and setting up a page. Navigate to [envision-projects.github.io/admin](envision-projects.github.io/admin) and sign in with your GitHub account. If prompted, you must give Netlify CMS permission to author commits and push on your behalf. 
+This is the quickest and simplest option for writing and setting up a page. Navigate to [envision-projects.github.io/admin](https://envision-projects.github.io/admin) and sign in with your GitHub account. If prompted, you must give Netlify CMS permission to author commits and push on your behalf. 
 
 After signing in, you can access the different sections of the website and view media that has been uploaded. The CMS is pretty self explanatory.
 
