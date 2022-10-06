@@ -26,7 +26,7 @@ C﻿areful, this action is addictive.
 
 # H﻿ow it works
 
-I﻿f you want a visualization go to the assembly and change the configurations. You can hide parts with Y 
+I﻿f you want a visualization go to the assembly and change the configurations. You can hide parts with 'Y' on the keyboard
 
 T﻿here are two states, retracted and extended. The mechanism works the exact same why for both cases.
 
@@ -34,10 +34,10 @@ A﻿ locking pawl locks the comb in either the extended or the retracted positio
 
 ![](/images/da-otf-rev3-1-.png)
 
-A﻿s you move the trigger slide to the opposite position you retract the locking pawl and eventually release the comb.
-
-A﻿s you are moving the trigger slider, you are building up spring pressure in the spring in the comb
-
-
+A﻿s you are moving the trigger slider, you are building up spring pressure in the spring in the comb. Simultaneously, you will retract the locking pawl after enough spring pressure is built, releasing all that energy in the comb.
 
 ![](/images/screenshot-2022-10-06-095716.png)
+
+Shaded part represents the trigger slider 
+
+N﻿otice that the arrow points to two shaded pieces, these are ONE part. As you move the trigger slider back, you charge up the spring, and eventually the flanges retract the pawl back into the body and send the comb flying back.
