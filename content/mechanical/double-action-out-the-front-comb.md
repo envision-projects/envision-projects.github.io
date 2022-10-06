@@ -21,3 +21,23 @@ C﻿areful, this action is addictive.
   * L﻿arge spring = 0.8" Long x 1/4" OD
   * S﻿mall spring = .17" Long x .15" OD
 * 4x M﻿3 x 6 Bolts
+
+
+
+# H﻿ow it works
+
+I﻿f you want a visualization go to the assembly and change the configurations. You can hide parts with Y 
+
+T﻿here are two states, retracted and extended. The mechanism works the exact same why for both cases.
+
+A﻿ locking pawl locks the comb in either the extended or the retracted position 
+
+![](/images/da-otf-rev3-1-.png)
+
+A﻿s you move the trigger slide to the opposite position you retract the locking pawl and eventually release the comb.
+
+A﻿s you are moving the trigger slider, you are building up spring pressure in the spring in the comb
+
+
+
+![](/images/screenshot-2022-10-06-095716.png)
