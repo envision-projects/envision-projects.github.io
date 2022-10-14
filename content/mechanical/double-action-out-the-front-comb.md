@@ -32,7 +32,7 @@ T﻿here are two states, retracted and extended. The mechanism works the exact s
 
 A﻿ locking pawl locks the comb in either the extended or the retracted position 
 
-![](/images/da-otf-rev3-1-.png)
+![](/images/screenshot-2022-10-14-000759.png)
 
 A﻿s you are moving the trigger slider, you are building up spring pressure in the spring in the comb. Simultaneously, you will retract the locking pawl after enough spring pressure is built, releasing all that energy in the comb.
 
