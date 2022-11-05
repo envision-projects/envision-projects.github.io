@@ -116,6 +116,9 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 📚 :*Eagle Software Tutorial* [Designing PCB](https://www.wiringo.com/eagle-software-tutorial.html)
 
+#﻿## IOT
+https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-energy-ble-ab4c94 - Detailed walkthrough of Bluetooth Low Energy
+
 - - -
 
 {{< /column >}}
