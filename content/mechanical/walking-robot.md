@@ -3,13 +3,15 @@ title: Walking Robot
 date: 2022-08-12T19:16:44.064Z
 description: By Blake Iwaisako
 ---
+B﻿y Blake Iwaisako
+
+
+
 W﻿alking linkage robots are very cool machines that simulate natural motion. However, they can be tedious to engineer as they often have many moving parts that must fit perfectly into the design. Often they go through many periods of trial and error before they are able to walk properly. 
 
 ![](/images/strandbeest-animation-rgb-100ms.gif)
 
 If you want to build one of these machines, it is crucial that you understand how the mechanisms operate and how to simulate them. Motion simulations allow you to understand the movement of your machine and calibrate how it interacts with the ground.
-
-
 
 For this project, you will design a robot that walks around using a 4-bar linkage for legs. You will be required to:
 
@@ -18,15 +20,13 @@ For this project, you will design a robot that walks around using a 4-bar linkag
 3. Create a Motion Study in SolidWorks that theoretically proves your design will work as intended.
 4. Assemble the robot and write code to make it run.
 
-
-
 {{< tip >}}
+
 Sorta looks like a bug 
+
 {{< /tip >}}
 
 ![](/images/finalrender.jpg)
-
-
 
 ## Brief on 4-bar Linkages
 
@@ -48,7 +48,9 @@ In this robot, you may notice that there are actually *two* crank-rocker mechani
 
 {{< tip >}}
 
+
 Notice in these screenshots I am also showing trace paths that you will do in the complimentary tutorial to this project.
+
 
 {{< /tip >}}
 
@@ -69,7 +71,9 @@ Without dimensions, here is an example of a semi-working chassis:
 
 
 
+
 **This chassis does not show how to mount the microcontroller or the battery, that will be up to you to add!**
+
 
 
 
@@ -93,10 +97,6 @@ The short orange link connects the top of the blue leg shaft to the chassis. The
 Head to: Tutorials -> [Motion Study: SolidWorks](/tutorials/solidworks-motion-study/) and walk through the tutorial. You will learn to create camera keyframes, animations, basic motors, physics simulations, and motion analyses. You should at least read through the entire tutorial and try out some of the examples.
 
 For the purposes of this project, you should complete the Animation and Motion Analysis sections of the tutorial. The exported animation file and trace path data will be turned in alongside your project.
-
-
-
-
 
 ## P﻿utting it all together
 
