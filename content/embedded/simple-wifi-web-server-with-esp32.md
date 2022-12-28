@@ -5,7 +5,7 @@ description: By Blake Iwaisako
 ---
 ## Description
 
-The IR beam break system can be used for many applications including security and data collecting. Whenever a person or object is detected (when the IR beam is broken) the instance will be logged on the ESP32 alongside the time the instance took place. The ESP32 will also be capable of sending you emails whenever a beam break occurs or after a certain period of time. By connecting to the server via IP address, a second party can see the full log of instances recorded In this project, we will learn how to use IR beam break sensors, create a webserver using the ESP32, attain the current time from an NTP server, and send email notifications using SMTP.
+The IR beam break system can be used for many applications including security and data collecting. Whenever a person or object is detected (when the IR beam is broken) the instance will be logged on the ESP32 alongside the time the instance took place. The ESP32 will also be capable of sending you emails whenever a beam break occurs or after a certain period of time. By connecting to the server via IP address, a second party can see the full log of instances recorded. In this project, we will learn how to use IR beam break sensors, create a webserver using the ESP32, attain the current time from an NTP server, and send email notifications using SMTP.
 
 ## IR Beam Break Sensors
 
@@ -263,7 +263,11 @@ Below I have pasted a slightly edited version of the code found on the full tuto
 
 
 
+
+
 For PST set the time offset value to -25200.
+
+
 
 
 
@@ -365,7 +369,11 @@ Simple Mail Transfer Protocol is used by mail servers such as GMail, Outlook, Ya
 
 
 
+
+
 You will encounter a problem if you use your UCSD email since it requires a second login (SSO) so you should use your personal email.
+
+
 
 
 
@@ -617,7 +625,11 @@ T﻿o dynamically add rows of data to the log we will need to open the table fil
 {{< tip >}}
 
 
+
+
 This will not change the contents of the "table.txt" file in the data folder. Whenever you need to reset the webpage's table you will need to just reupload the original table.txt file. 
+
+
 
 
 {{< /tip >}}
