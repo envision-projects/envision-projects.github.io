@@ -19,6 +19,10 @@ You'll need the following components:
 * A linear voltage regulator of your choosing
 * A﻿ 2 pin terminal block of your choosing
 
+<!---->
+
+* 2﻿ diodes of your choosing 
+
 #### Process
 
 This project will challenge your PCB design, soldering, programming, and 3D modeling skills with an emphasis on PCB design.
@@ -32,14 +36,15 @@ This process involves creating or editing symbols and footprints, putting togeth
 I designed my PCB with KiCad, so this tutorial assumes that you'll do the same but you're more than welcome to use your preferred PCB editor.
 
 Before you start your schematic, I recommend you figure out exactly what components you want to use and if those components are available for sale. I personally order all my components on DigiKey. I'd then recommend that you check if KiCad has a symbol and footprint for such components. You'll most likely find that you'll have to create your own symbol and footprint or copy one of the existing ones in the KiCad libraries from a similar component. You'll have to create a symbol and footprint for the ESP32. 
-Below is an example of a symbol and a footprint that I created for the ESP32. (Image below)
+Below is an example of a symbol and a footprint that I created for the ESP32. 
 
 ![](/images/esp32-s3-mini-symbol.jpg "ESP32 S3 Mini Symbol")
 
 ![](/images/esp32-s3-mini-footprint.jpg "ESP32 S3 Mini Footprint")
 
-Once you have symbols and footprints for all your components, including the ESP32, you should begin your schematic layout. Feel free to use mine as reference but by no means does it have to look the same. Make sure your LEDs are connected properly as well as your switches and voltage regulator. 
-Below is my schematic for reference. (Insert image below).
+Once you have symbols and footprints for all your components, including the ESP32, you should begin your schematic layout. Feel free to use mine as reference but by no means does it have to look the same. Make sure your LEDs are connected properly as well as your switches and voltage regulator. Below is my schematic for reference. 
+
+Notice how the diodes are placed in order to ensure current strictly flows into the linear voltage regulator.
 
 ![](/images/vu-meter-pcb-schematic.jpg "VU-Meter Schematic")
 
