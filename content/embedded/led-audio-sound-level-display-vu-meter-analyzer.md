@@ -45,7 +45,7 @@ Below is my schematic for reference. (Insert image below).
 Next you must design the PCB. This is where you can get a bit more creative. I made a T shaped PCB but play around with your design and see if you can come up with something different. 
 Below is my PCB design for reference. (Image below).   
 
-![](/images/vu-meter-pcb.jpg "ESP32 S3 Mini PCB Design")
+![](/images/vu-meter-pcb.jpg "VU-Meter PCB Design")
 
 ## Order your PCB and soldering
 
