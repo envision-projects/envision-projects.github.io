@@ -17,6 +17,7 @@ You'll need the following components:
 * Two tactile switches of your choosing
 * A USB receptacle of your choosing
 * A linear voltage regulator of your choosing
+* A﻿ 2 pin terminal block of your choosing
 
 #### Process
 
@@ -59,6 +60,16 @@ Once you have all your components, you'll have to solder them onto your PCB.
 ## Coding
 
 Once your board is ready, you'll need to create the code necessary for the VU-Meter to function properly. I'd like this part to be a bit challenging as well, so I will not provide code. However, there are great resources online and a ton of code online at your disposal. I'll remind you that the intention is for the LEDs to react to the sound the mic picks up. Try to create your code in this regard. I'd suggest for you to first test out the mic by itself and write code that outputs the signal it picks up on the serial monitor and the serial plotter. This will give you an idea of how to move forward with the rest of the code.  
+
+Since we're using USB-C, we must include the USB library like so. 
+
+![](/images/include-usb.h-code.jpg "Example")
+
+Another thing to note is that the code for serial communication will be slightly different. You have to add 'USB' in front of any serial command. For example.
+
+![](/images/usbserial-example2.jpg "Example")
+
+![](/images/usbserial-example.jpg "Example")
 
 ## 3D Casing
 
