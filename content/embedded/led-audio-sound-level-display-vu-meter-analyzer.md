@@ -73,10 +73,10 @@ Another thing to note is that the code for serial communication will be slightly
 
 ## 3D Casing
 
-You'll also have to create a 3D casing of your choosing in which to place your PCB board. Be creative with your design since there isn't a right way to do this. The purpose of this casing is so you can display the LEDs in whatever way you'd like. When designing this keep in mind you have to power the PCB somehow, either with an internal battery or with a power outlet connection.
+You'll also have to create a 3D casing of your choosing in which to place your PCB board. Be creative with your design since there isn't a right way to do this. The purpose of this casing is so you can display the LEDs in whatever way you'd like. When designing this keep in mind you have to power the PCB somehow, either with an external battery like a 9V for example or with a power outlet connection.
 
 \
-Below is a picture of my design. I used SolidWorks but feel free to use your preferred 3D modeling software. I went with something simple and functional but you many show off your 3D modeling skills and create something cooler. 
+Below is a picture of my design. I used SolidWorks but feel free to use your preferred 3D modeling software. I went with something simple and functional but you many show off your 3D modeling skills and create something . more elaborate. 
 
 ![](/images/pcb-with-casing.jpg "PCB and Casing")
 
