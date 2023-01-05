@@ -53,6 +53,10 @@ Below is my PCB design for reference. (Image below).
 
 ![](/images/vu-meter-pcb.jpg "VU-Meter PCB Design")
 
+Here's the 3D render of the PCB board above.
+
+![](/images/3d-model1.jpg)
+
 ## Order your PCB and soldering
 
 Once you've designed your PCB, you'll have to order it. I ordered mine from JLCPCB. I also ordered a PCB stencil from OSH Stencils since most of my components are SMD components. However, you may use through hole components if you'd like, in which case you wouldn't need the PCB stencil.
@@ -89,4 +93,10 @@ Below is a picture of my design. I used SolidWorks but feel free to use your pre
 
 Once you've uploaded your code on the VU-Meter PCB you'll place to board in the casing and power it. 
 
-Things to keep in mind.
+## Reminder 
+
+Get creative with your PCB design. I modified the original PCB to make a more narrow, rectangular design. Here it is. I utilized the same components, the only thing I changed was the physical design of the PCB board.
+
+![](/images/3d-model2.jpg)
+
+You're ready to get started. Best of luck!
