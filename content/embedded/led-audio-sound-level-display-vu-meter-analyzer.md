@@ -6,7 +6,7 @@ description: By Ariel Navarro Nunez
 ## Overview/Description
 
 For this project you will be building an LED Audio Sound Level Display VU Meter Analyzer or for short a VU-Meter. 
-This device will react to audio intensity (frequency?) and will light up accordingly in an LED bar graph. This exampled involves an ESP-32 S3 and requires you to design a practical PCB for this purpose. 
+This device will react to audio intensity and will light up accordingly in an LED bar graph. This exampled involves an ESP-32 S3 and requires you to design a practical PCB for this purpose. 
 
 You'll need the following components:
 
@@ -93,7 +93,7 @@ Below is a picture of my design. I used SolidWorks but feel free to use your pre
 
 Once you've uploaded your code on the VU-Meter PCB you'll place to board in the casing and power it. 
 
-## Reminder 
+## Reminder
 
 Get creative with your PCB design. I modified the original PCB to make a more narrow, rectangular design. Here it is. I utilized the same components, the only thing I changed was the physical design of the PCB board.
 
