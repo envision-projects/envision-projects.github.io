@@ -9,7 +9,7 @@ For more in depth or specific tutorials, look on the left sidebar.
 
 For more ideas of projects, here is a [helpful link](https://www.youtube.com/playlist?list=PL4F0A475BBCE9CEA3).
 
-<!-- \\\\\\\\*\\\\\\\\*\\\\\\\\*For Admin:\\\\\\\\*\\\\\\\\*\\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\\`"/tutorials/#solidworks\\\\\\\\` -->
+<!-- \\\\\\\\\*\\\\\\\\\*\\\\\\\\\*For Admin:\\\\\\\\\*\\\\\\\\\*\\\\\\\\\* When linking to tutorials, please link to the tutorial section, such as \\\\\\\\\`"/tutorials/#solidworks\\\\\\\\\` -->
 
 - - -
 
@@ -62,6 +62,24 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 📚 : *With Arduino* [Control](https://www.allaboutcircuits.com/projects/control-a-motor-with-an-arduino/)
 
 - - -
+
+# Arduino Tutorials
+
+<https://docs.arduino.cc/learn/starting-guide/getting-started-arduino>
+
+<https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2>
+
+<https://docs.arduino.cc/tutorials/uno-rev3/board-anatomy>
+
+<https://docs.arduino.cc/tutorials/>
+
+
+
+- - -
+
+
+
+
 
 <!--COLUMN BREAK-->
 
@@ -116,10 +134,11 @@ For more ideas of projects, here is a [helpful link](https://www.youtube.com/pla
 
 📚 :*Eagle Software Tutorial* [Designing PCB](https://www.wiringo.com/eagle-software-tutorial.html)
 
-#﻿## IOT
+\#﻿## IOT
 
 📚 :*BLE* [BLE](https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-energy-ble-ab4c94)
- - Detailed walkthrough of Bluetooth Low Energy
+
+* Detailed walkthrough of Bluetooth Low Energy
 
 - - -
 
