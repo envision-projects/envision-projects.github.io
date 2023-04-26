@@ -7,7 +7,7 @@ description: Looking for a way to add more convenience to your life? We've got
 ---
 ## A Few Details
 
-T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi. 
+T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi. The curtain-pulling mechanism uses an invisible fishing line that runs along the length of the curtain rod.
 
 
 
@@ -21,4 +21,5 @@ T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi.
 * 1﻿00 microF capacitor
 * J﻿umper Wires
 * Z﻿ip Ties
-*
+
+https://www.electromaker.io/project/view/alexa-curtain-control-system-3d-printable-and-low-cost
