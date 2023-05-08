@@ -9,13 +9,11 @@ description: Looking for a way to add more convenience to your life? We've got
 
 T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi. The curtain-pulling mechanism uses an invisible fishing line that runs along the length of the curtain rod.
 
-
-
 ## P﻿arts Needed
 
 * E﻿SP32 or ESP8266 microcontroller
 * 1﻿2 Volt Power Supply
-* B﻿raided Fishing Wire (used for pulling curtains)
+* B﻿raided Fishing Line (used for pulling curtains)
 * A﻿4988 stepper motor driver
 * G﻿eared Stepper Motor
 * 1﻿00 microF capacitor
