@@ -13,7 +13,7 @@ T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi. The c
 
 * E﻿SP32 or ESP8266 microcontroller
 * 1﻿2 Volt Power Supply
-* B﻿raided Fishing Line (used for pulling curtains)
+* B﻿raided Fishing Line ~30 lbs (used for pulling curtains)
 * A﻿4988 stepper motor driver
 * G﻿eared Stepper Motor
 * 1﻿00 microF capacitor
