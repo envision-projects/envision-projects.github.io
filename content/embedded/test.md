@@ -22,6 +22,6 @@ T﻿he CurtainMote uses a WiFi web server that connects to your home WiFi. The c
 
 
 
-![]()
+![](/images/youtube-video-gif.gif)
 
 https://www.electromaker.io/project/view/alexa-curtain-control-system-3d-printable-and-low-cost
