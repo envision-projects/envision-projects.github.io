@@ -239,6 +239,16 @@ void loop(){
 
 
 
-F﻿irst you will want to choose the correct board you will be uploading to. In my case I will be using the ESP32 Wrover Module.
+F﻿irst you will want to connect your ESP32 to your computer and in the Arduino IDE choose the correct board you will be uploading to. In my case, I will be using the ESP32 Wrover Module. 
+
+
 
 ![](/images/esp32-arduino.png)
+
+Y﻿ou will then want to select the correct COM port that represents the connected ESP32.
+
+W﻿hen you press upload your Arduino terminal should look something like this.
+
+![](/images/windows-arduino-ide-done-uploading.webp)
+
+I﻿f this
