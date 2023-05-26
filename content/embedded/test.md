@@ -1,6 +1,6 @@
 ---
 title: CurtainMote
-date: 2023-06-01T06:59:00.000Z
+date: 2023-06-18T06:59:00.000Z
 description: Looking for a way to add more convenience to your life? We've got
   just the thing! With our device, you'll be able to open and close your
   curtains with ease, without even leaving your seat.
@@ -8,8 +8,6 @@ description: Looking for a way to add more convenience to your life? We've got
 ## Details
 
 T﻿he CurtainMote uses a WiFi web server hosted on an ESP32 microcontroller that connects to your home WiFi. The curtain-pulling mechanism uses a nearly invisible fishing line that runs along the length of the curtain rod in both directions, refer to the gif below:
-
-
 
 ![](/images/youtube-video-gif.gif)
 
@@ -21,7 +19,7 @@ T﻿his requires the use of a motor to pull the string forward and backward thus
 
 ![](/images/switchbot-curtain-hero.webp)
 
-T﻿he SwitchBot ($99 retail) is a similar solution that works on all ring-based curtains and rods. It works by simply running along the rod and inbetween the first and second curtain loops. 
+T﻿he SwitchBot ($99 retail) is a similar solution that works on all ring-based curtains and rods. It works by simply running along the rod and between the first and second curtain loops. 
 
 ## P﻿arts Needed
 
@@ -33,3 +31,7 @@ T﻿he SwitchBot ($99 retail) is a similar solution that works on all ring-based
 * 1﻿00 microF capacitor
 * J﻿umper Wires
 * Z﻿ip Ties
+
+## G﻿etting started with the ESP32
+
+F﻿or this project we will be programming the ESP32 microcontroller with the Arduino IDE. However, you must tell the IDE how to write to code to the ESP32 since it differs from a typical Arduino controller. First, you have to install the ESP32 library into the Arduino IDE. Follow [this one-minute video for the steps on how to do this.](https://www.youtube.com/watch?v=mBaS3YnqDaU)
