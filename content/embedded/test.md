@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 ## A﻿ Simple WiFi Web Server (optional)
 
-T﻿he Web Server project is simple and gets you familiar with the capabilities of the ESP32. A WiFi web server on the ESP32 creates an IP address that allows you to access the board's client from a browser connected to the same network. In this tutorial, we will use the web server to turn off/on two LEDs powered by GPIO 27 and 26.  
+T﻿he Web Server project is simple and gets you familiar with the capabilities of the ESP32. A WiFi web server on the ESP32 creates an IP address that allows you to access the board's client from a browser connected to the same network. In this tutorial, we will use the web server to turn off/on two LEDs powered by GPIO 27 and 26. This is quick project is also helpful for showing you how to upload code to the ESP32. 
 
 ![](/images/esp32_web_server_schematic.webp)
 
@@ -208,3 +208,37 @@ void loop(){
   }
 }
 ```
+
+### U﻿ploading to the ESP32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F﻿irst you will want to choose the correct board you will be uploading to. In my case I will be using the ESP32 Wrover Module.
+
+![](/images/esp32-arduino.png)
