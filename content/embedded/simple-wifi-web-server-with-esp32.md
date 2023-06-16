@@ -1,8 +1,9 @@
 ---
 title: "IR Beam Breaker with a Simple WiFi Web Server (ESP32) "
 date: 2022-08-29T21:24:15.480Z
-description: By Blake Iwaisako
+description: .
 ---
+By Blake Iwaisako
 ## Description
 
 The IR beam break system can be used for many applications including security and data collecting. Whenever a person or object is detected (when the IR beam is broken) the instance will be logged on the ESP32 alongside the time the instance took place. The ESP32 will also be capable of sending you emails whenever a beam break occurs or after a certain period of time. By connecting to the server via IP address, a second party can see the full log of instances recorded. In this project, we will learn how to use IR beam break sensors, create a webserver using the ESP32, attain the current time from an NTP server, and send email notifications using SMTP.
