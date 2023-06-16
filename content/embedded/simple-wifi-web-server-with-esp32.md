@@ -3,6 +3,7 @@ title: "IR Beam Breaker with a Simple WiFi Web Server (ESP32) "
 date: 2022-08-29T21:24:15.480Z
 description: .
 ---
+
 By Blake Iwaisako
 ## Description
 
