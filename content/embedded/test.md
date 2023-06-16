@@ -40,7 +40,6 @@ Here is the link to the library that you paste into the "Additional Board Manage
 
 ```
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-
 ```
 
 ## A﻿ Simple WiFi Web Server (optional)
@@ -211,37 +210,7 @@ void loop(){
 
 ### U﻿ploading to the ESP32
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 F﻿irst you will want to connect your ESP32 to your computer and in the Arduino IDE choose the correct board you will be uploading to. In my case, I will be using the ESP32 Wrover Module. 
-
-
 
 ![](/images/esp32-arduino.png)
 
@@ -250,5 +219,3 @@ Y﻿ou will then want to select the correct COM port that represents the connect
 W﻿hen you press upload your Arduino terminal should look something like this.
 
 ![](/images/windows-arduino-ide-done-uploading.webp)
-
-I﻿f this
