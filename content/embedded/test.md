@@ -1,6 +1,6 @@
 ---
 title: CurtainMote
-date: 2023-06-18T06:59:00.000Z
+date: 2023-07-09T06:59:00.000Z
 description: Looking for a way to add more convenience to your life? We've got
   just the thing! With our device, you'll be able to open and close your
   curtains with ease, without even leaving your seat.
