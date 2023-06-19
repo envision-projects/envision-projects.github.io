@@ -230,11 +230,13 @@ B﻿efore we start controlling the stepper motor we can 3D print the housing for
 N﻿ote that this fits a NEMA stepper motor and you may have to change the fitting using CAD depending on what stepper motor you will be using.
 {{< /tip >}}
 
+![](/images/curtainmote_front.png)
 
+![](/images/curtainmote_side.png)
 
+![](/images/curtainmote_under.png)
 
-
-
+T﻿his housing is designed to strap to the curtain rod using zip-ties.
 
 ## C﻿ontrolling a Stepper motor using a motor driver
 
