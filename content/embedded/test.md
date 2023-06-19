@@ -224,17 +224,21 @@ W﻿hen you press upload your Arduino terminal should look something like this.
 
 B﻿efore we start controlling the stepper motor we can 3D print the housing for the device. DIY_machines has already made a housing for this exact purpose that you can download and print out [here.](https://www.thingiverse.com/thing:3174263/files)
 
+![](/images/printcurtainmote.png)
+
+{{< tip >}}
+N﻿ote that this fits a NEMA stepper motor and you may have to change the fitting using CAD depending on what stepper motor you will be using.
+{{< /tip >}}
 
 
 
 
 
 
-## C﻿ontrolling a Stepper motor using a motor driver 
+
+## C﻿ontrolling a Stepper motor using a motor driver
 
 T﻿he main reason we use a stepper motor for the CurtainMote is for accuracy. Unfortunately, alone the ESP32 cannot supply enough power to a stepper motor. Thus we need to use a separate power supply, such as a battery bank, and use a stepper motor driver. 
-
-
 
 ```
 #include <WiFi.h>
