@@ -402,3 +402,9 @@ void loop() {
   }
 }
 ```
+
+### T﻿esting the stepper motor controls w/ a WiFi Webserver
+
+I﻿f you were able to upload and modify the code correctly you should be able to connect to the ESP32 and control the motor via a web browser like in the gif below.
+
+![](/images/teststepper.gif)
