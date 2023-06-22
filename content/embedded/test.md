@@ -220,6 +220,14 @@ W﻿hen you press upload your Arduino terminal should look something like this.
 
 ![](/images/windows-arduino-ide-done-uploading.webp)
 
+
+
+{{< tip >}}
+D﻿uring the uploading process you may need to press the RESET button in order to get the IDE to write code to the ESP32.
+{{< /tip >}}
+
+
+
 ## B﻿uilding the Housing
 
 B﻿efore we start controlling the stepper motor we can 3D print the housing for the device. DIY_machines has already made a housing for this exact purpose that you can download and print out [here.](https://www.thingiverse.com/thing:3174263/files)
@@ -252,8 +260,8 @@ Stepper stepper(STEPS, 32, 25, 33, 26);
 
 
 // Replace with your network credentials
-const char* ssid = "Routussy";
-const char* password = "2444666668888888";
+const char* ssid = "router";
+const char* password = "password";
 
 // Set web server port number to 80
 WiFiServer server(80);
@@ -407,7 +415,7 @@ void loop() {
 }
 ```
 
-### T﻿esting the stepper motor controls w/ a WiFi Webserver
+### T﻿esting the stepper motor controls with a WiFi Webserver
 
 I﻿f you were able to upload and modify the code correctly you should be able to connect to the ESP32 and control the motor via a web browser like in the gif below.
 
