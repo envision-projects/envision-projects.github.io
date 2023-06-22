@@ -227,7 +227,9 @@ B﻿efore we start controlling the stepper motor we can 3D print the housing for
 ![](/images/printcurtainmote.png)
 
 {{< tip >}}
+
 N﻿ote that this fits a NEMA stepper motor and you may have to change the fitting using CAD depending on what stepper motor you will be using.
+
 {{< /tip >}}
 
 ![](/images/curtainmote_front.png)
